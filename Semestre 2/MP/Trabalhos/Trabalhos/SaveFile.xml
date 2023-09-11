@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SaveData>
+        
+    
+    <SaveGames>
+                
+        <Game>
+                        
+            <Name>Teste</Name>
+                        
+            <Items>
+                                
+                <Equipped>
+                                        
+                    <Weapon>
+                                                
+                        <Name>Basic Sword of the Basics</Name>
+                                                
+                        <Rarity>Common</Rarity>
+                                                
+                        <Health>0</Health>
+                                                
+                        <Attack>20</Attack>
+                                                
+                        <Defense>0</Defense>
+                                            
+                    </Weapon>
+                                        
+                    <Helmet/>
+                                        
+                    <Armory/>
+                                        
+                    <Pants/>
+                                        
+                    <Gloves/>
+                                        
+                    <Boots/>
+                                    
+                </Equipped>
+                                
+                <Inventory>
+                                        
+                    <Item>
+                                                
+                        <Name>Pants Equipamento</Name>
+                                                
+                        <Rarity>Uncommon</Rarity>
+                                                
+                        <Type>Pants</Type>
+                                                
+                        <Health>71</Health>
+                                                
+                        <Attack>0</Attack>
+                                                
+                        <Defense>33</Defense>
+                                            
+                    </Item>
+                                    
+                </Inventory>
+                            
+            </Items>
+                    
+        </Game>
+            
+        <Game>
+            <Name>Teste2</Name>
+            <Items>
+                <Equipped>
+                    <Weapon>
+                        <Name>Basic Sword of the Basics</Name>
+                        <Rarity>Common</Rarity>
+                        <Health>0</Health>
+                        <Attack>20</Attack>
+                        <Defense>0</Defense>
+                    </Weapon>
+                    <Helmet/>
+                    <Armory/>
+                    <Pants/>
+                    <Gloves/>
+                    <Boots/>
+                </Equipped>
+                <Inventory/>
+            </Items>
+        </Game>
+    </SaveGames>
+            
+    
+    <LastSavedGame/>
+        
+
+</SaveData>

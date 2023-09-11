@@ -1,0 +1,161 @@
+package tp4;
+
+import java.util.Scanner;
+
+public class Game {
+	
+	private enum GameState
+	{
+		OpeningMenu,
+		MainMenu,
+		ArmoryMenu,
+		Gameplay
+	}
+	
+	private static GameState currentGameState;
+	
+	public static void main(String[] args)
+	{
+		//Carregar o Save File
+		SaveSystem.saveFileInitialization();
+		
+		currentGameState = GameState.OpeningMenu;
+		Scanner scanner = new Scanner(System.in);
+		
+		boolean isRunning = true;
+		
+		while(isRunning)
+		{
+			debugOpeningMenu(scanner);
+		}
+	}
+	
+	private static void debugOpeningMenu(Scanner scanner)
+	{
+		if(currentGameState != GameState.OpeningMenu)
+		{
+			return;
+		}
+		
+		boolean invalidDecision = true;
+		int decision = 0;
+		
+		while(invalidDecision)
+		{
+			scanner.reset();
+			
+			System.out.println("Opções: ");
+			System.out.println("(1) Continue");
+			System.out.println("(2) New Game");
+			System.out.println("(3) Load Game");
+			
+			decision = scanner.nextInt();
+		
+			switch(decision)
+			{
+				case 1:
+					
+					break;
+					
+				case 2:
+					
+					boolean invalidPlayerName = true;
+					String playerName = "";
+					
+					while(invalidPlayerName)
+					{
+						System.out.println("Inserir o nome da Personagem");
+						playerName = scanner.next();
+						System.out.println();
+						
+						//Verificar se o nome da personagem é válido.
+						invalidPlayerName = false;
+					}
+					
+					boolean isPlayerNameConfirmed = false;
+					String playerNameDecision = "";
+					
+					while(!isPlayerNameConfirmed)
+					{
+						System.out.println("O nome " + playerName + " está correcto?");
+						System.out.println("Opções: ");
+						System.out.println("(S) Sim");
+						System.out.println("(N) Não");
+						playerNameDecision = scanner.next();
+						System.out.println();
+						
+						switch(playerNameDecision.toLowerCase())
+						{
+							case "s":
+								
+								currentGameState = GameState.MainMenu;
+								scanner.close();
+								
+								return;
+								
+							case "n":
+								
+								boolean decisionRepeatName = true;
+								String decisionRepeat = "";
+								
+								while(decisionRepeatName)
+								{
+									System.out.println("Pretende inserir o nome novamente");
+									System.out.println("Opções:");
+									System.out.println("(S) Sim");
+									System.out.println("(N) Não");
+									decisionRepeat = scanner.next();
+									System.out.println();
+									
+									switch(decisionRepeat.toLowerCase())
+									{
+										case "s":
+											
+											decisionRepeatName = false;
+											isPlayerNameConfirmed = true;
+											
+											break;
+											
+										case "n":
+											
+											scanner.close();
+											return;
+											
+										default:
+											
+											System.out.println("Input Inválido");
+											System.out.println();
+											
+											break;
+									}
+								}
+								
+								break;
+								
+							default:
+								
+								System.out.println("Input Inválido");
+								System.out.println();
+								
+								break;
+						}
+					}
+					
+					break;
+					
+				case 3:
+						
+					break;
+					
+				default:
+					
+					System.out.println("Input Inválido");
+					System.out.println();
+					
+					break;
+			}
+			
+			scanner.close();
+		}
+	}
+}

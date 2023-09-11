@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;panelEnemyName&apos; in &apos;tp4.Game&apos; to &apos;labelEnemyName&apos;&#x0D;&#x0A;- Original project: &apos;Trabalhos&apos;&#x0D;&#x0A;- Original element: &apos;tp4.Game.panelEnemyName&apos;&#x0D;&#x0A;- Renamed element: &apos;tp4.Game.labelEnemyName&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;panelEnemyName&apos;" flags="589826" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src&lt;tp4{Game.java[Game^panelEnemyName" name="labelEnemyName" references="true" setter="false" stamp="1656890925670" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,24 @@
+package tp4;
+
+public class Game {
+	
+	private enum GameState
+	{
+		OpeningMenu,
+		MainMenu,
+		ArmoryMenu,
+		Gameplay
+	}
+	
+	private GameState currentGameState;
+	
+	public static void main(String[] args)
+	{
+		boolean isRunning = true;
+		
+		while(isRunning)
+		{
+			
+		}
+	}
+}

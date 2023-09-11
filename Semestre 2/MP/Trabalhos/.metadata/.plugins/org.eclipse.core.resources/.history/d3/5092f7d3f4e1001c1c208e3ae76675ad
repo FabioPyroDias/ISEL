@@ -1,0 +1,131 @@
+package tp4;
+
+import java.util.Scanner;
+
+public class Game {
+	
+	private enum GameState
+	{
+		OpeningMenu,
+		MainMenu,
+		ArmoryMenu,
+		Gameplay
+	}
+	
+	private static GameState currentGameState;
+	
+	public static void main(String[] args)
+	{
+		//Carregar o Save File
+		SaveSystem.saveFileInitialization();
+		
+		currentGameState = GameState.OpeningMenu;
+		
+		boolean isRunning = true;
+		
+		while(isRunning)
+		{
+			debugOpeningMenu();
+		}
+	}
+	
+	private static void debugOpeningMenu()
+	{
+		if(currentGameState != GameState.OpeningMenu)
+		{
+			return;
+		}
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Opções: ");
+		System.out.println("(1) Continue");
+		System.out.println("(2) New Game");
+		System.out.println("(3) Load Game");
+		
+		int decision  = scanner.nextInt();
+		
+		switch(decision)
+		{
+			case 1:
+				break;
+				
+			case 2:
+				
+				boolean verifyPlayerName = true;
+				
+				while(verifyPlayerName)
+				{
+					System.out.println("Nome da Personagem:");
+					
+					//Falta validar o nome da personagem
+					String name = scanner.next();
+					
+					System.out.println("O nome " + name + " está correcto?");
+					System.out.println("Opções:");
+					System.out.println("(S) Sim");
+					System.out.println("(N) Não");
+					
+					String decisionName = scanner.next();
+					
+					switch(decisionName)
+					{
+						case "S":
+							
+							verifyPlayerName = false;
+							currentGameState = GameState.MainMenu;
+							return;
+							
+						case "N":
+							break;
+							
+						default:
+							
+							System.out.println("Input Inválido");
+							
+							break;
+					}
+					
+					boolean insertPlayerNameVerification = true;
+					
+					while(insertPlayerNameVerification)
+					{
+						System.out.println("Pretende inserir o nome da Personagem novamente?");
+						System.out.println("Opções:");
+						System.out.println("(S) Sim");
+						System.out.println("(N) Não");
+						
+						String playerNameVerification = scanner.next();
+						
+						switch(playerNameVerification)
+						{
+							case "S":
+								
+								break;
+								
+							case "N":
+								verifyPlayerName = false;
+								
+								break;
+							
+							default:
+								
+								System.out.println("Input Inválido");
+								
+								break;
+						}
+					}
+				}
+					
+				break;
+				
+			case 3:
+				break;
+				
+			default:
+				break;
+		}
+		
+		scanner.close();
+	}
+}

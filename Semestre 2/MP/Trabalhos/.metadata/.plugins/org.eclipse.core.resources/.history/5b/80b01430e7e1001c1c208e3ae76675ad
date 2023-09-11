@@ -1,0 +1,19 @@
+package tp4;
+
+import java.util.Random;
+
+public class ItemGenerator {
+	
+	public Item generateItem()
+	{
+		return new Item("", "", "", 0, 0, 0);
+	}
+	
+	private String generateRarity()
+	{
+		Random random = new Random();
+		int rarity = random.nextInt(4);
+		
+		return rarity;
+	}
+}

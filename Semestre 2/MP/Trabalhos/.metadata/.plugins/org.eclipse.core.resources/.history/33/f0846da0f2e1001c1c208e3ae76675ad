@@ -1,0 +1,39 @@
+package tp4;
+
+import java.util.Scanner;
+
+public class Game {
+	
+	private enum GameState
+	{
+		OpeningMenu,
+		MainMenu,
+		ArmoryMenu,
+		Gameplay
+	}
+	
+	private static GameState currentGameState;
+	
+	public static void main(String[] args)
+	{
+		currentGameState = GameState.OpeningMenu;
+		
+		boolean isRunning = true;
+		
+		while(isRunning)
+		{
+			
+		}
+	}
+	
+	private static void debugOpeningMenu()
+	{
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Opções: ");
+		System.out.println("(1) Continue");
+		System.out.println("(2) New Game");
+		System.out.println("(3) Load Game");
+		
+	}
+}

@@ -1,0 +1,50 @@
+package tp4;
+
+public class Item {
+	private String nome;
+	private String rarity;
+	private String type;
+	private float healthModifier;
+	private float attackModifier;
+	private float defenseModifier;
+	
+	public Item(String nome, String rarity, String type, int healthModifier, int attackModifier, int defenseModifier)
+	{
+		this.nome = nome;
+		this.rarity = rarity;
+		this.type = type;
+		this.healthModifier = healthModifier;
+		this.attackModifier = attackModifier;
+		this.defenseModifier = defenseModifier;
+	}
+	
+	public String getNome()
+	{
+		return nome;
+	}
+	
+	public String getRarity()
+	{
+		return rarity;
+	}
+	
+	public String getType()
+	{
+		return type;
+	}
+	
+	public float getHealthModifier()
+	{
+		return healthModifier;
+	}
+	
+	public float getAttackModifier()
+	{
+		return attackModifier;
+	}
+	
+	public float getDefenseModifier()
+	{
+		return defenseModifier;
+	}
+}

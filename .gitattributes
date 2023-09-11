@@ -8,3 +8,4 @@
 *.word filter=lfs diff=lfs merge=lfs -text
 *.doc filter=lfs diff=lfs merge=lfs -text
 *.docx filter=lfs diff=lfs merge=lfs -text
+Semestre[[:space:]]3/MSSN/Processing/processing-4.0b2/java/lib/modules filter=lfs diff=lfs merge=lfs -text

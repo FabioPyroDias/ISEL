@@ -1,0 +1,2 @@
+Developer_Options_Tag=<?xml version\="1.0" encoding\="UTF-8"?>\n<serialized xml\:space\="preserve">\n\t<serializableOrderedMap>\n\t\t<entry>\n\t\t\t<String>document.types</String>\n\t\t\t<documentTypeDescriptor-array/>\n\t\t</entry>\n\t\t<entry>\n\t\t\t<String>first.run.v24.1</String>\n\t\t\t<Boolean>false</Boolean>\n\t\t</entry>\n\t\t<entry>\n\t\t\t<String>http.proxy.system</String>\n\t\t\t<Boolean>false</Boolean>\n\t\t</entry>\n\t</serializableOrderedMap>\n</serialized>
+eclipse.preferences.version=1

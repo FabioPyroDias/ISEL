@@ -1,0 +1,21 @@
+package tps.tp1.pack1Ciclos;
+
+import java.util.Scanner;
+
+public class P02Asteriscos {
+
+	public static void main(String[] args) {
+		
+		
+		//Código por realizar
+		
+	}
+	
+	public static void mostraAsteriscos(int number) {
+	
+		//Código por realizar
+	
+	}
+	
+		
+}	

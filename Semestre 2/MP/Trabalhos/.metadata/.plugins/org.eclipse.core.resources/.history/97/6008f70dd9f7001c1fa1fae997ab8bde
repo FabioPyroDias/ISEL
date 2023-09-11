@@ -1,0 +1,768 @@
+package tp4;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Container;
+import java.awt.Dimension;
+import java.util.Scanner;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.WindowConstants;
+
+public class Game extends JFrame{
+	
+	private enum GameState
+	{
+		OpeningMenu,
+		MainMenu,
+		ArmoryMenu,
+		Adventure
+	}
+	
+	private static JFrame frame;
+	
+	private static GameState currentGameState;
+	
+	private static ItemGenerator itemGenerator = new ItemGenerator();
+	private static Player player;
+	
+	public static void main(String[] args)
+	{
+		//Carregar o Save File
+		SaveSystem.saveFileInitialization();
+		
+		currentGameState = GameState.OpeningMenu;
+		
+		javax.swing.SwingUtilities.invokeLater(new Runnable() {
+			public void run() {
+				showGUI();
+				openingMenu();
+			}
+		});
+		
+		/*
+		//Carregar o Save File
+		SaveSystem.saveFileInitialization();
+		
+		currentGameState = GameState.OpeningMenu;
+		Scanner scanner = new Scanner(System.in);
+		
+		boolean isRunning = true;
+		
+		while(isRunning)
+		{
+			debugOpeningMenu(scanner);
+			debugMainMenu(scanner);
+			debugArmoryMenu(scanner);
+			debugAdventureMenu(scanner);
+		}
+		
+		scanner.close();
+		*/
+	}
+	
+	private static void showGUI()
+	{
+		//Create a JFrame
+		frame = new JFrame();
+		
+		//Set JFrame title
+		frame.setTitle("Leveling Soul");
+		
+		//Set JFrame maximized
+		frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
+		
+		// set default close operation
+		frame.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
+		
+		//Set JFrame visible
+		frame.setVisible(true);
+	}
+	
+	private static void openingMenu()
+	{
+		if(currentGameState != GameState.OpeningMenu)
+		{
+			return;
+		}
+		
+		//Create a JPanel
+		JPanel menuPanel = new JPanel();
+		
+		//Set JPanel Color
+		menuPanel.setBackground(new Color(158, 138, 135));
+		
+		//Create JButton Continue
+		JButton buttonContinue = new JButton("Continue");
+		
+		//Set JButton Dimension
+		buttonContinue.setPreferredSize(new Dimension(600, 200));
+		
+		//
+		ActionListener actionContinue = new ActionListener()
+		{
+			public void actionPerformed(ActionEvent e) {
+				
+			}
+		};
+		
+		frame.add(butonContinue);
+		
+		//Create JButton New Game
+		JButton buttonNewGame = new JButton("New Game");
+		
+		//Create JButton Load Game
+		JButton buttonLoadGame = new JButton("Load Game");
+		
+		//Add JPanel to JFrame
+		frame.add(menuPanel);
+	}
+	
+	private static void debugOpeningMenu(Scanner scanner)
+	{
+		if(currentGameState != GameState.OpeningMenu)
+		{
+			return;
+		}
+		
+		boolean invalidDecision = true;
+		int decision = 0;
+		
+		while(invalidDecision)
+		{
+			scanner.reset();
+			
+			System.out.println("Opções: ");
+			System.out.println("(1) Continue");
+			System.out.println("(2) New Game");
+			System.out.println("(3) Load Game");
+			
+			decision = scanner.nextInt();
+		
+			switch(decision)
+			{
+				case 1:
+					
+					break;
+					
+				case 2:
+					
+					boolean invalidPlayerName = true;
+					String playerName = "";
+					
+					while(invalidPlayerName)
+					{
+						System.out.println("Inserir o nome da Personagem");
+						playerName = scanner.next();
+						System.out.println();
+						
+						//Verificar se o nome da personagem é válido.
+					
+						boolean isPlayerNameConfirmed = false;
+						String playerNameDecision = "";
+						
+						while(!isPlayerNameConfirmed)
+						{
+							System.out.println("O nome " + playerName + " está correcto?");
+							System.out.println("Opções: ");
+							System.out.println("(S) Sim");
+							System.out.println("(N) Não");
+							playerNameDecision = scanner.next();
+							System.out.println();
+							
+							switch(playerNameDecision.toLowerCase())
+							{
+								case "s":
+									
+									Item basicSword = new Item("Basic Sword of the Basics", "Common", "Weapon", 0, 20, 0);
+									player = new Player(playerName, 20, 10, 0, basicSword);
+									
+									if(SaveSystem.checkSavedGame(player))
+									{
+										System.out.println("Já existe uma personagem com este nome");
+										return;
+									}
+									
+									currentGameState = GameState.MainMenu;
+									
+									return;
+									
+								case "n":
+									
+									boolean decisionRepeatName = true;
+									String decisionRepeat = "";
+									
+									while(decisionRepeatName)
+									{
+										System.out.println("Pretende inserir o nome novamente");
+										System.out.println("Opções:");
+										System.out.println("(S) Sim");
+										System.out.println("(N) Não");
+										decisionRepeat = scanner.next();
+										System.out.println();
+										
+										switch(decisionRepeat.toLowerCase())
+										{
+											case "s":
+												
+												decisionRepeatName = false;
+												isPlayerNameConfirmed = true;
+												
+												break;
+												
+											case "n":
+												
+												return;
+												
+											default:
+												
+												System.out.println("Input Inválido");
+												System.out.println();
+												
+												break;
+										}
+									}
+									
+									break;
+									
+								default:
+									
+									System.out.println("Input Inválido");
+									System.out.println();
+									
+									break;
+							}
+						}
+					}
+					
+					break;
+					
+				case 3:
+						
+					break;
+					
+				default:
+					
+					System.out.println("Input Inválido");
+					System.out.println();
+					
+					break;
+			}
+		}
+	}
+
+	private static void debugMainMenu(Scanner scanner)
+	{
+		if(currentGameState != GameState.MainMenu)
+		{
+			return;
+		}
+		
+		boolean hasDecided = false;
+		int decision;
+		
+		while(!hasDecided)
+		{
+			System.out.println("Opções:");
+			System.out.println("(1) Adventure");
+			System.out.println("(2) Armory");
+			System.out.println("(3) Save Game");
+			System.out.println("(4) Exit Game");
+			System.out.println();
+		
+			decision = scanner.nextInt();
+			
+			switch(decision)
+			{
+				case 1:
+					
+					currentGameState = GameState.Adventure;
+					System.out.println();
+					return;
+					
+				case 2:
+					
+					currentGameState = GameState.ArmoryMenu;
+					System.out.println();
+					return;
+					
+				case 3:
+					
+					//SaveGame
+					SaveSystem.saveGame(player);
+					System.out.println("Game Saved");
+					System.out.println();
+					break;
+					
+				case 4:
+					
+					//Close Application?
+					boolean isExitDecisionMade = false;
+					String exitDecision;
+					
+					while(!isExitDecisionMade)
+					{
+						System.out.println("Tens a certeza que pretendes sair?");
+						System.out.println("Opções:");
+						System.out.println("(S) Sim");
+						System.out.println("(N) Não");
+						System.out.println();
+						exitDecision = scanner.next();
+						System.out.println();
+						
+						switch(exitDecision.toLowerCase())
+						{
+							case "s":
+								
+								//Fechar Aplicação.
+								currentGameState = GameState.OpeningMenu;
+								return;
+								
+							case "n":
+								
+								isExitDecisionMade = true;
+								
+								break;
+								
+							default:
+								System.out.println("Input Inválido");
+								System.out.println();
+								break;
+						}
+					}
+					
+					break;
+				
+				default:
+					System.out.println("Input Inválido");
+					System.out.println();
+					break;
+			}
+		}
+	}
+
+	private static void debugArmoryMenu(Scanner scanner)
+	{
+		if(currentGameState != GameState.ArmoryMenu)
+		{
+			return;
+		}
+		
+		int decision;
+		
+		System.out.println("Opções");
+		System.out.println("(1) Verificar Stats da Personagem");
+		System.out.println("(2) Verificar Itens Equipados");
+		System.out.println("(3) Verificar Inventário");
+		System.out.println("(4) Equipar Item");
+		System.out.println("(5) Desequipar Item");
+		System.out.println("(6) Descartar Item do Inventário");
+		System.out.println("(7) Adventure");
+		System.out.println("(8) Back");
+		System.out.println();
+		decision = scanner.nextInt();
+		System.out.println();
+		
+		switch(decision)
+		{
+			case 1:
+				
+				System.out.println(player.getNome());
+				System.out.println("Health: " + (player.getHealthPoints() + player.getModifiedStats()[0]) + " (+" + player.getModifiedStats()[0] + ")");
+				System.out.println("Attack: " + (player.getAttackPoints() + player.getModifiedStats()[1]) + " (+" + player.getModifiedStats()[1] + ")");
+				System.out.println("Defense: " + (player.getDefensePoints() + player.getModifiedStats()[2]) + " (+" + player.getModifiedStats()[2] + ")");
+				System.out.println();
+				break;
+		
+			case 2:
+				
+				player.printEquippedItems();
+				System.out.println();
+				
+				break;
+				
+			case 3: 
+				
+				player.printInventoryItems();
+				System.out.println();
+				
+				break;
+				
+			case 4: 
+				
+				if(player.getNumInventoryItems() == 0)
+				{
+					System.out.println("Não existem Itens no Inventário.");
+					System.out.println();
+					return;
+				}
+				
+				boolean isItemDecided = false;
+				int decisionEquipInventory;
+				
+				while(!isItemDecided)
+				{
+					System.out.println("Escolha o item a equipar: ");
+					player.printInventoryItems();
+					decisionEquipInventory = scanner.nextInt();
+					System.out.println();
+					
+					if(decisionEquipInventory >= 0 && decisionEquipInventory < player.getInventoryItems().length)
+					{
+						Item item = player.getInventoryItems()[decisionEquipInventory];
+						Item itemUsedToBeEquipped;
+						
+						if(item != null)
+						{
+							switch(item.getType())
+							{
+								case "Weapon":
+									
+									itemUsedToBeEquipped = player.removeItemInEquippedItemsAt(0);
+									
+									player.placeItemInEquippedItemsAt(item, 0);
+									player.removeItemInInventory(decisionEquipInventory);
+									
+									if(itemUsedToBeEquipped != null)
+									{
+										player.placeItemInInventoryAt(itemUsedToBeEquipped, decisionEquipInventory);	
+									}
+									
+									return;
+								
+								case "Helmet":
+									
+									itemUsedToBeEquipped = player.removeItemInEquippedItemsAt(1);
+									
+									player.placeItemInEquippedItemsAt(item, 1);
+									player.removeItemInInventory(decisionEquipInventory);
+									
+									if(itemUsedToBeEquipped != null)
+									{
+										player.placeItemInInventoryAt(itemUsedToBeEquipped, decisionEquipInventory);	
+									}
+									
+									return;
+									
+								case "Armor":
+									
+									itemUsedToBeEquipped = player.removeItemInEquippedItemsAt(2);
+									
+									player.placeItemInEquippedItemsAt(item, 2);
+									player.removeItemInInventory(decisionEquipInventory);
+									
+									if(itemUsedToBeEquipped != null)
+									{
+										player.placeItemInInventoryAt(itemUsedToBeEquipped, decisionEquipInventory);	
+									}
+									
+									return;
+									
+								case "Pants":
+									
+									itemUsedToBeEquipped = player.removeItemInEquippedItemsAt(3);
+									
+									player.placeItemInEquippedItemsAt(item, 3);
+									player.removeItemInInventory(decisionEquipInventory);
+									
+									if(itemUsedToBeEquipped != null)
+									{
+										player.placeItemInInventoryAt(itemUsedToBeEquipped, decisionEquipInventory);	
+									}
+									
+									return;
+									
+								case "Gloves":
+									
+									itemUsedToBeEquipped = player.removeItemInEquippedItemsAt(4);
+									
+									player.placeItemInEquippedItemsAt(item, 4);
+									player.removeItemInInventory(decisionEquipInventory);
+									
+									if(itemUsedToBeEquipped != null)
+									{
+										player.placeItemInInventoryAt(itemUsedToBeEquipped, decisionEquipInventory);	
+									}
+									
+									return;
+									
+								case "Boots":
+									
+									itemUsedToBeEquipped = player.removeItemInEquippedItemsAt(5);
+									
+									player.placeItemInEquippedItemsAt(item, 5);
+									player.removeItemInInventory(decisionEquipInventory);
+									
+									if(itemUsedToBeEquipped != null)
+									{
+										player.placeItemInInventoryAt(itemUsedToBeEquipped, decisionEquipInventory);	
+									}
+									
+									return;
+									
+								default:
+									break;
+							}
+						}
+					}
+					else
+					{
+						System.out.println("Input Inválido");
+						System.out.println();
+						
+						boolean isDecisionMade = false;
+						String equipItemDecision;
+						
+						while(!isDecisionMade)
+						{
+							System.out.println("Pretende continuar a equipar um item?");
+							System.out.println("Opções:");
+							System.out.println("(S) Sim");
+							System.out.println("(N) Não");
+							System.out.println();
+							equipItemDecision = scanner.next();
+							System.out.println();
+							
+							switch(equipItemDecision.toLowerCase())
+							{
+								case "s":
+									
+									isDecisionMade = true;
+									System.out.println();
+									
+									break;
+									
+								case "n":
+									
+									System.out.println();
+									return;
+									
+								default:
+									
+									System.out.println("Input Inválido");
+									System.out.println();
+									
+									break;
+							}
+						}
+					}
+				}
+				
+				
+				break;
+				
+			case 5:
+				
+				if(player.getNumEquippedItems() == 0)
+				{
+					System.out.println("Não existem no items equipados para desequipar.");
+					System.out.println();
+					return;
+				}
+				
+				if(player.getNumInventoryItems() >= player.getInventoryItems().length)
+				{
+					System.out.println("Não existe espaço no inventário para o item desequipados.");
+					System.out.println();
+					return;
+				}
+				
+				boolean isDecisionMadeUnequip = false;
+				int itemSelectedUnequip;
+				
+				while(!isDecisionMadeUnequip)
+				{
+					System.out.println("Seleccione o item a desequipar: ");
+					player.printEquippedItems();
+					System.out.println();
+					itemSelectedUnequip = scanner.nextInt();
+					System.out.println();
+				
+					if(itemSelectedUnequip >= 0 && itemSelectedUnequip < player.getEquippedItems().length)
+					{
+						if(player.getEquippedItems()[itemSelectedUnequip] != null)
+						{
+							Item item = player.removeItemInEquippedItemsAt(itemSelectedUnequip);
+							player.placeItemInInvetory(item);
+							return;
+						}
+						
+						System.out.println("Não existe nenhum item nesta posição");
+						System.out.println();
+					}
+					else
+					{
+						System.out.println("Input Inválido");
+						System.out.println();
+					}
+					
+					boolean isDecisionUnequipMade = false;
+					String unequipItemDecision;
+					
+					while(!isDecisionUnequipMade)
+					{
+						System.out.println("Pretende continuar a desequipar um item?");
+						System.out.println("Opções:");
+						System.out.println("(S) Sim");
+						System.out.println("(N) Não");
+						System.out.println();
+						unequipItemDecision = scanner.next();
+						System.out.println();
+						
+						switch(unequipItemDecision.toLowerCase())
+						{
+							case "s":
+								
+								isDecisionUnequipMade = true;
+								System.out.println();
+								
+								break;
+								
+							case "n":
+								
+								System.out.println();
+								return;
+								
+							default:
+								
+								System.out.println("Input Inválido");
+								System.out.println();
+								
+								break;
+						}
+					}
+					
+				}		
+				
+				break;
+			
+			case 6: 
+				
+				if(player.getNumInventoryItems() == 0)
+				{
+					System.out.println("Não existem no items no inventário para descartar.");
+					System.out.println();
+					return;
+				}
+				
+				boolean isDecisionMade = false;
+				int itemSelected;
+				
+				while(!isDecisionMade)
+				{
+					System.out.println("Seleccione o item a descartar: ");
+					player.printInventoryItems();
+					System.out.println();
+					itemSelected = scanner.nextInt();
+					System.out.println();
+					
+					if(itemSelected >= 0 && itemSelected < player.getInventoryItems().length)
+					{
+						Item item = player.getInventoryItems()[itemSelected];
+						
+						if(item != null)
+						{
+							player.removeItemInInventory(itemSelected);
+							System.out.println("Item Descartado");
+							System.out.println();
+							return;
+						}
+						else
+						{
+							System.out.println("Não existe nenhum Item nesta posição");
+							System.out.println();
+						}
+					}
+					else
+					{
+						System.out.println("Input Inválido");
+						System.out.println();	
+					}
+					
+					boolean isDecisionDiscardMade = false;
+					String equipItemDecision;
+					
+					while(isDecisionDiscardMade)
+					{
+						System.out.println("Pretende continuar a descartar um item?");
+						System.out.println("Opções:");
+						System.out.println("(S) Sim");
+						System.out.println("(N) Não");
+						System.out.println();
+						equipItemDecision = scanner.next();
+						System.out.println();
+						
+						switch(equipItemDecision.toLowerCase())
+						{
+							case "s":
+								
+								isDecisionDiscardMade = true;
+								System.out.println();
+								
+								break;
+								
+							case "n":
+								
+								System.out.println();
+								return;
+								
+							default:
+								
+								System.out.println("Input Inválido");
+								System.out.println();
+								
+								break;
+						}
+					}
+				}
+				
+				break;
+				
+			case 7: 
+				
+				currentGameState = GameState.Adventure;
+				System.out.println();
+				return;
+				
+			case 8: 
+				
+				currentGameState = GameState.MainMenu;
+				System.out.println();
+				return;
+				
+			default:
+				System.out.println("Input Inválido");
+				System.out.println();
+				break;
+		}
+		
+		
+	}
+
+	private static void debugAdventureMenu(Scanner scanner)
+	{
+		if(currentGameState != GameState.Adventure)
+		{
+			return;
+		}
+		
+		Item item = itemGenerator.generateItem();
+		
+		if(player.getNumInventoryItems() == player.getInventoryItems().length)
+		{
+			System.out.println("Inventário cheio");
+		}
+		else
+		{
+			player.placeItemInInvetory(item);			
+		}
+		
+		currentGameState = GameState.ArmoryMenu;
+	}
+}

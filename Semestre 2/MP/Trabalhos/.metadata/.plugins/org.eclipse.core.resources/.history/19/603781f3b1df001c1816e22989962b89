@@ -1,0 +1,16 @@
+package tp4;
+
+public class Game {
+	
+	private boolean isPlayerAlive = true;
+	
+	public static void main(String[] args)
+	{
+		boolean isRunning = true;
+		
+		while(isRunning)
+		{
+			
+		}
+	}
+}

@@ -1,0 +1,19 @@
+package tp4;
+
+public class Game {
+	
+	private enum GameState
+	{
+		
+	}
+	
+	public static void main(String[] args)
+	{
+		boolean isRunning = true;
+		
+		while(isRunning)
+		{
+			
+		}
+	}
+}

@@ -1,0 +1,14 @@
+package tp4;
+
+public class Game {
+	
+	public static void main(String[] args)
+	{
+		boolean isRunning = true;
+		
+		while(isRunning)
+		{
+			
+		}
+	}
+}

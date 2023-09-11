@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename enum constant &apos;Gameplay&apos; of &apos;tp4.Game.GameState&apos; to &apos;Adventure&apos;&#x0D;&#x0A;- Original project: &apos;Trabalhos&apos;&#x0D;&#x0A;- Original element: &apos;tp4.Game.GameState.Gameplay&apos;&#x0D;&#x0A;- Renamed element: &apos;tp4.Game.GameState.Adventure&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename enum constant &apos;Gameplay&apos;" flags="589826" getter="false" id="org.eclipse.jdt.ui.rename.enum.constant" input="/src&lt;tp4{Game.java[Game[GameState^Gameplay" name="Adventure" references="true" setter="false" stamp="1654380918626" textual="false" version="1.0"/>
+</session>

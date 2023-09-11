@@ -1,0 +1,11 @@
+package tp4;
+
+public class Player extends Character{
+	
+	private Item[] equippedItems = new Item[6];
+	
+	public Player(String nome, int healthPoints, int attackPoints, int defensePoints, Item weapon) {
+		super(nome, healthPoints, attackPoints, defensePoints);
+		equippedItems[0] = weapon;
+	}
+}

@@ -1,0 +1,112 @@
+package tp4;
+
+public class ItemGenerator {
+	
+	public Item generateItem()
+	{
+		String rarity = generateRarity();
+		String type = generateType();
+		
+		return new Item("", rarity, type, 0, 0, 0);
+	}
+	
+	private String generateRarity()
+	{
+		String[] rarity = {"Common", "Uncommon", "Rare", "Legendary"};
+		int maxValue = 4;
+		int minValue = 0;
+		
+		return rarity[(int)(Math.random()*(maxValue-minValue+1)+minValue)];
+	}
+	
+	private String generateType()
+	{
+		String[] type = {"Weapon", "Helmet", "Armor", "Pants", "Gloves", "Boots"};
+		int maxValue = 6;
+		int minValue = 0;
+		
+		return type[(int)(Math.random()*(maxValue-minValue+1)+minValue)];
+	}
+	
+	private String generateName(String rarity, String type)
+	{
+		//Por fazer. Pode envolver um ficheiro com nomes
+		
+		return null;
+	}
+	
+	private float generateHealthModifier(String rarity, String type)
+	{
+		float healthModifier = 0;
+		
+		float maxValue = 0;
+		float minValue = 0;
+		
+		switch(rarity)
+		{
+			case "Common":
+				
+				switch(type)
+				{
+					case "Weapon":
+						maxValue = 1.10f;
+						minValue = 1.02f;
+						
+						healthModifier = (float)(Math.random()*(maxValue-minValue+1)+minValue);
+						break;
+						
+					case "Helmet":
+						maxValue = 1.06f;
+						minValue = 1.01f;
+						
+						healthModifier = (float)(Math.random()*(maxValue-minValue+1)+minValue);
+						break;
+						
+					case "Armor":
+						maxValue = 1.10f;
+						minValue = 1.02f;
+						
+						healthModifier = (float)(Math.random()*(maxValue-minValue+1)+minValue);
+						break;
+						
+					case "Pants":
+						break;
+					
+					case "Gloves":
+						break;
+						
+					case "Boots":
+						break:
+							
+					default:
+						break;	
+				}
+				
+				break;
+				
+			case "Uncommon":
+				break;
+				
+			case "Rare":
+				break;
+				
+			case "Legendary":
+				break;
+				
+			default:
+				break;
+		}
+		
+		return 0;
+	}
+	
+	private float generateAttackModifier(String rarity, String type)
+	{
+		return 0;
+	}
+	
+	private float generateDefenseModifier(String rarity, String type)
+	{
+		return 0;
+	}
+}

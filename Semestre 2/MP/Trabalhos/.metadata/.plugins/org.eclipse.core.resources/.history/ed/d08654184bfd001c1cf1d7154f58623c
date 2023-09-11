@@ -1,0 +1,54 @@
+package tp4;
+
+public class EnemyGenerator {
+	
+	private String[] names = 
+	{
+		"Anthrax",
+		"Arwap",
+		"Baron",
+		"Blemau",
+		"Cir'Sa",
+		"Cruya",
+		"Drakun",
+		"Dreamlu",
+		"Embrine",
+		"Etuyr",
+		"Fang",
+		"Fyr",
+		"Glamber",
+		"Gull",
+		""
+	};
+	
+	public Enemy generateEnemy(int level)
+	{
+		if(level > 0 && level < 5)
+		{
+			
+		}
+		else if(level >= 5 && level < 11)
+		{
+			
+		}
+		else if(level >= 11 && level < 19)
+		{
+			
+		}
+		else if(level >= 19 && level < 30)
+		{
+			
+		}
+		else if(level >= 30 && level < 45)
+		{
+		
+		}
+		else
+		{
+			
+		}
+		
+		return new Enemy("", 0, 0, 0, "");
+	}
+	
+}

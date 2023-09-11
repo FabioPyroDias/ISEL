@@ -1,0 +1,11 @@
+package tp4;
+
+public class Game {
+	
+	private boolean isRunning;
+	
+	public static void main(String[] args)
+	{
+		
+	}
+}

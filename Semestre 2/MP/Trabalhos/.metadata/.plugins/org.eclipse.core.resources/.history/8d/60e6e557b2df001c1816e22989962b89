@@ -1,0 +1,8 @@
+package tp4;
+
+public class Player extends Character{
+	
+	public Player(String nome, int healthPoints, int attackPoints, int defensePoints) {
+		super(nome, healthPoints, attackPoints, defensePoints);
+	}
+}

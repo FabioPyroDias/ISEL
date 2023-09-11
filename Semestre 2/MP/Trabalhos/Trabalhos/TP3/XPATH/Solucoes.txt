@@ -1,0 +1,6 @@
+a) //Espetaculo[@numBilhetes < 500]
+b) //Festival/Nome[text()='Músicas do Mundo']/../Eventos/*[1]/Nome/text()	
+c) //Artista[text()="Pablo Milanés"]/../..
+d) count(//Festival/Nome[text()="Música Cubana"]/../Eventos/*)
+e) //*[@codEspetaculo=//Patrocinador/Nome[text()="EDP"]/../@codEvento]
+f) //Festival/Nome[text()="Músicas do Mundo"]/../Eventos//Festival/Nome[text()="Música Cubana"]/../Eventos//Nome[text()="Pablo Milanés"]/../following-sibling::Espetaculo

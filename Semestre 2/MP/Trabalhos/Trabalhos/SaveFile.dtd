@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT SaveData (SaveGames, LastSavedGame)>
+<!ELEMENT SaveGames (Game*)>
+<!ELEMENT Game (Name, Items)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Items (Equipped, Inventory)>
+<!ELEMENT Equipped (Weapon, Armory, Pants, Gloves, Boots)>
+<!ELEMENT Weapon (Name, Rarity, Health, Attack, Defense)>
+<!ELEMENT Rarity (#PCDATA)>
+<!ELEMENT Health (#PCDATA)>
+<!ELEMENT Attack (#PCDATA)>
+<!ELEMENT Defense (#PCDATA)>
+<!ELEMENT Armory (Name, Rarity, Health, Attack, Defense)>
+<!ELEMENT Pants (Name, Rarity, Health, Attack, Defense)>
+<!ELEMENT Gloves (Name, Rarity, Health, Attack, Defense)>
+<!ELEMENT Boots (Name, Rarity, Health, Attack, Defense)>
+<!ELEMENT Inventory (Item*)>
+<!ELEMENT Item (Name, Rarity, Type, Health, Attack, Defense)>
+<!ELEMENT Type (#PCDATA)>

@@ -1,0 +1,12 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.lang.Enum"><rhs name\="tp4.Game$GameState"/></lhs><lhs name\="java.lang.constant.Constable"><rhs name\="tp4.Game$GameState"/></lhs><lhs name\="tp4.Game$GameState"><rhs name\="tp4.Game$GameState"/></lhs><lhs name\="javax.swing.SwingConstants"><rhs name\="javax.swing.JTextField"/></lhs><lhs name\="javax.swing.text.JTextComponent"><rhs name\="javax.swing.JTextField"/></lhs><lhs name\="javax.swing.Scrollable"><rhs name\="javax.swing.JTextField"/></lhs><lhs name\="javax.accessibility.Accessible"><rhs name\="javax.swing.JTextField"/><rhs name\="javax.swing.JLayeredPane"/></lhs><lhs name\="javax.swing.JComponent"><rhs name\="javax.swing.JTextField"/><rhs name\="javax.swing.JLayeredPane"/></lhs><lhs name\="javax.swing.TransferHandler$HasGetTransferHandler"><rhs name\="javax.swing.JTextField"/><rhs name\="javax.swing.JLayeredPane"/></lhs><lhs name\="java.awt.Container"><rhs name\="javax.swing.JTextField"/><rhs name\="javax.swing.JLayeredPane"/></lhs><lhs name\="java.awt.Component"><rhs name\="javax.swing.JTextField"/><rhs name\="javax.swing.JLayeredPane"/></lhs><lhs name\="java.awt.image.ImageObserver"><rhs name\="javax.swing.JTextField"/><rhs name\="javax.swing.JLayeredPane"/></lhs><lhs name\="java.awt.MenuContainer"><rhs name\="javax.swing.JTextField"/><rhs name\="javax.swing.JLayeredPane"/></lhs><lhs name\="javax.swing.JTextField"><rhs name\="javax.swing.JTextField"/></lhs><lhs name\="javax.swing.JLayeredPane"><rhs name\="javax.swing.JLayeredPane"/></lhs></history>
+content_assist_number_of_computers=13
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=21
+spelling_locale_initialized=true
+typefilter_migrated=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

@@ -1,0 +1,536 @@
+package tp2.pack1ColeccoesComHeranca;
+
+/**
+ * Classe que deverá suportar um livro
+ */
+public class Livro extends Obra {
+
+	// número de páginas
+	private int numPaginas;
+
+	// preço do livro
+	private float preco;
+
+	// array de autores, este array não deve ter nulls
+	private String[] autores;
+
+	/**
+	 * Deve criar um novo livro com os dados recebidos. O número de páginas não
+	 * pode ser menor que 1. O preço não pode ser negativo. O array de autores
+	 * não deve conter nem nulls e deve conter pelo menos um autor válido. Não
+	 * pode haver repetições dos nomes dos autores, considera-se os nomes sem os
+	 * espaços extra (ver removeExtraSpaces). Este método deve utilizar os
+	 * métodos auxiliares existentes. Em caso de nome inválido deve lançar uma
+	 * excepção de IllegalArgumentException com a indicação do erro ocorrido
+	 */
+	public Livro(String titulo, int numPaginas, float preco, String[] autores) {
+		
+		super(titulo);
+		
+		//Numero de Paginas
+        if(numPaginas < 1)
+        {
+            throw new IllegalArgumentException("O nº de páginas não pode ser negativo");
+            //Acho que devia ficar "Tem de ter pelo menos uma página".
+        }
+        
+        this.numPaginas = numPaginas;
+        
+        //Preco
+        /*
+        if(preco == 0)
+        {
+        	throw new IllegalArgumentException("O preço não pode ser 0");
+        }
+        else */if(preco < 0)
+        {
+            throw new IllegalArgumentException("O preço não pode ser negativo");
+        }
+        
+        this.preco = preco;
+        
+        //Autores
+        if(autores == null)
+        {
+        	throw new IllegalArgumentException("O array de autores não pode ser null");
+        }
+        
+        String[] novosAutores = new String[autores.length];
+        
+        for(int autoresIndex = 0; autoresIndex < autores.length; autoresIndex++)
+        {
+        	if(autores[autoresIndex] == null)
+        	{
+        		throw new IllegalArgumentException("O array de autores não pode conter nulls");
+        	}
+        	
+        	novosAutores[autoresIndex] = removeExtraSpaces(autores[autoresIndex]);
+        }
+        
+        if(!validarNomes(novosAutores))
+		{
+			throw new IllegalArgumentException("O array de autores só pode conter nomes válidos");
+		}
+        
+        if(haRepeticoes(novosAutores))
+        {
+        	throw new IllegalArgumentException("O array de autores contém autores repetidos");
+        }
+        
+        this.autores = novosAutores;
+	}
+
+	/**
+	 * Devolve o número de páginas do livro
+	 */
+	public int getNumPaginas() {
+		
+		return numPaginas;
+	}
+
+	/**
+	 * Devolve o preço do livro
+	 */
+	public float getPreco() {
+		
+		return preco;
+	}
+
+	/**
+	 * Devolve true se o autor recebido existe como autor do livro. O nome
+	 * recebido não contém espaços extra.
+	 */
+	public boolean contemAutor(String autorNome) {
+		
+		for(String autor : autores)
+		{
+			if(autorNome.equals(autor))
+			{
+				return true;
+			}
+		}
+		
+		return false;
+	}
+
+	/**
+	 * Devolve uma cópia do array de autores do livro
+	 */
+	public String[] getAutores() {
+		
+		return autores.clone();
+	}
+
+	/**
+	 * Devolve uma string com a informação do livro (ver outputs desejados)
+	 */
+	public String toString() {
+		String toString = super.toString() + " [";
+	
+		for(int index = 0; index < autores.length; index++)
+		{
+			toString += autores[index];
+			
+			if(index != autores.length - 1)
+			{
+				toString += ", ";
+			}
+		}
+		
+		toString += "]";
+		
+		return toString;
+	}
+
+	/**
+	 * Iguais se equais no contexto de obra e se o objecto recebido for um Livro.
+	 * Deve utilizar o método equals de Obra
+	 */
+	public boolean equals(Object l) {
+		return (super.equals(l) && l instanceof Livro);
+	}
+	
+
+
+	/**
+	 * main
+	 */
+	public static void main(String[] args) {
+
+		// constructor e toString
+		Livro l = new Livro("Viagem aos Himalaias", 340, 12.3f,
+				new String[] { "João Mendonça", "Mário Andrade" });
+		System.out.println("Livro -> " + l);
+		l.print("");
+		l.print("-> ");
+		System.out.println();
+
+		// contém autor
+		String autorNome = "Mário Andrade";
+		System.out.println("Livro com o autor " + autorNome + "? -> "
+				+ l.contemAutor(autorNome));
+		autorNome = "Mário Zambujal";
+		System.out.println("Livro com o autor " + autorNome + "? -> "
+				+ l.contemAutor(autorNome));
+		System.out.println();
+
+		// equals
+		System.out.println("Livro: " + l);
+		System.out.println("equals Livro: " + l);
+		System.out.println(" -> " + l.equals(l));
+
+		Livro l2 = new Livro("Viagem aos Himalaias", 100, 10.3f,
+				new String[] { "Vitor Záspara" });
+		System.out.println("Livro: " + l);
+		System.out.println("equals Livro: " + l2);
+		System.out.println(" -> " + l.equals(l2));
+		System.out.println();
+
+		// testes que dão excepção - mostra-se a excepção
+
+		// livro lx1
+		System.out.println("Livro lx1: ");
+		try {
+			Livro lx1 = new Livro("Viagem aos Himalaias", -1, 12.3f,
+					new String[] { "João Mendonça", "Mário Andrade" });
+			System.out.println("Livro lx1: " + lx1);
+		} catch (IllegalArgumentException ex) {
+			ex.printStackTrace();
+		}
+		System.out.println();
+
+		// livro lx2
+		System.out.println("Livro lx2: ");
+		try {
+			Livro lx2 = new Livro("Viagem aos Himalaias", 200, -12.3f,
+					new String[] { "João Mendonça", "Mário Andrade" });
+			System.out.println("Livro lx2: " + lx2);
+		} catch (IllegalArgumentException ex) {
+			ex.printStackTrace();
+		}
+		System.out.println();
+
+		// livro lx3
+		System.out.println("Livro lx3: ");
+		try {
+			Livro lx3 = new Livro(null, 200, -12.3f,
+					new String[] { "João Mendonça", "Mário Andrade" });
+			System.out.println("Livro lx3: " + lx3);
+		} catch (IllegalArgumentException ex) {
+			ex.printStackTrace();
+		}
+		System.out.println();
+
+		// livro lx4
+		System.out.println("Livro lx4: ");
+		try {
+			Livro lx4 = new Livro("Viagem aos Himalaias", 200, 12.3f,
+					new String[] { "João Mendonça", "Mário Andrade",
+							"João Mendonça" });
+			System.out.println("Livro lx4: " + lx4);
+		} catch (IllegalArgumentException ex) {
+			ex.printStackTrace();
+		}
+		
+		//Meus Testes:
+		System.out.println();
+		System.out.println("------------------------");
+		System.out.println("Meus Testes:");
+		System.out.println("------------------------");
+		
+		//Testar Construtor
+		System.out.println();
+		System.out.println(" -> Testar Construtor");
+		System.out.println();
+		
+		//Título
+		System.out.println("################################# - Título - #################################");
+		System.out.println();
+		
+		System.out.println("     #Titulo é null");
+		try {
+			Livro meuLivroErro = new Livro(null, 100, 20.0f, new String[] {"Autor Teste"});			
+		} 
+		catch(IllegalArgumentException ex)
+		{
+			ex.printStackTrace();
+		}
+		System.out.println();
+		
+		System.out.println("     #Titulo está vazio");
+		try {
+			Livro meuLivroErro = new Livro("", 100, 20.0f, new String[] {"Autor Teste"});			
+		} 
+		catch(IllegalArgumentException ex)
+		{
+			ex.printStackTrace();
+		}
+		System.out.println();
+		
+		System.out.println("     #Titulo apenas contém espaços");
+		try {
+			Livro meuLivroErro = new Livro("    ", 100, 20.0f, new String[] {"Autor Teste"});			
+		} 
+		catch(IllegalArgumentException ex)
+		{
+			ex.printStackTrace();
+		}
+		System.out.println();
+		
+		System.out.println("     #Titulo apenas contém um ponto");
+		try {
+			Livro meuLivroErro = new Livro(".", 100, 20.0f, new String[] {"Autor Teste"});
+		} 
+		catch(IllegalArgumentException ex)
+		{
+			ex.printStackTrace();
+		}
+		System.out.println();
+		
+		System.out.println("     #Titulo possui apenas números");
+		try {
+			Livro meuLivroErro = new Livro("1312", 100, 20.0f, new String[] {"Autor Teste"});			
+		} 
+		catch(IllegalArgumentException ex)
+		{
+			ex.printStackTrace();
+		}
+		System.out.println();
+		
+		System.out.println("     #Titulo tem caracteres, espaços extra e números");
+		try {
+			Livro meuLivroCorrecto = new Livro("Teste Correcto Espacos Extra Corta 010101110101010", 100, 20.0f, new String[] {"Autor Teste"});			
+			meuLivroCorrecto.print(" ");
+		} 
+		catch(IllegalArgumentException ex)
+		{
+			ex.printStackTrace();
+		}
+		System.out.println();
+		
+		System.out.println("################################# -xXx Título xXx- #################################");
+		
+		System.out.println();
+		System.out.println();
+		
+		//Páginas
+		System.out.println("################################# - Páginas - #################################");
+		System.out.println();
+		
+		System.out.println("     #Páginas são 0");
+		try {
+			Livro meuLivroErro = new Livro("Título Exemplo", 0, 20.0f, new String[] {"Autor Teste"});			
+		} 
+		catch(IllegalArgumentException ex)
+		{
+			ex.printStackTrace();
+		}
+		System.out.println();
+		
+		System.out.println("     #Páginas é negativo");
+		try {
+			Livro meuLivroErro = new Livro("Título Exemplo", -100, 20.0f, new String[] {"Autor Teste"});			
+		} 
+		catch(IllegalArgumentException ex)
+		{
+			ex.printStackTrace();
+		}
+		System.out.println();
+		
+		System.out.println("     #Páginas é 40");
+		try {
+			Livro meuLivroCorrecto = new Livro("Título Exemplo", 40, 20.0f, new String[] {"Autor Teste"});
+			meuLivroCorrecto.print(" ");
+		} 
+		catch(IllegalArgumentException ex)
+		{
+			ex.printStackTrace();
+		}
+		System.out.println();
+		
+		System.out.println("################################# -xXx Páginas xXx- #################################");
+
+		System.out.println();
+		System.out.println();
+		
+		//Preco
+		System.out.println("################################# - Preco - #################################");
+		System.out.println();
+		
+		System.out.println("     #Preco é 0");
+		try {
+			Livro meuLivroErro = new Livro("Título Exemplo", 40, 0f, new String[] {"Autor Teste"});			
+		} 
+		catch(IllegalArgumentException ex)
+		{
+			ex.printStackTrace();
+		}
+		System.out.println();
+		
+		System.out.println("     #Preco é negativo");
+		try {
+			Livro meuLivroErro = new Livro("Título Exemplo", 40, -10.0f, new String[] {"Autor Teste"});			
+		} 
+		catch(IllegalArgumentException ex)
+		{
+			ex.printStackTrace();
+		}
+		System.out.println();
+		
+		System.out.println("     #Preco é 20");
+		try {
+			Livro meuLivroCorrecto = new Livro("Título Exemplo", 40, 20f, new String[] {"Autor Teste"});
+			meuLivroCorrecto.print(" ");
+		} 
+		catch(IllegalArgumentException ex)
+		{
+			ex.printStackTrace();
+		}
+		System.out.println();
+		
+		System.out.println("################################# -xXx Preco xXx- #################################");
+
+		System.out.println();
+		System.out.println();
+		
+		//Autores
+		System.out.println("################################# - Autores - #################################");
+		System.out.println();
+		
+		System.out.println("     #Autores é null");
+		try {
+			Livro meuLivroErro = new Livro("Título Exemplo", 40, 20f, null);			
+		} 
+		catch(IllegalArgumentException ex)
+		{
+			ex.printStackTrace();
+		}
+		System.out.println();
+		
+		System.out.println("     #Autores contém apenas um null");
+		try {
+			Livro meuLivroErro = new Livro("Título Exemplo", 40, 20.0f, new String[] {null});			
+		} 
+		catch(IllegalArgumentException ex)
+		{
+			ex.printStackTrace();
+		}
+		System.out.println();
+		
+		System.out.println("     #Autores contém um null");
+		try {
+			Livro meuLivroCorrecto = new Livro("Título Exemplo", 40, 20f, new String[] {"Autor Teste", null});
+			meuLivroCorrecto.print(" ");
+		} 
+		catch(IllegalArgumentException ex)
+		{
+			ex.printStackTrace();
+		}
+		System.out.println();
+	
+		System.out.println("     #Autores contém uma entrada apenas com espaços");
+		try {
+			Livro meuLivroErro = new Livro("Título Exemplo", 40, 20.0f, new String[] {"Autor Teste", "     ", "Autora Teste"});			
+		} 
+		catch(IllegalArgumentException ex)
+		{
+			ex.printStackTrace();
+		}
+		System.out.println();
+		
+		System.out.println("     #Autores contém nomes repetidos");
+		try {
+			Livro meuLivroErro = new Livro("Título Exemplo", 40, 20.0f, new String[] {"Autor Teste", "Autor Teste"});			
+		} 
+		catch(IllegalArgumentException ex)
+		{
+			ex.printStackTrace();
+		}
+		System.out.println();
+		
+		
+		System.out.println("     #Autores contém nomes não repetidos e válidos");
+		try {
+			Livro meuLivroCorrecto = new Livro("Título Exemplo", 40, 20f, new String[] {"Autor Teste", "Autora Teste"});
+			meuLivroCorrecto.print(" ");
+		} 
+		catch(IllegalArgumentException ex)
+		{
+			ex.printStackTrace();
+		}
+		System.out.println();
+		
+		System.out.println("################################# -xXx Autores xXx- #################################");
+		
+		System.out.println();
+		System.out.println();
+		
+		//Testar Métodos
+		System.out.println();
+		System.out.println(" -> Testar Métodos");
+		System.out.println();
+		
+		Livro livroTeste1 = new Livro("Teste 1", 50, 15f, new String[] {"Afonso Risco"});
+		Livro livroTeste2 = new Livro("Teste 2", 20, 5.5f, new String[] {"Beatriz Turim", "Gabriel Caparra"});
+		Livro livroTeste3 = new Livro("Teste 3", 99, 18.79f, new String[] {"Filomena T Real"});
+		Livro livroTeste4 = new Livro("Teste 4", 24, 0.99f, new String[] {"Miguel Luz", "Sara Luz", "Marco Luz"});
+		Livro livroTeste5 = new Livro("Teste 5", 111, 21.31f, new String[] {"Xavier Terno", "Telmo Guilherme", "Lucinda Ferro", "Diogo Ventura"});
+		
+		//getNumPaginas
+		System.out.println("################################# - getNumPaginas - #################################");
+		System.out.println();
+		
+		System.out.println("Expectável : 50  | Recebido : " + livroTeste1.getNumPaginas());
+		System.out.println("Expectável : 20  | Recebido : " + livroTeste2.getNumPaginas());
+		System.out.println("Expectável : 90  | Recebido : " + livroTeste3.getNumPaginas());
+		System.out.println("Expectável : 24  | Recebido : " + livroTeste4.getNumPaginas());
+		System.out.println("Expectável : 111 | Recebido : " + livroTeste5.getNumPaginas());
+		
+		System.out.println();
+		System.out.println("################################# -xXx getNumPaginas xXx- #################################");
+		
+		System.out.println();
+		System.out.println();
+		
+		//getPreco
+		System.out.println("################################# - getPreco - #################################");
+		System.out.println();
+		
+		System.out.println("Expectável : 15.0  | Recebido : " + livroTeste1.getPreco());
+		System.out.println("Expectável : 5.5   | Recebido : " + livroTeste2.getPreco());
+		System.out.println("Expectável : 18.79 | Recebido : " + livroTeste3.getPreco());
+		System.out.println("Expectável : 0.99  | Recebido : " + livroTeste4.getPreco());
+		System.out.println("Expectável : 21.31 | Recebido : " + livroTeste5.getPreco());
+		
+		System.out.println();
+		System.out.println("################################# -xXx getPreco xXx- #################################");
+		
+		System.out.println();
+		System.out.println();
+		
+		//getPreco
+		System.out.println("################################# - contemAutor - #################################");
+		System.out.println();
+		
+		System.out.println("Livro Teste 1 Contem Afonso?               Expectável : false   | Recebido : " + livroTeste1.contemAutor("Afonso"));
+		System.out.println("Livro Teste 1 Contem Benjamim Fernandes?   Expectável : false   | Recebido : " + livroTeste1.contemAutor("Benjamim Fernades"));
+		System.out.println("Livro Teste 1 Contem Afonso Risco?         Expectável : true    | Recebido : " + livroTeste1.contemAutor("Afonso Risco"));
+		System.out.println("Expectável : 5.5   | Recebido: " + livroTeste2.getPreco());
+		System.out.println("Expectável : 18.79 | Recebido: " + livroTeste3.getPreco());
+		System.out.println("Expectável : 0.99  | Recebido: " + livroTeste4.getPreco());
+		System.out.println("Expectável : 21.31 | Recebido: " + livroTeste5.getPreco());
+		
+		Livro livroTeste1 = new Livro("Teste 1", 50, 15f, new String[] {"Afonso Risco"});
+		Livro livroTeste2 = new Livro("Teste 2", 20, 5.5f, new String[] {"Beatriz Turim", "Gabriel Caparra"});
+		Livro livroTeste3 = new Livro("Teste 3", 99, 18.79f, new String[] {"Filomena T Real"});
+		Livro livroTeste4 = new Livro("Teste 4", 24, 0.99f, new String[] {"Miguel Luz", "Sara Luz", "Marco Luz"});
+		Livro livroTeste5 = new Livro("Teste 5", 111, 21.31f, new String[] {"Xavier Terno", "Telmo Guilherme", "Lucinda Ferro", "Diogo Ventura"});
+		
+		System.out.println();
+		System.out.println("################################# -xXx contemAutor xXx- #################################");
+		
+		System.out.println();
+		System.out.println();
+				
+ 	}
+}

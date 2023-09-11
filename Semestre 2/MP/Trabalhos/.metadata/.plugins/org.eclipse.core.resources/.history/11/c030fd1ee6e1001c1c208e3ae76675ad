@@ -1,0 +1,9 @@
+package tp4;
+
+public class ItemGenerator {
+	
+	public Item generateItem()
+	{
+		
+	}
+}

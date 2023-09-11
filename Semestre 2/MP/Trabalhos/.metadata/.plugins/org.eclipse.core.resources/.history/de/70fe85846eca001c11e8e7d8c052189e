@@ -1,0 +1,193 @@
+package tp3.XML;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+
+/**
+ * Classe que representa um Evento do tipo Espetaculo.
+ * 
+ * @version 1.0 
+ * @author Docentes da Disciplina de Modelação e Programação, LEIM, Instituto Superior de Engenharia de Lisboa
+ *
+ */
+public class Espetaculo extends Evento {
+	
+	private static final int MAX_ARTISTAS = 10;
+	private String[] artistas = new String[MAX_ARTISTAS];
+	private int nArtistas = 0;
+	private int numBilhetes;
+	private String localidade;
+			
+	/**
+	 * Constroi um novo Espetaculo
+	 * @param nome nome do Espetaculo
+	 * @param localidade a localidade do Espetaculo
+	 * @param numBilhetes o número de bilhetes disponíveis
+	 */
+	public Espetaculo(String nome, String localidade, int numBilhetes)
+	{
+		super(nome);
+		
+		//Localidade
+		if(localidade == null)
+		{
+			throw new IllegalArgumentException("A localidade não pode ser null");
+		}		
+		
+		if(localidade.length() == 0)
+		{
+			throw new IllegalArgumentException("O tamanho da localidade não pode ser 0");
+		}
+		
+		int letterCounter = 0;
+		
+		for(int charIndex = 0; charIndex < localidade.length(); charIndex++)
+    	{
+    		if(!Character.isLetter(localidade.charAt(charIndex)) && !Character.isWhitespace(localidade.charAt(charIndex)) && !Character.isDigit(localidade.charAt(charIndex)))
+			{
+    			throw new IllegalArgumentException("A localidade só pode possuir letras, espaços e números");
+			}
+    		
+    		if(Character.isLetter(localidade.charAt(charIndex)))
+    		{
+    			letterCounter++;
+    		}
+    	}
+		
+		if(letterCounter == 0)
+		{
+			throw new IllegalArgumentException("A localidade tem de ter, pelo menos, um caractere");
+		}
+		
+		this.localidade = localidade;
+		
+		//NumBilhetes
+		if(numBilhetes <= 0)
+		{
+			throw new IllegalArgumentException("O número de bilhetes deve ser superior a 0");
+		}
+		
+		this.numBilhetes = numBilhetes;		
+	}
+
+	/**
+	 * Informa se um determinado artista irá actuar no Espetaculo. 
+	 * @return 1, se actuar e 0 caso contrário.
+	 * @Override
+	 */
+	public int numActuacoes(String artista) {
+		
+		for(int artistaIndex = 0; artistaIndex < nArtistas; artistaIndex++)
+		{
+			if(artistas[artistaIndex].equals(artista))
+			{
+				return 1;
+			}
+		}
+		
+		return 0;
+	}
+	
+	/**
+	 * Permite adicionar un novo artista ao Espetaculo se o artista ainda 
+	 * não tem actuações e se o número máximo de artistas ainda não foi ultrapassado.
+	 * @param artista representa o novo artista
+	 * @return verdadeiro, caso o artista tenha sido adicionado e falso caso contrário.
+	 */
+	public boolean addArtista(String artista) {
+		
+		if(nArtistas >= artistas.length || numActuacoes(artista) != 0)
+		{
+			return false;
+		}
+		
+		artistas[nArtistas] = artista;
+		nArtistas++;
+		return true;
+	}
+	
+	/**
+	 * Devolve o número de bilhetes.
+	 * @Override
+	 */
+	public int getNumBilhetes() {
+		return numBilhetes;
+	}
+
+	/**
+	 * Devolve uma cópia dos artistas que actuam no Espetaculo.
+	 * @Override
+	 */
+	public String[] getArtistas() {
+		String[] artistasRegistados = new String[nArtistas];
+		
+		for(int index = 0; index < nArtistas; index++)
+		{
+			artistasRegistados[index] = artistas[index];
+		}
+		
+		return artistasRegistados;
+	}
+
+	/**
+	 * Devolve a localidade do Espetaculo
+	 * @return a localidade.
+	 */
+	public String getLocalidade() { 
+		return localidade;   
+	}
+	
+	/**
+	 * Devolve uma String a representar o Espetaculo.
+	 * Nota: Ver o ficheiro OutputPretendido.txt
+     * @Override
+	 */
+	public String toString() {
+		return super.toString() + " em " + localidade;
+	}
+	
+	
+	/**
+	 * Constroi um novo Evento a partir do objecto Node passado como parâmetro.
+	 * @param nNode
+	 * @return um novo Evento
+	 */
+	public static Evento build(Node nNode) {
+		//TODO
+		
+		NodeList composicaoDoNode = nNode.getChildNodes();
+		
+		String nomeDoEspetaculo = composicaoDoNode.item(1).getTextContent();
+		int numBilhetes = Integer.parseInt(nNode.getAttributes().item(1).getTextContent());
+		
+		String localidade = composicaoDoNode.item(5).getTextContent();
+		
+		NodeList listaDeArtistas = composicaoDoNode.item(3).getChildNodes();
+		
+		List<String> artistas = new ArrayList<String>();
+		
+		for(int artistaIndex = 1; artistaIndex < artistas.getLength(); artistaIndex += 2)
+		{
+			artistas.add(listaDeArtistas.item(artistaIndex).getTextContent());
+		}
+		
+		Espetaculo espetaculo = new Espetaculo(nomeDoEspetaculo, localidade, numBilhetes);
+		espetaculo.print("");
+		return null;
+	}
+	
+	/**
+	 *  Constroi um novo Element a partir do Espectaculo actual.
+	 *  @param doc - o documento que irá gerar o novo Element
+	 */
+	public Element createElement(Document doc) {
+		//TODO
+		return null;
+	}
+}
