@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:wmh="http://www.wmhelp.com/2003/eGenerator" elementFormDefault="qualified">
+  <xs:element name="poema">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="autor"/>
+        <xs:element ref="titulo"/>
+        <xs:element ref="estrofe" minOccurs="4" maxOccurs="4"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="autor" type="xs:string"/>
+  <xs:element name="titulo" type="xs:string"/>
+  <xs:element name="estrofe">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="verso" minOccurs="3" maxOccurs="4"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="verso" type="xs:string"/>
+</xs:schema>

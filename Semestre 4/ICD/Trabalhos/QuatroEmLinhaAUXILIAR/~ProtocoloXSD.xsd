@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:wmh="http://www.wmhelp.com/2003/eGenerator" elementFormDefault="qualified">
+  <xs:element name="Protocolo">
+    <xs:complexType>
+      <xs:choice>
+        <xs:element ref="SignIn"/>
+        <xs:element ref="Login"/>
+        <xs:element ref="PlayColumn"/>
+        <xs:element ref="LoginAnswer"/>
+        <xs:element ref="player"/>
+        <xs:element ref="AddPlayer"/>
+        <xs:element ref="RemovePlayer"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SignIn">
+    <xs:complexType>
+      <xs:attribute name="playerName" type="xs:string" use="required"/>
+      <xs:attribute name="password" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Login">
+    <xs:complexType>
+      <xs:attribute name="playerName" type="xs:string" use="required"/>
+      <xs:attribute name="password" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PlayColumn">
+    <xs:complexType>
+      <xs:attribute name="playerName" type="xs:string" use="required"/>
+      <xs:attribute name="column" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoginAnswer">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="player" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute name="validate" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="player">
+    <xs:complexType>
+      <xs:attribute name="name" type="xs:string" use="required"/>
+      <xs:attribute name="jogosJogados" type="xs:string" use="required"/>
+      <xs:attribute name="jogosGanhos" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddPlayer">
+    <xs:complexType>
+      <xs:attribute name="playerName" type="xs:string" use="required"/>
+      <xs:attribute name="jogosJogados" type="xs:string" use="required"/>
+      <xs:attribute name="jogosGanhos" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RemovePlayer">
+    <xs:complexType>
+      <xs:attribute name="playerName" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+
+

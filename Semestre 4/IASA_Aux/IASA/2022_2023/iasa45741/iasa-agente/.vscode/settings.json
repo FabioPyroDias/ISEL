@@ -1,0 +1,21 @@
+{
+    "terminal.integrated.env.linux": {
+        "PYTHONPATH": "src:src/lib"
+    },
+    "terminal.integrated.env.osx": {
+        "PYTHONPATH": "src:src/lib"
+    },
+
+    "terminal.integrated.env.windows": {
+        "PYTHONPATH": "src;src/lib"
+    },
+
+    "python.autoComplete.extraPaths": [
+        "src",
+        "src/lib"
+    ],
+    "python.analysis.extraPaths": [
+        "src",
+        "src/lib"
+    ]
+}

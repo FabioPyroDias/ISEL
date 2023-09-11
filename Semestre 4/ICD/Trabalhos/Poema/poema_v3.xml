@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<poema>
+	<autor>Luís de Camões</autor>
+	<titulo>Mudam-se os tempos, mudam-se as vontades</titulo>
+	<!-- 1a estrofe -->
+	<estrofe>
+		<verso>Mudam-se os tempos, mudam-se as vontades,</verso>
+		<verso>Muda-se o ser, muda-se a confiança;</verso>
+		<verso>Todo o mundo é composto de mudança,</verso>
+		<verso>Tomando sempre novas qualidades.</verso>
+	</estrofe>
+	<!-- 2a estrofe -->
+	<estrofe>
+		<verso>Continuamente vemos novidades,</verso>
+		<verso>Diferentes em tudo da esperança;</verso>
+		<verso>Do mal ficam as mágoas na lembrança,</verso>
+		<verso>E do bem, se algum houve, as saudades.</verso>
+	</estrofe>
+	<!-- 3a estrofe -->
+	<estrofe>
+		<verso>O tempo cobre o chão de verde manto,</verso>
+		<verso>Que já coberto foi de neve fria,</verso>
+		<verso>E em mim converte em choro o doce canto.</verso>
+	</estrofe>
+	<!-- 4a estrofe -->
+	<estrofe>
+		<verso>E, afora este mudar-se cada dia,</verso>
+		<verso>Outra mudança faz de mor espanto:</verso>
+		<verso>Que não se muda já como soía.</verso>
+	</estrofe>
+</poema>

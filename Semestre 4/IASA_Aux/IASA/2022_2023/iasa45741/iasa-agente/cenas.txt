@@ -1,0 +1,7100 @@
+pygame 2.1.2 (SDL 2.0.16, Python 3.9.5)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 10) (4, 0)
+custo (3, 10) (4, 10) 1 0
+custo (3, 10) (3, 11) 0 1
+custo (3, 10) (2, 10) 1 0
+custo (3, 10) (3, 9) 0 1
+objetivo (2, 11) (4, 0)
+custo (2, 11) (3, 11) 1 0
+custo (2, 11) (2, 12) 0 1
+custo (2, 11) (1, 11) 1 0
+custo (2, 11) (2, 10) 0 1
+objetivo (1, 10) (4, 0)
+custo (1, 10) (2, 10) 1 0
+custo (1, 10) (1, 11) 0 1
+custo (1, 10) (0, 10) 1 0
+custo (1, 10) (1, 9) 0 1
+objetivo (2, 9) (4, 0)
+custo (2, 9) (3, 9) 1 0
+custo (2, 9) (2, 10) 0 1
+custo (2, 9) (1, 9) 1 0
+custo (2, 9) (2, 8) 0 1
+objetivo (4, 10) (4, 0)
+custo (4, 10) (5, 10) 1 0
+custo (4, 10) (4, 11) 0 1
+custo (4, 10) (3, 10) 1 0
+custo (4, 10) (4, 9) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 12) (4, 0)
+custo (2, 12) (3, 12) 1 0
+custo (2, 12) (2, 13) 0 1
+custo (2, 12) (1, 12) 1 0
+custo (2, 12) (2, 11) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (0, 10) (4, 0)
+custo (0, 10) (1, 10) 1 0
+custo (0, 10) (0, 11) 0 1
+custo (0, 10) (-1, 10) 1 0
+custo (0, 10) (0, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (2, 8) (4, 0)
+custo (2, 8) (3, 8) 1 0
+custo (2, 8) (2, 9) 0 1
+custo (2, 8) (1, 8) 1 0
+custo (2, 8) (2, 7) 0 1
+objetivo (5, 10) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 13) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (-1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (2, 7) (4, 0)
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 10) (4, 0)
+custo (3, 10) (4, 10) 1 0
+custo (3, 10) (3, 11) 0 1
+custo (3, 10) (2, 10) 1 0
+custo (3, 10) (3, 9) 0 1
+objetivo (2, 11) (4, 0)
+custo (2, 11) (3, 11) 1 0
+custo (2, 11) (2, 12) 0 1
+custo (2, 11) (1, 11) 1 0
+custo (2, 11) (2, 10) 0 1
+objetivo (1, 10) (4, 0)
+custo (1, 10) (2, 10) 1 0
+custo (1, 10) (1, 11) 0 1
+custo (1, 10) (0, 10) 1 0
+custo (1, 10) (1, 9) 0 1
+objetivo (2, 9) (4, 0)
+custo (2, 9) (3, 9) 1 0
+custo (2, 9) (2, 10) 0 1
+custo (2, 9) (1, 9) 1 0
+custo (2, 9) (2, 8) 0 1
+objetivo (4, 10) (4, 0)
+custo (4, 10) (5, 10) 1 0
+custo (4, 10) (4, 11) 0 1
+custo (4, 10) (3, 10) 1 0
+custo (4, 10) (4, 9) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 12) (4, 0)
+custo (2, 12) (3, 12) 1 0
+custo (2, 12) (2, 13) 0 1
+custo (2, 12) (1, 12) 1 0
+custo (2, 12) (2, 11) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (0, 10) (4, 0)
+custo (0, 10) (1, 10) 1 0
+custo (0, 10) (0, 11) 0 1
+custo (0, 10) (-1, 10) 1 0
+custo (0, 10) (0, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (2, 8) (4, 0)
+custo (2, 8) (3, 8) 1 0
+custo (2, 8) (2, 9) 0 1
+custo (2, 8) (1, 8) 1 0
+custo (2, 8) (2, 7) 0 1
+objetivo (5, 10) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 13) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (-1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (2, 7) (4, 0)
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 10) (4, 0)
+custo (3, 10) (4, 10) 1 0
+custo (3, 10) (3, 11) 0 1
+custo (3, 10) (2, 10) 1 0
+custo (3, 10) (3, 9) 0 1
+objetivo (2, 11) (4, 0)
+custo (2, 11) (3, 11) 1 0
+custo (2, 11) (2, 12) 0 1
+custo (2, 11) (1, 11) 1 0
+custo (2, 11) (2, 10) 0 1
+objetivo (1, 10) (4, 0)
+custo (1, 10) (2, 10) 1 0
+custo (1, 10) (1, 11) 0 1
+custo (1, 10) (0, 10) 1 0
+custo (1, 10) (1, 9) 0 1
+objetivo (2, 9) (4, 0)
+custo (2, 9) (3, 9) 1 0
+custo (2, 9) (2, 10) 0 1
+custo (2, 9) (1, 9) 1 0
+custo (2, 9) (2, 8) 0 1
+objetivo (4, 10) (4, 0)
+custo (4, 10) (5, 10) 1 0
+custo (4, 10) (4, 11) 0 1
+custo (4, 10) (3, 10) 1 0
+custo (4, 10) (4, 9) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 12) (4, 0)
+custo (2, 12) (3, 12) 1 0
+custo (2, 12) (2, 13) 0 1
+custo (2, 12) (1, 12) 1 0
+custo (2, 12) (2, 11) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (0, 10) (4, 0)
+custo (0, 10) (1, 10) 1 0
+custo (0, 10) (0, 11) 0 1
+custo (0, 10) (-1, 10) 1 0
+custo (0, 10) (0, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (2, 8) (4, 0)
+custo (2, 8) (3, 8) 1 0
+custo (2, 8) (2, 9) 0 1
+custo (2, 8) (1, 8) 1 0
+custo (2, 8) (2, 7) 0 1
+objetivo (5, 10) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 13) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (-1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (2, 7) (4, 0)
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 10) (4, 0)
+custo (3, 10) (4, 10) 1 0
+custo (3, 10) (3, 11) 0 1
+custo (3, 10) (2, 10) 1 0
+custo (3, 10) (3, 9) 0 1
+objetivo (2, 11) (4, 0)
+custo (2, 11) (3, 11) 1 0
+custo (2, 11) (2, 12) 0 1
+custo (2, 11) (1, 11) 1 0
+custo (2, 11) (2, 10) 0 1
+objetivo (1, 10) (4, 0)
+custo (1, 10) (2, 10) 1 0
+custo (1, 10) (1, 11) 0 1
+custo (1, 10) (0, 10) 1 0
+custo (1, 10) (1, 9) 0 1
+objetivo (2, 9) (4, 0)
+custo (2, 9) (3, 9) 1 0
+custo (2, 9) (2, 10) 0 1
+custo (2, 9) (1, 9) 1 0
+custo (2, 9) (2, 8) 0 1
+objetivo (4, 10) (4, 0)
+custo (4, 10) (5, 10) 1 0
+custo (4, 10) (4, 11) 0 1
+custo (4, 10) (3, 10) 1 0
+custo (4, 10) (4, 9) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 12) (4, 0)
+custo (2, 12) (3, 12) 1 0
+custo (2, 12) (2, 13) 0 1
+custo (2, 12) (1, 12) 1 0
+custo (2, 12) (2, 11) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (0, 10) (4, 0)
+custo (0, 10) (1, 10) 1 0
+custo (0, 10) (0, 11) 0 1
+custo (0, 10) (-1, 10) 1 0
+custo (0, 10) (0, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (2, 8) (4, 0)
+custo (2, 8) (3, 8) 1 0
+custo (2, 8) (2, 9) 0 1
+custo (2, 8) (1, 8) 1 0
+custo (2, 8) (2, 7) 0 1
+objetivo (5, 10) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 13) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (-1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (2, 7) (4, 0)
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 10) (4, 0)
+custo (3, 10) (4, 10) 1 0
+custo (3, 10) (3, 11) 0 1
+custo (3, 10) (2, 10) 1 0
+custo (3, 10) (3, 9) 0 1
+objetivo (2, 11) (4, 0)
+custo (2, 11) (3, 11) 1 0
+custo (2, 11) (2, 12) 0 1
+custo (2, 11) (1, 11) 1 0
+custo (2, 11) (2, 10) 0 1
+objetivo (1, 10) (4, 0)
+custo (1, 10) (2, 10) 1 0
+custo (1, 10) (1, 11) 0 1
+custo (1, 10) (0, 10) 1 0
+custo (1, 10) (1, 9) 0 1
+objetivo (2, 9) (4, 0)
+custo (2, 9) (3, 9) 1 0
+custo (2, 9) (2, 10) 0 1
+custo (2, 9) (1, 9) 1 0
+custo (2, 9) (2, 8) 0 1
+objetivo (4, 10) (4, 0)
+custo (4, 10) (5, 10) 1 0
+custo (4, 10) (4, 11) 0 1
+custo (4, 10) (3, 10) 1 0
+custo (4, 10) (4, 9) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 12) (4, 0)
+custo (2, 12) (3, 12) 1 0
+custo (2, 12) (2, 13) 0 1
+custo (2, 12) (1, 12) 1 0
+custo (2, 12) (2, 11) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (0, 10) (4, 0)
+custo (0, 10) (1, 10) 1 0
+custo (0, 10) (0, 11) 0 1
+custo (0, 10) (-1, 10) 1 0
+custo (0, 10) (0, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (2, 8) (4, 0)
+custo (2, 8) (3, 8) 1 0
+custo (2, 8) (2, 9) 0 1
+custo (2, 8) (1, 8) 1 0
+custo (2, 8) (2, 7) 0 1
+objetivo (5, 10) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 13) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (-1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (2, 7) (4, 0)
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 10) (4, 0)
+custo (3, 10) (4, 10) 1 0
+custo (3, 10) (3, 11) 0 1
+custo (3, 10) (2, 10) 1 0
+custo (3, 10) (3, 9) 0 1
+objetivo (2, 11) (4, 0)
+custo (2, 11) (3, 11) 1 0
+custo (2, 11) (2, 12) 0 1
+custo (2, 11) (1, 11) 1 0
+custo (2, 11) (2, 10) 0 1
+objetivo (1, 10) (4, 0)
+custo (1, 10) (2, 10) 1 0
+custo (1, 10) (1, 11) 0 1
+custo (1, 10) (0, 10) 1 0
+custo (1, 10) (1, 9) 0 1
+objetivo (2, 9) (4, 0)
+custo (2, 9) (3, 9) 1 0
+custo (2, 9) (2, 10) 0 1
+custo (2, 9) (1, 9) 1 0
+custo (2, 9) (2, 8) 0 1
+objetivo (4, 10) (4, 0)
+custo (4, 10) (5, 10) 1 0
+custo (4, 10) (4, 11) 0 1
+custo (4, 10) (3, 10) 1 0
+custo (4, 10) (4, 9) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 12) (4, 0)
+custo (2, 12) (3, 12) 1 0
+custo (2, 12) (2, 13) 0 1
+custo (2, 12) (1, 12) 1 0
+custo (2, 12) (2, 11) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (0, 10) (4, 0)
+custo (0, 10) (1, 10) 1 0
+custo (0, 10) (0, 11) 0 1
+custo (0, 10) (-1, 10) 1 0
+custo (0, 10) (0, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (2, 8) (4, 0)
+custo (2, 8) (3, 8) 1 0
+custo (2, 8) (2, 9) 0 1
+custo (2, 8) (1, 8) 1 0
+custo (2, 8) (2, 7) 0 1
+objetivo (5, 10) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 13) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (-1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (2, 7) (4, 0)
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 10) (4, 0)
+custo (3, 10) (4, 10) 1 0
+custo (3, 10) (3, 11) 0 1
+custo (3, 10) (2, 10) 1 0
+custo (3, 10) (3, 9) 0 1
+objetivo (2, 11) (4, 0)
+custo (2, 11) (3, 11) 1 0
+custo (2, 11) (2, 12) 0 1
+custo (2, 11) (1, 11) 1 0
+custo (2, 11) (2, 10) 0 1
+objetivo (1, 10) (4, 0)
+custo (1, 10) (2, 10) 1 0
+custo (1, 10) (1, 11) 0 1
+custo (1, 10) (0, 10) 1 0
+custo (1, 10) (1, 9) 0 1
+objetivo (2, 9) (4, 0)
+custo (2, 9) (3, 9) 1 0
+custo (2, 9) (2, 10) 0 1
+custo (2, 9) (1, 9) 1 0
+custo (2, 9) (2, 8) 0 1
+objetivo (4, 10) (4, 0)
+custo (4, 10) (5, 10) 1 0
+custo (4, 10) (4, 11) 0 1
+custo (4, 10) (3, 10) 1 0
+custo (4, 10) (4, 9) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 12) (4, 0)
+custo (2, 12) (3, 12) 1 0
+custo (2, 12) (2, 13) 0 1
+custo (2, 12) (1, 12) 1 0
+custo (2, 12) (2, 11) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (0, 10) (4, 0)
+custo (0, 10) (1, 10) 1 0
+custo (0, 10) (0, 11) 0 1
+custo (0, 10) (-1, 10) 1 0
+custo (0, 10) (0, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (2, 8) (4, 0)
+custo (2, 8) (3, 8) 1 0
+custo (2, 8) (2, 9) 0 1
+custo (2, 8) (1, 8) 1 0
+custo (2, 8) (2, 7) 0 1
+objetivo (5, 10) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 13) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (-1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (2, 7) (4, 0)
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 10) (4, 0)
+custo (3, 10) (4, 10) 1 0
+custo (3, 10) (3, 11) 0 1
+custo (3, 10) (2, 10) 1 0
+custo (3, 10) (3, 9) 0 1
+objetivo (2, 11) (4, 0)
+custo (2, 11) (3, 11) 1 0
+custo (2, 11) (2, 12) 0 1
+custo (2, 11) (1, 11) 1 0
+custo (2, 11) (2, 10) 0 1
+objetivo (1, 10) (4, 0)
+custo (1, 10) (2, 10) 1 0
+custo (1, 10) (1, 11) 0 1
+custo (1, 10) (0, 10) 1 0
+custo (1, 10) (1, 9) 0 1
+objetivo (2, 9) (4, 0)
+custo (2, 9) (3, 9) 1 0
+custo (2, 9) (2, 10) 0 1
+custo (2, 9) (1, 9) 1 0
+custo (2, 9) (2, 8) 0 1
+objetivo (4, 10) (4, 0)
+custo (4, 10) (5, 10) 1 0
+custo (4, 10) (4, 11) 0 1
+custo (4, 10) (3, 10) 1 0
+custo (4, 10) (4, 9) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 12) (4, 0)
+custo (2, 12) (3, 12) 1 0
+custo (2, 12) (2, 13) 0 1
+custo (2, 12) (1, 12) 1 0
+custo (2, 12) (2, 11) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (0, 10) (4, 0)
+custo (0, 10) (1, 10) 1 0
+custo (0, 10) (0, 11) 0 1
+custo (0, 10) (-1, 10) 1 0
+custo (0, 10) (0, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (2, 8) (4, 0)
+custo (2, 8) (3, 8) 1 0
+custo (2, 8) (2, 9) 0 1
+custo (2, 8) (1, 8) 1 0
+custo (2, 8) (2, 7) 0 1
+objetivo (5, 10) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 13) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (-1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (2, 7) (4, 0)
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 10) (4, 0)
+custo (3, 10) (4, 10) 1 0
+custo (3, 10) (3, 11) 0 1
+custo (3, 10) (2, 10) 1 0
+custo (3, 10) (3, 9) 0 1
+objetivo (2, 11) (4, 0)
+custo (2, 11) (3, 11) 1 0
+custo (2, 11) (2, 12) 0 1
+custo (2, 11) (1, 11) 1 0
+custo (2, 11) (2, 10) 0 1
+objetivo (1, 10) (4, 0)
+custo (1, 10) (2, 10) 1 0
+custo (1, 10) (1, 11) 0 1
+custo (1, 10) (0, 10) 1 0
+custo (1, 10) (1, 9) 0 1
+objetivo (2, 9) (4, 0)
+custo (2, 9) (3, 9) 1 0
+custo (2, 9) (2, 10) 0 1
+custo (2, 9) (1, 9) 1 0
+custo (2, 9) (2, 8) 0 1
+objetivo (4, 10) (4, 0)
+custo (4, 10) (5, 10) 1 0
+custo (4, 10) (4, 11) 0 1
+custo (4, 10) (3, 10) 1 0
+custo (4, 10) (4, 9) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 12) (4, 0)
+custo (2, 12) (3, 12) 1 0
+custo (2, 12) (2, 13) 0 1
+custo (2, 12) (1, 12) 1 0
+custo (2, 12) (2, 11) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (0, 10) (4, 0)
+custo (0, 10) (1, 10) 1 0
+custo (0, 10) (0, 11) 0 1
+custo (0, 10) (-1, 10) 1 0
+custo (0, 10) (0, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (2, 8) (4, 0)
+custo (2, 8) (3, 8) 1 0
+custo (2, 8) (2, 9) 0 1
+custo (2, 8) (1, 8) 1 0
+custo (2, 8) (2, 7) 0 1
+objetivo (5, 10) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 13) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (-1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (2, 7) (4, 0)
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 10) (4, 0)
+custo (3, 10) (4, 10) 1 0
+custo (3, 10) (3, 11) 0 1
+custo (3, 10) (2, 10) 1 0
+custo (3, 10) (3, 9) 0 1
+objetivo (2, 11) (4, 0)
+custo (2, 11) (3, 11) 1 0
+custo (2, 11) (2, 12) 0 1
+custo (2, 11) (1, 11) 1 0
+custo (2, 11) (2, 10) 0 1
+objetivo (1, 10) (4, 0)
+custo (1, 10) (2, 10) 1 0
+custo (1, 10) (1, 11) 0 1
+custo (1, 10) (0, 10) 1 0
+custo (1, 10) (1, 9) 0 1
+objetivo (2, 9) (4, 0)
+custo (2, 9) (3, 9) 1 0
+custo (2, 9) (2, 10) 0 1
+custo (2, 9) (1, 9) 1 0
+custo (2, 9) (2, 8) 0 1
+objetivo (4, 10) (4, 0)
+custo (4, 10) (5, 10) 1 0
+custo (4, 10) (4, 11) 0 1
+custo (4, 10) (3, 10) 1 0
+custo (4, 10) (4, 9) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 12) (4, 0)
+custo (2, 12) (3, 12) 1 0
+custo (2, 12) (2, 13) 0 1
+custo (2, 12) (1, 12) 1 0
+custo (2, 12) (2, 11) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (0, 10) (4, 0)
+custo (0, 10) (1, 10) 1 0
+custo (0, 10) (0, 11) 0 1
+custo (0, 10) (-1, 10) 1 0
+custo (0, 10) (0, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (2, 8) (4, 0)
+custo (2, 8) (3, 8) 1 0
+custo (2, 8) (2, 9) 0 1
+custo (2, 8) (1, 8) 1 0
+custo (2, 8) (2, 7) 0 1
+objetivo (5, 10) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 13) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (-1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (2, 7) (4, 0)
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 10) (4, 0)
+custo (3, 10) (4, 10) 1 0
+custo (3, 10) (3, 11) 0 1
+custo (3, 10) (2, 10) 1 0
+custo (3, 10) (3, 9) 0 1
+objetivo (2, 11) (4, 0)
+custo (2, 11) (3, 11) 1 0
+custo (2, 11) (2, 12) 0 1
+custo (2, 11) (1, 11) 1 0
+custo (2, 11) (2, 10) 0 1
+objetivo (1, 10) (4, 0)
+custo (1, 10) (2, 10) 1 0
+custo (1, 10) (1, 11) 0 1
+custo (1, 10) (0, 10) 1 0
+custo (1, 10) (1, 9) 0 1
+objetivo (2, 9) (4, 0)
+custo (2, 9) (3, 9) 1 0
+custo (2, 9) (2, 10) 0 1
+custo (2, 9) (1, 9) 1 0
+custo (2, 9) (2, 8) 0 1
+objetivo (4, 10) (4, 0)
+custo (4, 10) (5, 10) 1 0
+custo (4, 10) (4, 11) 0 1
+custo (4, 10) (3, 10) 1 0
+custo (4, 10) (4, 9) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 12) (4, 0)
+custo (2, 12) (3, 12) 1 0
+custo (2, 12) (2, 13) 0 1
+custo (2, 12) (1, 12) 1 0
+custo (2, 12) (2, 11) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (0, 10) (4, 0)
+custo (0, 10) (1, 10) 1 0
+custo (0, 10) (0, 11) 0 1
+custo (0, 10) (-1, 10) 1 0
+custo (0, 10) (0, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (2, 8) (4, 0)
+custo (2, 8) (3, 8) 1 0
+custo (2, 8) (2, 9) 0 1
+custo (2, 8) (1, 8) 1 0
+custo (2, 8) (2, 7) 0 1
+objetivo (5, 10) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 13) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (-1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (2, 7) (4, 0)
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 10) (4, 0)
+custo (3, 10) (4, 10) 1 0
+custo (3, 10) (3, 11) 0 1
+custo (3, 10) (2, 10) 1 0
+custo (3, 10) (3, 9) 0 1
+objetivo (2, 11) (4, 0)
+custo (2, 11) (3, 11) 1 0
+custo (2, 11) (2, 12) 0 1
+custo (2, 11) (1, 11) 1 0
+custo (2, 11) (2, 10) 0 1
+objetivo (1, 10) (4, 0)
+custo (1, 10) (2, 10) 1 0
+custo (1, 10) (1, 11) 0 1
+custo (1, 10) (0, 10) 1 0
+custo (1, 10) (1, 9) 0 1
+objetivo (2, 9) (4, 0)
+custo (2, 9) (3, 9) 1 0
+custo (2, 9) (2, 10) 0 1
+custo (2, 9) (1, 9) 1 0
+custo (2, 9) (2, 8) 0 1
+objetivo (4, 10) (4, 0)
+custo (4, 10) (5, 10) 1 0
+custo (4, 10) (4, 11) 0 1
+custo (4, 10) (3, 10) 1 0
+custo (4, 10) (4, 9) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 12) (4, 0)
+custo (2, 12) (3, 12) 1 0
+custo (2, 12) (2, 13) 0 1
+custo (2, 12) (1, 12) 1 0
+custo (2, 12) (2, 11) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (0, 10) (4, 0)
+custo (0, 10) (1, 10) 1 0
+custo (0, 10) (0, 11) 0 1
+custo (0, 10) (-1, 10) 1 0
+custo (0, 10) (0, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (2, 8) (4, 0)
+custo (2, 8) (3, 8) 1 0
+custo (2, 8) (2, 9) 0 1
+custo (2, 8) (1, 8) 1 0
+custo (2, 8) (2, 7) 0 1
+objetivo (5, 10) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 13) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (-1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (2, 7) (4, 0)
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 10) (4, 0)
+custo (3, 10) (4, 10) 1 0
+custo (3, 10) (3, 11) 0 1
+custo (3, 10) (2, 10) 1 0
+custo (3, 10) (3, 9) 0 1
+objetivo (2, 11) (4, 0)
+custo (2, 11) (3, 11) 1 0
+custo (2, 11) (2, 12) 0 1
+custo (2, 11) (1, 11) 1 0
+custo (2, 11) (2, 10) 0 1
+objetivo (1, 10) (4, 0)
+custo (1, 10) (2, 10) 1 0
+custo (1, 10) (1, 11) 0 1
+custo (1, 10) (0, 10) 1 0
+custo (1, 10) (1, 9) 0 1
+objetivo (2, 9) (4, 0)
+custo (2, 9) (3, 9) 1 0
+custo (2, 9) (2, 10) 0 1
+custo (2, 9) (1, 9) 1 0
+custo (2, 9) (2, 8) 0 1
+objetivo (4, 10) (4, 0)
+custo (4, 10) (5, 10) 1 0
+custo (4, 10) (4, 11) 0 1
+custo (4, 10) (3, 10) 1 0
+custo (4, 10) (4, 9) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 12) (4, 0)
+custo (2, 12) (3, 12) 1 0
+custo (2, 12) (2, 13) 0 1
+custo (2, 12) (1, 12) 1 0
+custo (2, 12) (2, 11) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (0, 10) (4, 0)
+custo (0, 10) (1, 10) 1 0
+custo (0, 10) (0, 11) 0 1
+custo (0, 10) (-1, 10) 1 0
+custo (0, 10) (0, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (2, 8) (4, 0)
+custo (2, 8) (3, 8) 1 0
+custo (2, 8) (2, 9) 0 1
+custo (2, 8) (1, 8) 1 0
+custo (2, 8) (2, 7) 0 1
+objetivo (5, 10) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 13) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (-1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (2, 7) (4, 0)
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 10) (4, 0)
+custo (3, 10) (4, 10) 1 0
+custo (3, 10) (3, 11) 0 1
+custo (3, 10) (2, 10) 1 0
+custo (3, 10) (3, 9) 0 1
+objetivo (2, 11) (4, 0)
+custo (2, 11) (3, 11) 1 0
+custo (2, 11) (2, 12) 0 1
+custo (2, 11) (1, 11) 1 0
+custo (2, 11) (2, 10) 0 1
+objetivo (1, 10) (4, 0)
+custo (1, 10) (2, 10) 1 0
+custo (1, 10) (1, 11) 0 1
+custo (1, 10) (0, 10) 1 0
+custo (1, 10) (1, 9) 0 1
+objetivo (2, 9) (4, 0)
+custo (2, 9) (3, 9) 1 0
+custo (2, 9) (2, 10) 0 1
+custo (2, 9) (1, 9) 1 0
+custo (2, 9) (2, 8) 0 1
+objetivo (4, 10) (4, 0)
+custo (4, 10) (5, 10) 1 0
+custo (4, 10) (4, 11) 0 1
+custo (4, 10) (3, 10) 1 0
+custo (4, 10) (4, 9) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 12) (4, 0)
+custo (2, 12) (3, 12) 1 0
+custo (2, 12) (2, 13) 0 1
+custo (2, 12) (1, 12) 1 0
+custo (2, 12) (2, 11) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (0, 10) (4, 0)
+custo (0, 10) (1, 10) 1 0
+custo (0, 10) (0, 11) 0 1
+custo (0, 10) (-1, 10) 1 0
+custo (0, 10) (0, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (2, 8) (4, 0)
+custo (2, 8) (3, 8) 1 0
+custo (2, 8) (2, 9) 0 1
+custo (2, 8) (1, 8) 1 0
+custo (2, 8) (2, 7) 0 1
+objetivo (5, 10) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 13) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (-1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (2, 7) (4, 0)
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 10) (4, 0)
+custo (3, 10) (4, 10) 1 0
+custo (3, 10) (3, 11) 0 1
+custo (3, 10) (2, 10) 1 0
+custo (3, 10) (3, 9) 0 1
+objetivo (2, 11) (4, 0)
+custo (2, 11) (3, 11) 1 0
+custo (2, 11) (2, 12) 0 1
+custo (2, 11) (1, 11) 1 0
+custo (2, 11) (2, 10) 0 1
+objetivo (1, 10) (4, 0)
+custo (1, 10) (2, 10) 1 0
+custo (1, 10) (1, 11) 0 1
+custo (1, 10) (0, 10) 1 0
+custo (1, 10) (1, 9) 0 1
+objetivo (2, 9) (4, 0)
+custo (2, 9) (3, 9) 1 0
+custo (2, 9) (2, 10) 0 1
+custo (2, 9) (1, 9) 1 0
+custo (2, 9) (2, 8) 0 1
+objetivo (4, 10) (4, 0)
+custo (4, 10) (5, 10) 1 0
+custo (4, 10) (4, 11) 0 1
+custo (4, 10) (3, 10) 1 0
+custo (4, 10) (4, 9) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 12) (4, 0)
+custo (2, 12) (3, 12) 1 0
+custo (2, 12) (2, 13) 0 1
+custo (2, 12) (1, 12) 1 0
+custo (2, 12) (2, 11) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (0, 10) (4, 0)
+custo (0, 10) (1, 10) 1 0
+custo (0, 10) (0, 11) 0 1
+custo (0, 10) (-1, 10) 1 0
+custo (0, 10) (0, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (2, 8) (4, 0)
+custo (2, 8) (3, 8) 1 0
+custo (2, 8) (2, 9) 0 1
+custo (2, 8) (1, 8) 1 0
+custo (2, 8) (2, 7) 0 1
+objetivo (5, 10) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 13) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (-1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (2, 7) (4, 0)
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 10) (4, 0)
+custo (3, 10) (4, 10) 1 0
+custo (3, 10) (3, 11) 0 1
+custo (3, 10) (2, 10) 1 0
+custo (3, 10) (3, 9) 0 1
+objetivo (2, 11) (4, 0)
+custo (2, 11) (3, 11) 1 0
+custo (2, 11) (2, 12) 0 1
+custo (2, 11) (1, 11) 1 0
+custo (2, 11) (2, 10) 0 1
+objetivo (1, 10) (4, 0)
+custo (1, 10) (2, 10) 1 0
+custo (1, 10) (1, 11) 0 1
+custo (1, 10) (0, 10) 1 0
+custo (1, 10) (1, 9) 0 1
+objetivo (2, 9) (4, 0)
+custo (2, 9) (3, 9) 1 0
+custo (2, 9) (2, 10) 0 1
+custo (2, 9) (1, 9) 1 0
+custo (2, 9) (2, 8) 0 1
+objetivo (4, 10) (4, 0)
+custo (4, 10) (5, 10) 1 0
+custo (4, 10) (4, 11) 0 1
+custo (4, 10) (3, 10) 1 0
+custo (4, 10) (4, 9) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 12) (4, 0)
+custo (2, 12) (3, 12) 1 0
+custo (2, 12) (2, 13) 0 1
+custo (2, 12) (1, 12) 1 0
+custo (2, 12) (2, 11) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (0, 10) (4, 0)
+custo (0, 10) (1, 10) 1 0
+custo (0, 10) (0, 11) 0 1
+custo (0, 10) (-1, 10) 1 0
+custo (0, 10) (0, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (2, 8) (4, 0)
+custo (2, 8) (3, 8) 1 0
+custo (2, 8) (2, 9) 0 1
+custo (2, 8) (1, 8) 1 0
+custo (2, 8) (2, 7) 0 1
+objetivo (5, 10) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 13) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (-1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (2, 7) (4, 0)
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 10) (4, 0)
+custo (3, 10) (4, 10) 1 0
+custo (3, 10) (3, 11) 0 1
+custo (3, 10) (2, 10) 1 0
+custo (3, 10) (3, 9) 0 1
+objetivo (2, 11) (4, 0)
+custo (2, 11) (3, 11) 1 0
+custo (2, 11) (2, 12) 0 1
+custo (2, 11) (1, 11) 1 0
+custo (2, 11) (2, 10) 0 1
+objetivo (1, 10) (4, 0)
+custo (1, 10) (2, 10) 1 0
+custo (1, 10) (1, 11) 0 1
+custo (1, 10) (0, 10) 1 0
+custo (1, 10) (1, 9) 0 1
+objetivo (2, 9) (4, 0)
+custo (2, 9) (3, 9) 1 0
+custo (2, 9) (2, 10) 0 1
+custo (2, 9) (1, 9) 1 0
+custo (2, 9) (2, 8) 0 1
+objetivo (4, 10) (4, 0)
+custo (4, 10) (5, 10) 1 0
+custo (4, 10) (4, 11) 0 1
+custo (4, 10) (3, 10) 1 0
+custo (4, 10) (4, 9) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 12) (4, 0)
+custo (2, 12) (3, 12) 1 0
+custo (2, 12) (2, 13) 0 1
+custo (2, 12) (1, 12) 1 0
+custo (2, 12) (2, 11) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (0, 10) (4, 0)
+custo (0, 10) (1, 10) 1 0
+custo (0, 10) (0, 11) 0 1
+custo (0, 10) (-1, 10) 1 0
+custo (0, 10) (0, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (2, 8) (4, 0)
+custo (2, 8) (3, 8) 1 0
+custo (2, 8) (2, 9) 0 1
+custo (2, 8) (1, 8) 1 0
+custo (2, 8) (2, 7) 0 1
+objetivo (5, 10) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 13) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (-1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (2, 7) (4, 0)
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 10) (4, 0)
+custo (3, 10) (4, 10) 1 0
+custo (3, 10) (3, 11) 0 1
+custo (3, 10) (2, 10) 1 0
+custo (3, 10) (3, 9) 0 1
+objetivo (2, 11) (4, 0)
+custo (2, 11) (3, 11) 1 0
+custo (2, 11) (2, 12) 0 1
+custo (2, 11) (1, 11) 1 0
+custo (2, 11) (2, 10) 0 1
+objetivo (1, 10) (4, 0)
+custo (1, 10) (2, 10) 1 0
+custo (1, 10) (1, 11) 0 1
+custo (1, 10) (0, 10) 1 0
+custo (1, 10) (1, 9) 0 1
+objetivo (2, 9) (4, 0)
+custo (2, 9) (3, 9) 1 0
+custo (2, 9) (2, 10) 0 1
+custo (2, 9) (1, 9) 1 0
+custo (2, 9) (2, 8) 0 1
+objetivo (4, 10) (4, 0)
+custo (4, 10) (5, 10) 1 0
+custo (4, 10) (4, 11) 0 1
+custo (4, 10) (3, 10) 1 0
+custo (4, 10) (4, 9) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 12) (4, 0)
+custo (2, 12) (3, 12) 1 0
+custo (2, 12) (2, 13) 0 1
+custo (2, 12) (1, 12) 1 0
+custo (2, 12) (2, 11) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (0, 10) (4, 0)
+custo (0, 10) (1, 10) 1 0
+custo (0, 10) (0, 11) 0 1
+custo (0, 10) (-1, 10) 1 0
+custo (0, 10) (0, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (2, 8) (4, 0)
+custo (2, 8) (3, 8) 1 0
+custo (2, 8) (2, 9) 0 1
+custo (2, 8) (1, 8) 1 0
+custo (2, 8) (2, 7) 0 1
+objetivo (5, 10) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 13) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (-1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (2, 7) (4, 0)
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 10) (4, 0)
+custo (3, 10) (4, 10) 1 0
+custo (3, 10) (3, 11) 0 1
+custo (3, 10) (2, 10) 1 0
+custo (3, 10) (3, 9) 0 1
+objetivo (2, 11) (4, 0)
+custo (2, 11) (3, 11) 1 0
+custo (2, 11) (2, 12) 0 1
+custo (2, 11) (1, 11) 1 0
+custo (2, 11) (2, 10) 0 1
+objetivo (1, 10) (4, 0)
+custo (1, 10) (2, 10) 1 0
+custo (1, 10) (1, 11) 0 1
+custo (1, 10) (0, 10) 1 0
+custo (1, 10) (1, 9) 0 1
+objetivo (2, 9) (4, 0)
+custo (2, 9) (3, 9) 1 0
+custo (2, 9) (2, 10) 0 1
+custo (2, 9) (1, 9) 1 0
+custo (2, 9) (2, 8) 0 1
+objetivo (4, 10) (4, 0)
+custo (4, 10) (5, 10) 1 0
+custo (4, 10) (4, 11) 0 1
+custo (4, 10) (3, 10) 1 0
+custo (4, 10) (4, 9) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 12) (4, 0)
+custo (2, 12) (3, 12) 1 0
+custo (2, 12) (2, 13) 0 1
+custo (2, 12) (1, 12) 1 0
+custo (2, 12) (2, 11) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (0, 10) (4, 0)
+custo (0, 10) (1, 10) 1 0
+custo (0, 10) (0, 11) 0 1
+custo (0, 10) (-1, 10) 1 0
+custo (0, 10) (0, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (2, 8) (4, 0)
+custo (2, 8) (3, 8) 1 0
+custo (2, 8) (2, 9) 0 1
+custo (2, 8) (1, 8) 1 0
+custo (2, 8) (2, 7) 0 1
+objetivo (5, 10) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 13) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (-1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (2, 7) (4, 0)
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 10) (4, 0)
+custo (3, 10) (4, 10) 1 0
+custo (3, 10) (3, 11) 0 1
+custo (3, 10) (2, 10) 1 0
+custo (3, 10) (3, 9) 0 1
+objetivo (2, 11) (4, 0)
+custo (2, 11) (3, 11) 1 0
+custo (2, 11) (2, 12) 0 1
+custo (2, 11) (1, 11) 1 0
+custo (2, 11) (2, 10) 0 1
+objetivo (1, 10) (4, 0)
+custo (1, 10) (2, 10) 1 0
+custo (1, 10) (1, 11) 0 1
+custo (1, 10) (0, 10) 1 0
+custo (1, 10) (1, 9) 0 1
+objetivo (2, 9) (4, 0)
+custo (2, 9) (3, 9) 1 0
+custo (2, 9) (2, 10) 0 1
+custo (2, 9) (1, 9) 1 0
+custo (2, 9) (2, 8) 0 1
+objetivo (4, 10) (4, 0)
+custo (4, 10) (5, 10) 1 0
+custo (4, 10) (4, 11) 0 1
+custo (4, 10) (3, 10) 1 0
+custo (4, 10) (4, 9) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 12) (4, 0)
+custo (2, 12) (3, 12) 1 0
+custo (2, 12) (2, 13) 0 1
+custo (2, 12) (1, 12) 1 0
+custo (2, 12) (2, 11) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (0, 10) (4, 0)
+custo (0, 10) (1, 10) 1 0
+custo (0, 10) (0, 11) 0 1
+custo (0, 10) (-1, 10) 1 0
+custo (0, 10) (0, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (2, 8) (4, 0)
+custo (2, 8) (3, 8) 1 0
+custo (2, 8) (2, 9) 0 1
+custo (2, 8) (1, 8) 1 0
+custo (2, 8) (2, 7) 0 1
+objetivo (5, 10) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 13) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (-1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (2, 7) (4, 0)
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 10) (4, 0)
+custo (3, 10) (4, 10) 1 0
+custo (3, 10) (3, 11) 0 1
+custo (3, 10) (2, 10) 1 0
+custo (3, 10) (3, 9) 0 1
+objetivo (2, 11) (4, 0)
+custo (2, 11) (3, 11) 1 0
+custo (2, 11) (2, 12) 0 1
+custo (2, 11) (1, 11) 1 0
+custo (2, 11) (2, 10) 0 1
+objetivo (1, 10) (4, 0)
+custo (1, 10) (2, 10) 1 0
+custo (1, 10) (1, 11) 0 1
+custo (1, 10) (0, 10) 1 0
+custo (1, 10) (1, 9) 0 1
+objetivo (2, 9) (4, 0)
+custo (2, 9) (3, 9) 1 0
+custo (2, 9) (2, 10) 0 1
+custo (2, 9) (1, 9) 1 0
+custo (2, 9) (2, 8) 0 1
+objetivo (4, 10) (4, 0)
+custo (4, 10) (5, 10) 1 0
+custo (4, 10) (4, 11) 0 1
+custo (4, 10) (3, 10) 1 0
+custo (4, 10) (4, 9) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 12) (4, 0)
+custo (2, 12) (3, 12) 1 0
+custo (2, 12) (2, 13) 0 1
+custo (2, 12) (1, 12) 1 0
+custo (2, 12) (2, 11) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (0, 10) (4, 0)
+custo (0, 10) (1, 10) 1 0
+custo (0, 10) (0, 11) 0 1
+custo (0, 10) (-1, 10) 1 0
+custo (0, 10) (0, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (2, 8) (4, 0)
+custo (2, 8) (3, 8) 1 0
+custo (2, 8) (2, 9) 0 1
+custo (2, 8) (1, 8) 1 0
+custo (2, 8) (2, 7) 0 1
+objetivo (5, 10) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 13) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (-1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (2, 7) (4, 0)
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 10) (4, 0)
+custo (3, 10) (4, 10) 1 0
+custo (3, 10) (3, 11) 0 1
+custo (3, 10) (2, 10) 1 0
+custo (3, 10) (3, 9) 0 1
+objetivo (2, 11) (4, 0)
+custo (2, 11) (3, 11) 1 0
+custo (2, 11) (2, 12) 0 1
+custo (2, 11) (1, 11) 1 0
+custo (2, 11) (2, 10) 0 1
+objetivo (1, 10) (4, 0)
+custo (1, 10) (2, 10) 1 0
+custo (1, 10) (1, 11) 0 1
+custo (1, 10) (0, 10) 1 0
+custo (1, 10) (1, 9) 0 1
+objetivo (2, 9) (4, 0)
+custo (2, 9) (3, 9) 1 0
+custo (2, 9) (2, 10) 0 1
+custo (2, 9) (1, 9) 1 0
+custo (2, 9) (2, 8) 0 1
+objetivo (4, 10) (4, 0)
+custo (4, 10) (5, 10) 1 0
+custo (4, 10) (4, 11) 0 1
+custo (4, 10) (3, 10) 1 0
+custo (4, 10) (4, 9) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 12) (4, 0)
+custo (2, 12) (3, 12) 1 0
+custo (2, 12) (2, 13) 0 1
+custo (2, 12) (1, 12) 1 0
+custo (2, 12) (2, 11) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (0, 10) (4, 0)
+custo (0, 10) (1, 10) 1 0
+custo (0, 10) (0, 11) 0 1
+custo (0, 10) (-1, 10) 1 0
+custo (0, 10) (0, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (2, 8) (4, 0)
+custo (2, 8) (3, 8) 1 0
+custo (2, 8) (2, 9) 0 1
+custo (2, 8) (1, 8) 1 0
+custo (2, 8) (2, 7) 0 1
+objetivo (5, 10) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 13) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (-1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (2, 7) (4, 0)
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 10) (4, 0)
+custo (3, 10) (4, 10) 1 0
+custo (3, 10) (3, 11) 0 1
+custo (3, 10) (2, 10) 1 0
+custo (3, 10) (3, 9) 0 1
+objetivo (2, 11) (4, 0)
+custo (2, 11) (3, 11) 1 0
+custo (2, 11) (2, 12) 0 1
+custo (2, 11) (1, 11) 1 0
+custo (2, 11) (2, 10) 0 1
+objetivo (1, 10) (4, 0)
+custo (1, 10) (2, 10) 1 0
+custo (1, 10) (1, 11) 0 1
+custo (1, 10) (0, 10) 1 0
+custo (1, 10) (1, 9) 0 1
+objetivo (2, 9) (4, 0)
+custo (2, 9) (3, 9) 1 0
+custo (2, 9) (2, 10) 0 1
+custo (2, 9) (1, 9) 1 0
+custo (2, 9) (2, 8) 0 1
+objetivo (4, 10) (4, 0)
+custo (4, 10) (5, 10) 1 0
+custo (4, 10) (4, 11) 0 1
+custo (4, 10) (3, 10) 1 0
+custo (4, 10) (4, 9) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 12) (4, 0)
+custo (2, 12) (3, 12) 1 0
+custo (2, 12) (2, 13) 0 1
+custo (2, 12) (1, 12) 1 0
+custo (2, 12) (2, 11) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (0, 10) (4, 0)
+custo (0, 10) (1, 10) 1 0
+custo (0, 10) (0, 11) 0 1
+custo (0, 10) (-1, 10) 1 0
+custo (0, 10) (0, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (2, 8) (4, 0)
+custo (2, 8) (3, 8) 1 0
+custo (2, 8) (2, 9) 0 1
+custo (2, 8) (1, 8) 1 0
+custo (2, 8) (2, 7) 0 1
+objetivo (5, 10) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 13) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (-1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (2, 7) (4, 0)
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 10) (4, 0)
+custo (3, 10) (4, 10) 1 0
+custo (3, 10) (3, 11) 0 1
+custo (3, 10) (2, 10) 1 0
+custo (3, 10) (3, 9) 0 1
+objetivo (2, 11) (4, 0)
+custo (2, 11) (3, 11) 1 0
+custo (2, 11) (2, 12) 0 1
+custo (2, 11) (1, 11) 1 0
+custo (2, 11) (2, 10) 0 1
+objetivo (1, 10) (4, 0)
+custo (1, 10) (2, 10) 1 0
+custo (1, 10) (1, 11) 0 1
+custo (1, 10) (0, 10) 1 0
+custo (1, 10) (1, 9) 0 1
+objetivo (2, 9) (4, 0)
+custo (2, 9) (3, 9) 1 0
+custo (2, 9) (2, 10) 0 1
+custo (2, 9) (1, 9) 1 0
+custo (2, 9) (2, 8) 0 1
+objetivo (4, 10) (4, 0)
+custo (4, 10) (5, 10) 1 0
+custo (4, 10) (4, 11) 0 1
+custo (4, 10) (3, 10) 1 0
+custo (4, 10) (4, 9) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 12) (4, 0)
+custo (2, 12) (3, 12) 1 0
+custo (2, 12) (2, 13) 0 1
+custo (2, 12) (1, 12) 1 0
+custo (2, 12) (2, 11) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (0, 10) (4, 0)
+custo (0, 10) (1, 10) 1 0
+custo (0, 10) (0, 11) 0 1
+custo (0, 10) (-1, 10) 1 0
+custo (0, 10) (0, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (2, 8) (4, 0)
+custo (2, 8) (3, 8) 1 0
+custo (2, 8) (2, 9) 0 1
+custo (2, 8) (1, 8) 1 0
+custo (2, 8) (2, 7) 0 1
+objetivo (5, 10) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 13) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (-1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (2, 7) (4, 0)
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 10) (4, 0)
+custo (3, 10) (4, 10) 1 0
+custo (3, 10) (3, 11) 0 1
+custo (3, 10) (2, 10) 1 0
+custo (3, 10) (3, 9) 0 1
+objetivo (2, 11) (4, 0)
+custo (2, 11) (3, 11) 1 0
+custo (2, 11) (2, 12) 0 1
+custo (2, 11) (1, 11) 1 0
+custo (2, 11) (2, 10) 0 1
+objetivo (1, 10) (4, 0)
+custo (1, 10) (2, 10) 1 0
+custo (1, 10) (1, 11) 0 1
+custo (1, 10) (0, 10) 1 0
+custo (1, 10) (1, 9) 0 1
+objetivo (2, 9) (4, 0)
+custo (2, 9) (3, 9) 1 0
+custo (2, 9) (2, 10) 0 1
+custo (2, 9) (1, 9) 1 0
+custo (2, 9) (2, 8) 0 1
+objetivo (4, 10) (4, 0)
+custo (4, 10) (5, 10) 1 0
+custo (4, 10) (4, 11) 0 1
+custo (4, 10) (3, 10) 1 0
+custo (4, 10) (4, 9) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 12) (4, 0)
+custo (2, 12) (3, 12) 1 0
+custo (2, 12) (2, 13) 0 1
+custo (2, 12) (1, 12) 1 0
+custo (2, 12) (2, 11) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (0, 10) (4, 0)
+custo (0, 10) (1, 10) 1 0
+custo (0, 10) (0, 11) 0 1
+custo (0, 10) (-1, 10) 1 0
+custo (0, 10) (0, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (2, 8) (4, 0)
+custo (2, 8) (3, 8) 1 0
+custo (2, 8) (2, 9) 0 1
+custo (2, 8) (1, 8) 1 0
+custo (2, 8) (2, 7) 0 1
+objetivo (5, 10) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 13) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (-1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (2, 7) (4, 0)
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 10) (4, 0)
+custo (3, 10) (4, 10) 1 0
+custo (3, 10) (3, 11) 0 1
+custo (3, 10) (2, 10) 1 0
+custo (3, 10) (3, 9) 0 1
+objetivo (2, 11) (4, 0)
+custo (2, 11) (3, 11) 1 0
+custo (2, 11) (2, 12) 0 1
+custo (2, 11) (1, 11) 1 0
+custo (2, 11) (2, 10) 0 1
+objetivo (1, 10) (4, 0)
+custo (1, 10) (2, 10) 1 0
+custo (1, 10) (1, 11) 0 1
+custo (1, 10) (0, 10) 1 0
+custo (1, 10) (1, 9) 0 1
+objetivo (2, 9) (4, 0)
+custo (2, 9) (3, 9) 1 0
+custo (2, 9) (2, 10) 0 1
+custo (2, 9) (1, 9) 1 0
+custo (2, 9) (2, 8) 0 1
+objetivo (4, 10) (4, 0)
+custo (4, 10) (5, 10) 1 0
+custo (4, 10) (4, 11) 0 1
+custo (4, 10) (3, 10) 1 0
+custo (4, 10) (4, 9) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 12) (4, 0)
+custo (2, 12) (3, 12) 1 0
+custo (2, 12) (2, 13) 0 1
+custo (2, 12) (1, 12) 1 0
+custo (2, 12) (2, 11) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (0, 10) (4, 0)
+custo (0, 10) (1, 10) 1 0
+custo (0, 10) (0, 11) 0 1
+custo (0, 10) (-1, 10) 1 0
+custo (0, 10) (0, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (2, 8) (4, 0)
+custo (2, 8) (3, 8) 1 0
+custo (2, 8) (2, 9) 0 1
+custo (2, 8) (1, 8) 1 0
+custo (2, 8) (2, 7) 0 1
+objetivo (5, 10) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 13) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (-1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (2, 7) (4, 0)
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 10) (4, 0)
+custo (3, 10) (4, 10) 1 0
+custo (3, 10) (3, 11) 0 1
+custo (3, 10) (2, 10) 1 0
+custo (3, 10) (3, 9) 0 1
+objetivo (2, 11) (4, 0)
+custo (2, 11) (3, 11) 1 0
+custo (2, 11) (2, 12) 0 1
+custo (2, 11) (1, 11) 1 0
+custo (2, 11) (2, 10) 0 1
+objetivo (1, 10) (4, 0)
+custo (1, 10) (2, 10) 1 0
+custo (1, 10) (1, 11) 0 1
+custo (1, 10) (0, 10) 1 0
+custo (1, 10) (1, 9) 0 1
+objetivo (2, 9) (4, 0)
+custo (2, 9) (3, 9) 1 0
+custo (2, 9) (2, 10) 0 1
+custo (2, 9) (1, 9) 1 0
+custo (2, 9) (2, 8) 0 1
+objetivo (4, 10) (4, 0)
+custo (4, 10) (5, 10) 1 0
+custo (4, 10) (4, 11) 0 1
+custo (4, 10) (3, 10) 1 0
+custo (4, 10) (4, 9) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 12) (4, 0)
+custo (2, 12) (3, 12) 1 0
+custo (2, 12) (2, 13) 0 1
+custo (2, 12) (1, 12) 1 0
+custo (2, 12) (2, 11) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (0, 10) (4, 0)
+custo (0, 10) (1, 10) 1 0
+custo (0, 10) (0, 11) 0 1
+custo (0, 10) (-1, 10) 1 0
+custo (0, 10) (0, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (2, 8) (4, 0)
+custo (2, 8) (3, 8) 1 0
+custo (2, 8) (2, 9) 0 1
+custo (2, 8) (1, 8) 1 0
+custo (2, 8) (2, 7) 0 1
+objetivo (5, 10) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 13) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (-1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (2, 7) (4, 0)
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 10) (4, 0)
+custo (3, 10) (4, 10) 1 0
+custo (3, 10) (3, 11) 0 1
+custo (3, 10) (2, 10) 1 0
+custo (3, 10) (3, 9) 0 1
+objetivo (2, 11) (4, 0)
+custo (2, 11) (3, 11) 1 0
+custo (2, 11) (2, 12) 0 1
+custo (2, 11) (1, 11) 1 0
+custo (2, 11) (2, 10) 0 1
+objetivo (1, 10) (4, 0)
+custo (1, 10) (2, 10) 1 0
+custo (1, 10) (1, 11) 0 1
+custo (1, 10) (0, 10) 1 0
+custo (1, 10) (1, 9) 0 1
+objetivo (2, 9) (4, 0)
+custo (2, 9) (3, 9) 1 0
+custo (2, 9) (2, 10) 0 1
+custo (2, 9) (1, 9) 1 0
+custo (2, 9) (2, 8) 0 1
+objetivo (4, 10) (4, 0)
+custo (4, 10) (5, 10) 1 0
+custo (4, 10) (4, 11) 0 1
+custo (4, 10) (3, 10) 1 0
+custo (4, 10) (4, 9) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 12) (4, 0)
+custo (2, 12) (3, 12) 1 0
+custo (2, 12) (2, 13) 0 1
+custo (2, 12) (1, 12) 1 0
+custo (2, 12) (2, 11) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (0, 10) (4, 0)
+custo (0, 10) (1, 10) 1 0
+custo (0, 10) (0, 11) 0 1
+custo (0, 10) (-1, 10) 1 0
+custo (0, 10) (0, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (2, 8) (4, 0)
+custo (2, 8) (3, 8) 1 0
+custo (2, 8) (2, 9) 0 1
+custo (2, 8) (1, 8) 1 0
+custo (2, 8) (2, 7) 0 1
+objetivo (5, 10) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 13) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (-1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (2, 7) (4, 0)
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 10) (4, 0)
+custo (3, 10) (4, 10) 1 0
+custo (3, 10) (3, 11) 0 1
+custo (3, 10) (2, 10) 1 0
+custo (3, 10) (3, 9) 0 1
+objetivo (2, 11) (4, 0)
+custo (2, 11) (3, 11) 1 0
+custo (2, 11) (2, 12) 0 1
+custo (2, 11) (1, 11) 1 0
+custo (2, 11) (2, 10) 0 1
+objetivo (1, 10) (4, 0)
+custo (1, 10) (2, 10) 1 0
+custo (1, 10) (1, 11) 0 1
+custo (1, 10) (0, 10) 1 0
+custo (1, 10) (1, 9) 0 1
+objetivo (2, 9) (4, 0)
+custo (2, 9) (3, 9) 1 0
+custo (2, 9) (2, 10) 0 1
+custo (2, 9) (1, 9) 1 0
+custo (2, 9) (2, 8) 0 1
+objetivo (4, 10) (4, 0)
+custo (4, 10) (5, 10) 1 0
+custo (4, 10) (4, 11) 0 1
+custo (4, 10) (3, 10) 1 0
+custo (4, 10) (4, 9) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 12) (4, 0)
+custo (2, 12) (3, 12) 1 0
+custo (2, 12) (2, 13) 0 1
+custo (2, 12) (1, 12) 1 0
+custo (2, 12) (2, 11) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (0, 10) (4, 0)
+custo (0, 10) (1, 10) 1 0
+custo (0, 10) (0, 11) 0 1
+custo (0, 10) (-1, 10) 1 0
+custo (0, 10) (0, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (2, 8) (4, 0)
+custo (2, 8) (3, 8) 1 0
+custo (2, 8) (2, 9) 0 1
+custo (2, 8) (1, 8) 1 0
+custo (2, 8) (2, 7) 0 1
+objetivo (5, 10) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 13) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (-1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (2, 7) (4, 0)
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 10) (4, 0)
+custo (3, 10) (4, 10) 1 0
+custo (3, 10) (3, 11) 0 1
+custo (3, 10) (2, 10) 1 0
+custo (3, 10) (3, 9) 0 1
+objetivo (2, 11) (4, 0)
+custo (2, 11) (3, 11) 1 0
+custo (2, 11) (2, 12) 0 1
+custo (2, 11) (1, 11) 1 0
+custo (2, 11) (2, 10) 0 1
+objetivo (1, 10) (4, 0)
+custo (1, 10) (2, 10) 1 0
+custo (1, 10) (1, 11) 0 1
+custo (1, 10) (0, 10) 1 0
+custo (1, 10) (1, 9) 0 1
+objetivo (2, 9) (4, 0)
+custo (2, 9) (3, 9) 1 0
+custo (2, 9) (2, 10) 0 1
+custo (2, 9) (1, 9) 1 0
+custo (2, 9) (2, 8) 0 1
+objetivo (4, 10) (4, 0)
+custo (4, 10) (5, 10) 1 0
+custo (4, 10) (4, 11) 0 1
+custo (4, 10) (3, 10) 1 0
+custo (4, 10) (4, 9) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 12) (4, 0)
+custo (2, 12) (3, 12) 1 0
+custo (2, 12) (2, 13) 0 1
+custo (2, 12) (1, 12) 1 0
+custo (2, 12) (2, 11) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (0, 10) (4, 0)
+custo (0, 10) (1, 10) 1 0
+custo (0, 10) (0, 11) 0 1
+custo (0, 10) (-1, 10) 1 0
+custo (0, 10) (0, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (2, 8) (4, 0)
+custo (2, 8) (3, 8) 1 0
+custo (2, 8) (2, 9) 0 1
+custo (2, 8) (1, 8) 1 0
+custo (2, 8) (2, 7) 0 1
+objetivo (5, 10) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 13) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (-1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (2, 7) (4, 0)
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 10) (4, 0)
+custo (3, 10) (4, 10) 1 0
+custo (3, 10) (3, 11) 0 1
+custo (3, 10) (2, 10) 1 0
+custo (3, 10) (3, 9) 0 1
+objetivo (2, 11) (4, 0)
+custo (2, 11) (3, 11) 1 0
+custo (2, 11) (2, 12) 0 1
+custo (2, 11) (1, 11) 1 0
+custo (2, 11) (2, 10) 0 1
+objetivo (1, 10) (4, 0)
+custo (1, 10) (2, 10) 1 0
+custo (1, 10) (1, 11) 0 1
+custo (1, 10) (0, 10) 1 0
+custo (1, 10) (1, 9) 0 1
+objetivo (2, 9) (4, 0)
+custo (2, 9) (3, 9) 1 0
+custo (2, 9) (2, 10) 0 1
+custo (2, 9) (1, 9) 1 0
+custo (2, 9) (2, 8) 0 1
+objetivo (4, 10) (4, 0)
+custo (4, 10) (5, 10) 1 0
+custo (4, 10) (4, 11) 0 1
+custo (4, 10) (3, 10) 1 0
+custo (4, 10) (4, 9) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 12) (4, 0)
+custo (2, 12) (3, 12) 1 0
+custo (2, 12) (2, 13) 0 1
+custo (2, 12) (1, 12) 1 0
+custo (2, 12) (2, 11) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (0, 10) (4, 0)
+custo (0, 10) (1, 10) 1 0
+custo (0, 10) (0, 11) 0 1
+custo (0, 10) (-1, 10) 1 0
+custo (0, 10) (0, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (2, 8) (4, 0)
+custo (2, 8) (3, 8) 1 0
+custo (2, 8) (2, 9) 0 1
+custo (2, 8) (1, 8) 1 0
+custo (2, 8) (2, 7) 0 1
+objetivo (5, 10) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 13) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (-1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (2, 7) (4, 0)
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 10) (4, 0)
+custo (3, 10) (4, 10) 1 0
+custo (3, 10) (3, 11) 0 1
+custo (3, 10) (2, 10) 1 0
+custo (3, 10) (3, 9) 0 1
+objetivo (2, 11) (4, 0)
+custo (2, 11) (3, 11) 1 0
+custo (2, 11) (2, 12) 0 1
+custo (2, 11) (1, 11) 1 0
+custo (2, 11) (2, 10) 0 1
+objetivo (1, 10) (4, 0)
+custo (1, 10) (2, 10) 1 0
+custo (1, 10) (1, 11) 0 1
+custo (1, 10) (0, 10) 1 0
+custo (1, 10) (1, 9) 0 1
+objetivo (2, 9) (4, 0)
+custo (2, 9) (3, 9) 1 0
+custo (2, 9) (2, 10) 0 1
+custo (2, 9) (1, 9) 1 0
+custo (2, 9) (2, 8) 0 1
+objetivo (4, 10) (4, 0)
+custo (4, 10) (5, 10) 1 0
+custo (4, 10) (4, 11) 0 1
+custo (4, 10) (3, 10) 1 0
+custo (4, 10) (4, 9) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 12) (4, 0)
+custo (2, 12) (3, 12) 1 0
+custo (2, 12) (2, 13) 0 1
+custo (2, 12) (1, 12) 1 0
+custo (2, 12) (2, 11) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (0, 10) (4, 0)
+custo (0, 10) (1, 10) 1 0
+custo (0, 10) (0, 11) 0 1
+custo (0, 10) (-1, 10) 1 0
+custo (0, 10) (0, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (2, 8) (4, 0)
+custo (2, 8) (3, 8) 1 0
+custo (2, 8) (2, 9) 0 1
+custo (2, 8) (1, 8) 1 0
+custo (2, 8) (2, 7) 0 1
+objetivo (5, 10) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 13) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (-1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (2, 7) (4, 0)
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 10) (4, 0)
+custo (3, 10) (4, 10) 1 0
+custo (3, 10) (3, 11) 0 1
+custo (3, 10) (2, 10) 1 0
+custo (3, 10) (3, 9) 0 1
+objetivo (2, 11) (4, 0)
+custo (2, 11) (3, 11) 1 0
+custo (2, 11) (2, 12) 0 1
+custo (2, 11) (1, 11) 1 0
+custo (2, 11) (2, 10) 0 1
+objetivo (1, 10) (4, 0)
+custo (1, 10) (2, 10) 1 0
+custo (1, 10) (1, 11) 0 1
+custo (1, 10) (0, 10) 1 0
+custo (1, 10) (1, 9) 0 1
+objetivo (2, 9) (4, 0)
+custo (2, 9) (3, 9) 1 0
+custo (2, 9) (2, 10) 0 1
+custo (2, 9) (1, 9) 1 0
+custo (2, 9) (2, 8) 0 1
+objetivo (4, 10) (4, 0)
+custo (4, 10) (5, 10) 1 0
+custo (4, 10) (4, 11) 0 1
+custo (4, 10) (3, 10) 1 0
+custo (4, 10) (4, 9) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 12) (4, 0)
+custo (2, 12) (3, 12) 1 0
+custo (2, 12) (2, 13) 0 1
+custo (2, 12) (1, 12) 1 0
+custo (2, 12) (2, 11) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (0, 10) (4, 0)
+custo (0, 10) (1, 10) 1 0
+custo (0, 10) (0, 11) 0 1
+custo (0, 10) (-1, 10) 1 0
+custo (0, 10) (0, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (2, 8) (4, 0)
+custo (2, 8) (3, 8) 1 0
+custo (2, 8) (2, 9) 0 1
+custo (2, 8) (1, 8) 1 0
+custo (2, 8) (2, 7) 0 1
+objetivo (5, 10) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 13) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (-1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (2, 7) (4, 0)
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 10) (4, 0)
+custo (3, 10) (4, 10) 1 0
+custo (3, 10) (3, 11) 0 1
+custo (3, 10) (2, 10) 1 0
+custo (3, 10) (3, 9) 0 1
+objetivo (2, 11) (4, 0)
+custo (2, 11) (3, 11) 1 0
+custo (2, 11) (2, 12) 0 1
+custo (2, 11) (1, 11) 1 0
+custo (2, 11) (2, 10) 0 1
+objetivo (1, 10) (4, 0)
+custo (1, 10) (2, 10) 1 0
+custo (1, 10) (1, 11) 0 1
+custo (1, 10) (0, 10) 1 0
+custo (1, 10) (1, 9) 0 1
+objetivo (2, 9) (4, 0)
+custo (2, 9) (3, 9) 1 0
+custo (2, 9) (2, 10) 0 1
+custo (2, 9) (1, 9) 1 0
+custo (2, 9) (2, 8) 0 1
+objetivo (4, 10) (4, 0)
+custo (4, 10) (5, 10) 1 0
+custo (4, 10) (4, 11) 0 1
+custo (4, 10) (3, 10) 1 0
+custo (4, 10) (4, 9) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 12) (4, 0)
+custo (2, 12) (3, 12) 1 0
+custo (2, 12) (2, 13) 0 1
+custo (2, 12) (1, 12) 1 0
+custo (2, 12) (2, 11) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (0, 10) (4, 0)
+custo (0, 10) (1, 10) 1 0
+custo (0, 10) (0, 11) 0 1
+custo (0, 10) (-1, 10) 1 0
+custo (0, 10) (0, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (2, 8) (4, 0)
+custo (2, 8) (3, 8) 1 0
+custo (2, 8) (2, 9) 0 1
+custo (2, 8) (1, 8) 1 0
+custo (2, 8) (2, 7) 0 1
+objetivo (5, 10) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 13) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (-1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (2, 7) (4, 0)
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 10) (4, 0)
+custo (3, 10) (4, 10) 1 0
+custo (3, 10) (3, 11) 0 1
+custo (3, 10) (2, 10) 1 0
+custo (3, 10) (3, 9) 0 1
+objetivo (2, 11) (4, 0)
+custo (2, 11) (3, 11) 1 0
+custo (2, 11) (2, 12) 0 1
+custo (2, 11) (1, 11) 1 0
+custo (2, 11) (2, 10) 0 1
+objetivo (1, 10) (4, 0)
+custo (1, 10) (2, 10) 1 0
+custo (1, 10) (1, 11) 0 1
+custo (1, 10) (0, 10) 1 0
+custo (1, 10) (1, 9) 0 1
+objetivo (2, 9) (4, 0)
+custo (2, 9) (3, 9) 1 0
+custo (2, 9) (2, 10) 0 1
+custo (2, 9) (1, 9) 1 0
+custo (2, 9) (2, 8) 0 1
+objetivo (4, 10) (4, 0)
+custo (4, 10) (5, 10) 1 0
+custo (4, 10) (4, 11) 0 1
+custo (4, 10) (3, 10) 1 0
+custo (4, 10) (4, 9) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 12) (4, 0)
+custo (2, 12) (3, 12) 1 0
+custo (2, 12) (2, 13) 0 1
+custo (2, 12) (1, 12) 1 0
+custo (2, 12) (2, 11) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (0, 10) (4, 0)
+custo (0, 10) (1, 10) 1 0
+custo (0, 10) (0, 11) 0 1
+custo (0, 10) (-1, 10) 1 0
+custo (0, 10) (0, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (2, 8) (4, 0)
+custo (2, 8) (3, 8) 1 0
+custo (2, 8) (2, 9) 0 1
+custo (2, 8) (1, 8) 1 0
+custo (2, 8) (2, 7) 0 1
+objetivo (5, 10) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 13) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (-1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (2, 7) (4, 0)
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 10) (4, 0)
+custo (3, 10) (4, 10) 1 0
+custo (3, 10) (3, 11) 0 1
+custo (3, 10) (2, 10) 1 0
+custo (3, 10) (3, 9) 0 1
+objetivo (2, 11) (4, 0)
+custo (2, 11) (3, 11) 1 0
+custo (2, 11) (2, 12) 0 1
+custo (2, 11) (1, 11) 1 0
+custo (2, 11) (2, 10) 0 1
+objetivo (1, 10) (4, 0)
+custo (1, 10) (2, 10) 1 0
+custo (1, 10) (1, 11) 0 1
+custo (1, 10) (0, 10) 1 0
+custo (1, 10) (1, 9) 0 1
+objetivo (2, 9) (4, 0)
+custo (2, 9) (3, 9) 1 0
+custo (2, 9) (2, 10) 0 1
+custo (2, 9) (1, 9) 1 0
+custo (2, 9) (2, 8) 0 1
+objetivo (4, 10) (4, 0)
+custo (4, 10) (5, 10) 1 0
+custo (4, 10) (4, 11) 0 1
+custo (4, 10) (3, 10) 1 0
+custo (4, 10) (4, 9) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 12) (4, 0)
+custo (2, 12) (3, 12) 1 0
+custo (2, 12) (2, 13) 0 1
+custo (2, 12) (1, 12) 1 0
+custo (2, 12) (2, 11) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (0, 10) (4, 0)
+custo (0, 10) (1, 10) 1 0
+custo (0, 10) (0, 11) 0 1
+custo (0, 10) (-1, 10) 1 0
+custo (0, 10) (0, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (2, 8) (4, 0)
+custo (2, 8) (3, 8) 1 0
+custo (2, 8) (2, 9) 0 1
+custo (2, 8) (1, 8) 1 0
+custo (2, 8) (2, 7) 0 1
+objetivo (5, 10) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 13) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (-1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (2, 7) (4, 0)
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 10) (4, 0)
+custo (3, 10) (4, 10) 1 0
+custo (3, 10) (3, 11) 0 1
+custo (3, 10) (2, 10) 1 0
+custo (3, 10) (3, 9) 0 1
+objetivo (2, 11) (4, 0)
+custo (2, 11) (3, 11) 1 0
+custo (2, 11) (2, 12) 0 1
+custo (2, 11) (1, 11) 1 0
+custo (2, 11) (2, 10) 0 1
+objetivo (1, 10) (4, 0)
+custo (1, 10) (2, 10) 1 0
+custo (1, 10) (1, 11) 0 1
+custo (1, 10) (0, 10) 1 0
+custo (1, 10) (1, 9) 0 1
+objetivo (2, 9) (4, 0)
+custo (2, 9) (3, 9) 1 0
+custo (2, 9) (2, 10) 0 1
+custo (2, 9) (1, 9) 1 0
+custo (2, 9) (2, 8) 0 1
+objetivo (4, 10) (4, 0)
+custo (4, 10) (5, 10) 1 0
+custo (4, 10) (4, 11) 0 1
+custo (4, 10) (3, 10) 1 0
+custo (4, 10) (4, 9) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 12) (4, 0)
+custo (2, 12) (3, 12) 1 0
+custo (2, 12) (2, 13) 0 1
+custo (2, 12) (1, 12) 1 0
+custo (2, 12) (2, 11) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (0, 10) (4, 0)
+custo (0, 10) (1, 10) 1 0
+custo (0, 10) (0, 11) 0 1
+custo (0, 10) (-1, 10) 1 0
+custo (0, 10) (0, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (2, 8) (4, 0)
+custo (2, 8) (3, 8) 1 0
+custo (2, 8) (2, 9) 0 1
+custo (2, 8) (1, 8) 1 0
+custo (2, 8) (2, 7) 0 1
+objetivo (5, 10) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 13) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (-1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (2, 7) (4, 0)
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 10) (4, 0)
+custo (3, 10) (4, 10) 1 0
+custo (3, 10) (3, 11) 0 1
+custo (3, 10) (2, 10) 1 0
+custo (3, 10) (3, 9) 0 1
+objetivo (2, 11) (4, 0)
+custo (2, 11) (3, 11) 1 0
+custo (2, 11) (2, 12) 0 1
+custo (2, 11) (1, 11) 1 0
+custo (2, 11) (2, 10) 0 1
+objetivo (1, 10) (4, 0)
+custo (1, 10) (2, 10) 1 0
+custo (1, 10) (1, 11) 0 1
+custo (1, 10) (0, 10) 1 0
+custo (1, 10) (1, 9) 0 1
+objetivo (2, 9) (4, 0)
+custo (2, 9) (3, 9) 1 0
+custo (2, 9) (2, 10) 0 1
+custo (2, 9) (1, 9) 1 0
+custo (2, 9) (2, 8) 0 1
+objetivo (4, 10) (4, 0)
+custo (4, 10) (5, 10) 1 0
+custo (4, 10) (4, 11) 0 1
+custo (4, 10) (3, 10) 1 0
+custo (4, 10) (4, 9) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 12) (4, 0)
+custo (2, 12) (3, 12) 1 0
+custo (2, 12) (2, 13) 0 1
+custo (2, 12) (1, 12) 1 0
+custo (2, 12) (2, 11) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (0, 10) (4, 0)
+custo (0, 10) (1, 10) 1 0
+custo (0, 10) (0, 11) 0 1
+custo (0, 10) (-1, 10) 1 0
+custo (0, 10) (0, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (2, 8) (4, 0)
+custo (2, 8) (3, 8) 1 0
+custo (2, 8) (2, 9) 0 1
+custo (2, 8) (1, 8) 1 0
+custo (2, 8) (2, 7) 0 1
+objetivo (5, 10) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 13) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (-1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (2, 7) (4, 0)
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 10) (4, 0)
+custo (3, 10) (4, 10) 1 0
+custo (3, 10) (3, 11) 0 1
+custo (3, 10) (2, 10) 1 0
+custo (3, 10) (3, 9) 0 1
+objetivo (2, 11) (4, 0)
+custo (2, 11) (3, 11) 1 0
+custo (2, 11) (2, 12) 0 1
+custo (2, 11) (1, 11) 1 0
+custo (2, 11) (2, 10) 0 1
+objetivo (1, 10) (4, 0)
+custo (1, 10) (2, 10) 1 0
+custo (1, 10) (1, 11) 0 1
+custo (1, 10) (0, 10) 1 0
+custo (1, 10) (1, 9) 0 1
+objetivo (2, 9) (4, 0)
+custo (2, 9) (3, 9) 1 0
+custo (2, 9) (2, 10) 0 1
+custo (2, 9) (1, 9) 1 0
+custo (2, 9) (2, 8) 0 1
+objetivo (4, 10) (4, 0)
+custo (4, 10) (5, 10) 1 0
+custo (4, 10) (4, 11) 0 1
+custo (4, 10) (3, 10) 1 0
+custo (4, 10) (4, 9) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 12) (4, 0)
+custo (2, 12) (3, 12) 1 0
+custo (2, 12) (2, 13) 0 1
+custo (2, 12) (1, 12) 1 0
+custo (2, 12) (2, 11) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (0, 10) (4, 0)
+custo (0, 10) (1, 10) 1 0
+custo (0, 10) (0, 11) 0 1
+custo (0, 10) (-1, 10) 1 0
+custo (0, 10) (0, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (2, 8) (4, 0)
+custo (2, 8) (3, 8) 1 0
+custo (2, 8) (2, 9) 0 1
+custo (2, 8) (1, 8) 1 0
+custo (2, 8) (2, 7) 0 1
+objetivo (5, 10) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 13) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (-1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (2, 7) (4, 0)
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 10) (4, 0)
+custo (3, 10) (4, 10) 1 0
+custo (3, 10) (3, 11) 0 1
+custo (3, 10) (2, 10) 1 0
+custo (3, 10) (3, 9) 0 1
+objetivo (2, 11) (4, 0)
+custo (2, 11) (3, 11) 1 0
+custo (2, 11) (2, 12) 0 1
+custo (2, 11) (1, 11) 1 0
+custo (2, 11) (2, 10) 0 1
+objetivo (1, 10) (4, 0)
+custo (1, 10) (2, 10) 1 0
+custo (1, 10) (1, 11) 0 1
+custo (1, 10) (0, 10) 1 0
+custo (1, 10) (1, 9) 0 1
+objetivo (2, 9) (4, 0)
+custo (2, 9) (3, 9) 1 0
+custo (2, 9) (2, 10) 0 1
+custo (2, 9) (1, 9) 1 0
+custo (2, 9) (2, 8) 0 1
+objetivo (4, 10) (4, 0)
+custo (4, 10) (5, 10) 1 0
+custo (4, 10) (4, 11) 0 1
+custo (4, 10) (3, 10) 1 0
+custo (4, 10) (4, 9) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 12) (4, 0)
+custo (2, 12) (3, 12) 1 0
+custo (2, 12) (2, 13) 0 1
+custo (2, 12) (1, 12) 1 0
+custo (2, 12) (2, 11) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (0, 10) (4, 0)
+custo (0, 10) (1, 10) 1 0
+custo (0, 10) (0, 11) 0 1
+custo (0, 10) (-1, 10) 1 0
+custo (0, 10) (0, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (2, 8) (4, 0)
+custo (2, 8) (3, 8) 1 0
+custo (2, 8) (2, 9) 0 1
+custo (2, 8) (1, 8) 1 0
+custo (2, 8) (2, 7) 0 1
+objetivo (5, 10) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 13) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (-1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (2, 7) (4, 0)
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 10) (4, 0)
+custo (3, 10) (4, 10) 1 0
+custo (3, 10) (3, 11) 0 1
+custo (3, 10) (2, 10) 1 0
+custo (3, 10) (3, 9) 0 1
+objetivo (2, 11) (4, 0)
+custo (2, 11) (3, 11) 1 0
+custo (2, 11) (2, 12) 0 1
+custo (2, 11) (1, 11) 1 0
+custo (2, 11) (2, 10) 0 1
+objetivo (1, 10) (4, 0)
+custo (1, 10) (2, 10) 1 0
+custo (1, 10) (1, 11) 0 1
+custo (1, 10) (0, 10) 1 0
+custo (1, 10) (1, 9) 0 1
+objetivo (2, 9) (4, 0)
+custo (2, 9) (3, 9) 1 0
+custo (2, 9) (2, 10) 0 1
+custo (2, 9) (1, 9) 1 0
+custo (2, 9) (2, 8) 0 1
+objetivo (4, 10) (4, 0)
+custo (4, 10) (5, 10) 1 0
+custo (4, 10) (4, 11) 0 1
+custo (4, 10) (3, 10) 1 0
+custo (4, 10) (4, 9) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 12) (4, 0)
+custo (2, 12) (3, 12) 1 0
+custo (2, 12) (2, 13) 0 1
+custo (2, 12) (1, 12) 1 0
+custo (2, 12) (2, 11) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (0, 10) (4, 0)
+custo (0, 10) (1, 10) 1 0
+custo (0, 10) (0, 11) 0 1
+custo (0, 10) (-1, 10) 1 0
+custo (0, 10) (0, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (2, 8) (4, 0)
+custo (2, 8) (3, 8) 1 0
+custo (2, 8) (2, 9) 0 1
+custo (2, 8) (1, 8) 1 0
+custo (2, 8) (2, 7) 0 1
+objetivo (5, 10) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 13) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (-1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (2, 7) (4, 0)
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 10) (4, 0)
+custo (3, 10) (4, 10) 1 0
+custo (3, 10) (3, 11) 0 1
+custo (3, 10) (2, 10) 1 0
+custo (3, 10) (3, 9) 0 1
+objetivo (2, 11) (4, 0)
+custo (2, 11) (3, 11) 1 0
+custo (2, 11) (2, 12) 0 1
+custo (2, 11) (1, 11) 1 0
+custo (2, 11) (2, 10) 0 1
+objetivo (1, 10) (4, 0)
+custo (1, 10) (2, 10) 1 0
+custo (1, 10) (1, 11) 0 1
+custo (1, 10) (0, 10) 1 0
+custo (1, 10) (1, 9) 0 1
+objetivo (2, 9) (4, 0)
+custo (2, 9) (3, 9) 1 0
+custo (2, 9) (2, 10) 0 1
+custo (2, 9) (1, 9) 1 0
+custo (2, 9) (2, 8) 0 1
+objetivo (4, 10) (4, 0)
+custo (4, 10) (5, 10) 1 0
+custo (4, 10) (4, 11) 0 1
+custo (4, 10) (3, 10) 1 0
+custo (4, 10) (4, 9) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (3, 11) (4, 0)
+custo (3, 11) (4, 11) 1 0
+custo (3, 11) (3, 12) 0 1
+custo (3, 11) (2, 11) 1 0
+custo (3, 11) (3, 10) 0 1
+objetivo (2, 12) (4, 0)
+custo (2, 12) (3, 12) 1 0
+custo (2, 12) (2, 13) 0 1
+custo (2, 12) (1, 12) 1 0
+custo (2, 12) (2, 11) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 11) (4, 0)
+custo (1, 11) (2, 11) 1 0
+custo (1, 11) (1, 12) 0 1
+custo (1, 11) (0, 11) 1 0
+custo (1, 11) (1, 10) 0 1
+objetivo (0, 10) (4, 0)
+custo (0, 10) (1, 10) 1 0
+custo (0, 10) (0, 11) 0 1
+custo (0, 10) (-1, 10) 1 0
+custo (0, 10) (0, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (3, 9) (4, 0)
+custo (3, 9) (4, 9) 1 0
+custo (3, 9) (3, 10) 0 1
+custo (3, 9) (2, 9) 1 0
+custo (3, 9) (3, 8) 0 1
+objetivo (2, 10) (4, 0)
+custo (2, 10) (3, 10) 1 0
+custo (2, 10) (2, 11) 0 1
+custo (2, 10) (1, 10) 1 0
+custo (2, 10) (2, 9) 0 1
+objetivo (1, 9) (4, 0)
+custo (1, 9) (2, 9) 1 0
+custo (1, 9) (1, 10) 0 1
+custo (1, 9) (0, 9) 1 0
+custo (1, 9) (1, 8) 0 1
+objetivo (2, 8) (4, 0)
+custo (2, 8) (3, 8) 1 0
+custo (2, 8) (2, 9) 0 1
+custo (2, 8) (1, 8) 1 0
+custo (2, 8) (2, 7) 0 1
+objetivo (5, 10) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (4, 11) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (3, 12) (4, 0)
+objetivo (2, 13) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 12) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 11) (4, 0)
+objetivo (-1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (4, 9) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (3, 10) (4, 0)
+objetivo (2, 11) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 10) (4, 0)
+objetivo (0, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (3, 8) (4, 0)
+objetivo (2, 9) (4, 0)
+objetivo (1, 8) (4, 0)
+objetivo (2, 7) (4, 0)

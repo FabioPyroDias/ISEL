@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSpy v2016 rel. 2 (x64) (http://www.altova.com) by Diogo Remedios (Instituto Superior de Engenharia de Lisboa) -->
+<!-- Eng. P, Filipe -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="AT_mime">
+		<xs:annotation>
+			<xs:documentation>tipo de imagens</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="image/jpg"/>
+			<xs:enumeration value="image/png"/>
+			<xs:enumeration value="image/gif"/>
+			<xs:enumeration value="image/bmp"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:element name="Protocolo">
+		<xs:complexType>
+			<xs:choice>
+				<xs:element name="Listar">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Resposta" minOccurs="0">
+								<xs:complexType>
+									<xs:choice>
+										<xs:element name="Foto" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="path" type="xs:anyURI" use="required">
+													<xs:annotation>
+														<xs:documentation>nome/caminho original do ficheirro</xs:documentation>
+													</xs:annotation>
+												</xs:attribute>
+												<xs:attribute name="mime" type="AT_mime">
+													<xs:annotation>
+														<xs:documentation>tipo original do ficheiro</xs:documentation>
+													</xs:annotation>
+												</xs:attribute>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="Erro">
+											<xs:annotation>
+												<xs:documentation>descrição do erro</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+									</xs:choice>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Obter">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Resposta" minOccurs="0">
+								<xs:complexType>
+									<xs:choice>
+										<xs:element name="Foto" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>conteudo do ficheiro com a foto codificada em base64</xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:simpleContent>
+													<xs:extension base="xs:base64Binary">
+														<xs:attribute name="mime" type="AT_mime">
+															<xs:annotation>
+																<xs:documentation>tipo original do ficheiro</xs:documentation>
+															</xs:annotation>
+														</xs:attribute>
+													</xs:extension>
+												</xs:simpleContent>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="Erro">
+											<xs:annotation>
+												<xs:documentation>descrição do erro</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+									</xs:choice>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="path" use="required">
+							<xs:annotation>
+								<xs:documentation>nome/caminho original do ficheiro</xs:documentation>
+							</xs:annotation>
+						</xs:attribute>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

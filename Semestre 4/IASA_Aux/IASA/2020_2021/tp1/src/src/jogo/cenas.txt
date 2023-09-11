@@ -1,0 +1,28 @@
+estimulos -> input do readline
+
+
+Entradas:
+
+EventoAmb:
+
+Eventos que ocorrem no ambiente
+ruido
+silencio
+ruido
+inimigo
+vitoria
+derotta
+fuga
+terminar
+
+Saida: o que a personagem faz
+
+AcaoEmb
+
+iniciar
+aproximar
+patrulhar
+fuga
+defender
+procurar
+atacar

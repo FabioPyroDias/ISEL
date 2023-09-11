@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Protocolo>
+           <!-- Client -> Server -->
+           <SignIn playerName="" password=""/>
+           <Login playerName="" password=""/>
+           <ChallengePlayer playerName=""/>
+           <PlayColumn player="" col=""/>
+           
+           <!-- Server -> Client -->
+           <LoginAnswer validate="">
+                        <Player playerName="" jogosJogados="" jogosGanhos="" jogosPerdidos=""/>
+           </LoginAnswer>
+           <AddPlayer playerName="" jogosJogados="" jogosGanhos="" jogosPerdidos=""/>
+           <ChallengePlayerAnswer playerName="" answer=""/>
+           <UpdateStatus playerName1="" playerName2="" status=""/>
+           <UpdateBoard nextPlayerTurn="">
+                        <BoardSlot/>
+                        <BoardSlot>A</BoardSlot>
+                        <BoardSlot>B</BoardSlot>
+           </UpdateBoard>
+</Protocolo>
+
+

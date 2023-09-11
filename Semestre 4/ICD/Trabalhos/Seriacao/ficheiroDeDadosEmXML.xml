@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="17.0.5" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <string>Manuel Jaquim</string>
+  </void>
+  <void method="add">
+   <string>Maria Albertina</string>
+  </void>
+ </object>
+</java>
