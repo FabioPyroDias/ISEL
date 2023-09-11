@@ -1,0 +1,141 @@
+package game;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import dla.Center;
+import dla.Walker;
+import dla.Walker.WalkerState;
+import processing.core.PApplet;
+import setup.IProcessingApp;
+
+public class GameApp implements IProcessingApp
+{
+	private Center center;
+	
+	private List<Walker> walkers;
+	private int maxWalkers;
+	
+	private int stepsPerFrame = 100;
+
+	public enum State
+	{
+		TOGETHER,
+		SPREAD
+	}
+	
+	private State currentState;
+	
+	private float timeBetweenStates;
+	private float betweenStatesTimer;
+	
+	@Override
+	public void setup(PApplet parent) {
+		
+		parent.background(180);
+		
+		currentState = State.TOGETHER;
+		
+		walkers = new ArrayList<Walker>();
+		maxWalkers = 20;
+		
+		for(int walker = 0; walker < maxWalkers; walker++)
+		{
+			Walker w = new Walker(parent);
+			walkers.add(w);
+		}
+		
+		center = new Center();
+		center.SetRadius(maxWalkers);
+		
+		timeBetweenStates = 1f;
+		betweenStatesTimer = timeBetweenStates;
+	}
+
+	@Override
+	public void draw(PApplet parent, float dt) {
+		
+		parent.background(180);
+		
+		if(betweenStatesTimer > 0)
+		{
+			betweenStatesTimer -= dt;
+		}
+		
+		//System.out.println("Walkers: " + walkers.size() + " | Pos: " + walkers.get(0).pos + " | State: " + walkers.get(0).GetWalkerState());
+		
+		for(int step = 0; step < stepsPerFrame; step++)
+		{
+			//Update Walkers Positions.
+			for(Walker walker : walkers)
+			{
+				//System.out.println(walker.toString() + " | " + walker.GetWalkerState());
+				
+				if(walker.GetWalkerState() == WalkerState.WALKING)
+				{
+					
+					walker.Wander(parent);
+					walker.UpdateState(parent, walkers);
+				}
+			}
+		}
+		
+		for(Walker walker : walkers)
+		{
+			walker.Display(parent);
+		}
+
+		center.Display(parent);
+	}
+
+	@Override
+	public void keyPressed(PApplet parent) {
+	
+	}
+	
+	@Override
+	public void mousePressed(PApplet parent) {
+		if(parent.mouseButton == parent.LEFT)
+		{
+			if(betweenStatesTimer >= 0)
+			{
+				return;
+			}
+			
+			if(currentState == State.SPREAD)
+			{
+				return;
+			}
+			
+			currentState = State.SPREAD;
+			betweenStatesTimer = timeBetweenStates;
+			
+			for(Walker walker : walkers)
+			{
+				walker.SetOuterDirection(parent);
+			}
+			
+		}
+		else if(parent.mouseButton == parent.RIGHT)
+		{
+			if(betweenStatesTimer >= 0)
+			{
+				return;
+			}
+
+			if(currentState == State.TOGETHER)
+			{
+				return;
+			}
+			
+			currentState = State.TOGETHER;
+			betweenStatesTimer = timeBetweenStates;
+			
+			for(Walker walker : walkers)
+			{
+				walker.SetInwardDirection(parent);
+			}
+		}
+	}
+
+}

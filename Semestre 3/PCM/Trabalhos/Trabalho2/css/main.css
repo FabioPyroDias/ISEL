@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    font-weight: 200;
+    font-size: 1.5rem;
+    color: #444;
+}
+
+.row.content-row>* {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.force-navbar-correct-width {
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.intro-left {
+    background: url(../imgs/BackgroundImage.jpg);
+    background-size: cover;
+    position: fixed;
+    left: 0;
+    width: 33.33333%;
+    height: 100%;
+    color: #ffffff;
+}
+
+.skill-icon {
+    min-width: 30%;
+    max-width: 50%;
+    border-radius: 75%;
+}
+
+.flag-icon {
+    min-width: 40%;
+    max-width: 60%;
+    border-radius: 75%;
+}
+
+.pin-icon {
+    min-width: 40%;
+    max-width: 50%;
+    border-radius: 75%;
+}
+
+.full-width {
+    margin: 0%;
+    text-align: center;
+}
+
+#projects-large {
+    display: block;
+}
+
+#projects-small {
+    display: none;
+}
+
+.avatar {
+    object-fit: cover;
+    width: 10rem;
+    height: 10rem;
+    margin: 1rem;
+}
+
+.full-height {
+    height: 100%;
+}
+
+nav a {
+    font-size: .8rem !important;
+}
+
+.force-width {
+    width: 100%;
+}
+
+section {
+    padding: 5rem 5rem 0 5rem;
+    font-size: 1.2rem;
+}
+
+.align-items-vertically-center {
+    margin-bottom: 0%;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel-right {
+    background-color: #eee;
+}
+
+.navbar-collapse.in {
+    display: block !important;
+}
+
+footer, nav{
+    padding: 1rem 0;
+    background-color: #2a292a;
+}
+
+footer ul{
+    padding-left: 0;
+    list-style: none;
+}
+
+.inner-footer li a, .navbar-nav a{
+    color: #ff8d1e;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.inner-footer li a:hover, .navbar-nav a:hover{ 
+    color: #4b92dc;
+    color: #fff;
+}
+
+.footer-link {
+    margin: -0.7rem auto;
+}
+.social-footer li{
+    display: inline-block;
+    padding: 0;
+}
+
+.social-footer li a {
+    display: block;
+    height:30px;width: 30px
+    ;text-align: center;
+}
+
+.social-footer li a:hover {
+    background-color:#ff8d1e;
+}
+
+.social-footer i {
+    margin-top: 0.5rem;
+}
+
+#gradient-border-unity {
+    --angle: 0deg;
+    border: 0.35rem solid transparent;
+    border-image: conic-gradient(from var(--angle), #000, #fff) 1;
+
+    animation: 10s rotate linear infinite;
+}
+
+#gradient-border-csharp {
+    --angle: 0deg;
+    border: 0.35rem solid transparent;
+    border-image: conic-gradient(from var(--angle), #681b7b, #fff) 1;
+
+    animation: 10s rotate linear infinite;
+}
+
+#gradient-border-java {
+    --angle: 0deg;
+    border: 0.35rem solid transparent;
+    border-image: conic-gradient(from var(--angle), #e76f00, #fff) 1;
+
+    animation: 10s rotate linear infinite;
+}
+
+#gradient-border-python {
+    --angle: 0deg;
+    border: 0.35rem solid transparent;
+    border-image: conic-gradient(from var(--angle), #377ef0, #fff) 1;
+
+    animation: 10s rotate linear infinite;
+}
+
+#gradient-border-html5 {
+    --angle: 0deg;
+    border: 0.35rem solid transparent;
+    border-image: conic-gradient(from var(--angle), #ff4e1d, #fff) 1;
+
+    animation: 10s rotate linear infinite;
+}
+
+#gradient-border-css3 {
+    --angle: 0deg;
+    border: 0.35rem solid transparent;
+    border-image: conic-gradient(from var(--angle), #0074be, #fff) 1;
+
+    animation: 10s rotate linear infinite;
+}
+
+#gradient-border-blender {
+    --angle: 0deg;
+    border: 0.35rem solid transparent;
+    border-image: conic-gradient(from var(--angle), #ec7804, #fff) 1;
+
+    animation: 10s rotate linear infinite;
+}
+
+.font-smaller {
+    font-size: 0.8rem;
+}
+
+@keyframes rotate {
+    to {
+      --angle: 360deg;
+    }
+}
+  
+@property --angle {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+  }
+  
+/* Para ver mais tarde*/
+.btn{background-color: #ff8d1e; color:#fff;}
+.btn:hover, .btn:focus, .btn.active {background: #4b92dc;color: #fff;
+}
+
+/* Enunciado */
+.bar1,
+.bar2,
+.bar3 {
+    width: 23px;
+    height: 3px;
+    margin: 5px;
+    background: #2a9134;
+    transition: all 0.5s ease;
+}
+
+.change .bar1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    transform: rotate(45deg) translate(-5px, -8px);
+}
+
+@media (max-width: 767px) {
+    .intro-left {
+        margin-bottom: 0;
+        position: relative;
+        width: 100%;
+    }
+
+    #projects-large {
+        display: none;
+    }
+
+    #projects-small {
+        display: block;
+    }
+
+    #info p {
+        font-size: 1rem;
+    }
+
+    section {
+        padding: 3rem 3rem 0 3rem;
+    }
+
+    .skill-icon {
+        min-width: 60%;
+        max-width: 50%;
+        border-radius: 75%;
+    }
+
+    .pin-icon {
+        min-width: 80%;
+        max-width: 100%;
+        border-radius: 75%;
+    }
+
+    #gradient-border-unity {
+        border: 0.1rem solid #000;
+    }
+
+    #gradient-border-csharp {
+        border: 0.1rem solid #681b7b;
+    }
+
+    #gradient-border-java {
+        border: 0.1rem solid #e76f00;
+    }
+
+    #gradient-border-python {
+        border: 0.1rem solid #377ef0;
+    }
+
+    #gradient-border-html5 {
+        border: 0.1rem solid #ff4e1d;
+    }
+
+    #gradient-border-css3 {
+        border: 0.1rem solid #0074be;
+    }
+
+    #gradient-border-blender {
+        border: 0.1rem solid #ec7804;
+    }
+}

@@ -1,0 +1,12 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="ca.MyCellularAutomata"><rhs name\="ca.MyCellularAutomata"/></lhs><lhs name\="java.lang.Enum"><rhs name\="dla.Walker$State"/><rhs name\="game.GameApp$State"/><rhs name\="dla.Walker$WalkerState"/></lhs><lhs name\="java.lang.constant.Constable"><rhs name\="dla.Walker$State"/><rhs name\="game.GameApp$State"/><rhs name\="dla.Walker$WalkerState"/></lhs><lhs name\="dla.Walker$State"><rhs name\="dla.Walker$State"/></lhs><lhs name\="setup.IProcessingApp"><rhs name\="ca.JogoDaVida"/><rhs name\="dla.DLAVariation2"/><rhs name\="dla.DLAVariation1"/><rhs name\="aa.TP2_AgentesAutonamos_ComportamentosIndividuais_App"/></lhs><lhs name\="game.GameApp$State"><rhs name\="game.GameApp$State"/></lhs><lhs name\="dla.Walker$WalkerState"><rhs name\="dla.Walker$WalkerState"/></lhs></history>
+content_assist_number_of_computers=13
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=21
+spelling_locale_initialized=true
+typefilter_migrated=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

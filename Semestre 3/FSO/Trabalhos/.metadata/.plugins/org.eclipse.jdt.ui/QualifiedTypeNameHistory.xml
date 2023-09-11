@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.nio.channels.FileChannel"/>
+    <fullyQualifiedTypeName name="java.nio.MappedByteBuffer"/>
+    <fullyQualifiedTypeName name="java.io.RandomAccessFile"/>
+    <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+    <fullyQualifiedTypeName name="java.nio.channels.FileChannel.MapMode"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.nio.channels.FileLock"/>
+    <fullyQualifiedTypeName name="IMensagem"/>
+    <fullyQualifiedTypeName name="CanalComunicacao"/>
+    <fullyQualifiedTypeName name="GUI_Vaguear"/>
+    <fullyQualifiedTypeName name="CanalComunicacaoConsistente"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="MensagemVazio"/>
+    <fullyQualifiedTypeName name="Mensagem"/>
+    <fullyQualifiedTypeName name="Vaguear.Atividades"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+    <fullyQualifiedTypeName name="Servidor.Estados"/>
+    <fullyQualifiedTypeName name="MensagemCurvar"/>
+    <fullyQualifiedTypeName name="RobotLegoEV3Simulado"/>
+    <fullyQualifiedTypeName name="MyRobotLegoEV3"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="MensagemPrioridade"/>
+    <fullyQualifiedTypeName name="Evitar.Atividades"/>
+    <fullyQualifiedTypeName name="minhasVariaveis"/>
+    <fullyQualifiedTypeName name="MensagemReta"/>
+    <fullyQualifiedTypeName name="Servidor2.Estados"/>
+    <fullyQualifiedTypeName name="MensagemPedidoToque"/>
+    <fullyQualifiedTypeName name="MensagemRespostaToque"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.Semaphore"/>
+    <fullyQualifiedTypeName name="robot.RobotLegoEV3"/>
+    <fullyQualifiedTypeName name="Evitar.Estados_Evitar"/>
+    <fullyQualifiedTypeName name="com.intel.bluetooth.BlueCoveLocalDeviceProperties"/>
+    <fullyQualifiedTypeName name="Vaguear.Estados_Vaguear"/>
+    <fullyQualifiedTypeName name="Fugir.Estados_Fugir"/>
+</qualifiedTypeNameHistroy>

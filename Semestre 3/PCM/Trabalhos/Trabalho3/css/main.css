@@ -1,0 +1,62 @@
+* {
+    font-family: 'Abhaya Libre', serif;
+    /* margin: 0rem !important; */
+}
+
+body {
+    background-image: url("../imgs/BackgroundBlackjackTable.png");
+    color: aliceblue;
+}
+
+#game {
+    /*margin-top: auto;
+    margin-bottom: auto; */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.align-elements {
+    display: block;
+    width: 100%;
+}
+
+#buttons {
+    margin: 2rem 0rem 2rem 0rem !important;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.card {
+    width: 10%;
+    display: unset;
+    background-color: rgba(0,0,0,0);
+    padding: 0.35rem;
+}
+
+#sec_debug {
+    display: none;
+}
+
+
+@media (max-width: 680px) {
+    .card {
+        width: 15%;
+    }
+    
+    #buttons *{
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .card {
+        width: 18%;
+        padding: 0.05rem;
+    }
+}

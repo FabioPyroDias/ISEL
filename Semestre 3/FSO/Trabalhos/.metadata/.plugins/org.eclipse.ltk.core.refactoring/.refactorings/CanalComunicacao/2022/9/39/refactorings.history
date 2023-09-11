@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;CanalDeComunicacao&apos; to &apos;CanalComunicacao&apos;&#x0D;&#x0A;- Original project: &apos;CanalComunicacao&apos;&#x0D;&#x0A;- Original element: &apos;CanalDeComunicacao&apos;&#x0D;&#x0A;- Renamed element: &apos;CanalComunicacao&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;CanalDeComunicacao&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{CanalDeComunicacao.java[CanalDeComunicacao" matchStrategy="1" name="CanalComunicacao" qualified="false" references="true" similarDeclarations="false" stamp="1664371044637" textual="false" version="1.0"/>
+</session>

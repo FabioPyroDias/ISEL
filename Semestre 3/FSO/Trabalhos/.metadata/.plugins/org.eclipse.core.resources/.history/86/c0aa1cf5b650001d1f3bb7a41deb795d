@@ -1,0 +1,13 @@
+public class MensagemPedidoToque extends Mensagem{
+
+	private int porto;
+	
+	public MensagemPedidoToque(int identificador, int tipo, int porto) {
+		super(identificador, tipo);
+		this.porto = porto;
+	}
+
+	public int getPorto() {
+		return porto;
+	}	
+}

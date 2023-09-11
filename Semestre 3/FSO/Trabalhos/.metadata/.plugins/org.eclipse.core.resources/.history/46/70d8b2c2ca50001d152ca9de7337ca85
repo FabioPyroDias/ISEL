@@ -1,0 +1,52 @@
+public class ServidorTeste {
+
+	private static CanalComunicacaoConsistente canalDeComunicacaoVaguear;
+	
+	private static boolean ler;
+	
+	public ServidorTeste()
+	{
+		canalDeComunicacaoVaguear = new CanalComunicacaoConsistente();
+		ler = false;
+	}
+	
+	public static void main(String[] args) {
+		ServidorTeste testServer = new ServidorTeste();
+		
+		testServer.run();
+	}
+	
+	private void run()
+	{
+		canalDeComunicacaoVaguear.abrirCanal("CanalDeComunicacaoVaguear");
+		
+		while(true)
+		{
+			if(ler)
+			{
+				Mensagem mensagem = canalDeComunicacaoVaguear.GetAndSetServidor();
+				
+				if(mensagem != null)
+				{
+					if(mensagem.getTipo() != Mensagem.VAZIO)
+					{
+						mensagem.printMensagem();
+						System.out.println();						
+					}
+				}
+				
+				ler = false;
+			}
+			else
+			{
+				try {
+					Thread.sleep(1000);
+					ler = true;
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
+		}
+	}
+}

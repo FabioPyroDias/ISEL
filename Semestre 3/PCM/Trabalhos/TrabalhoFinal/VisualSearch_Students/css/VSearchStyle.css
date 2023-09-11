@@ -1,0 +1,22 @@
+body {
+    /*
+    background: rgb(241,241,241);
+    background: linear-gradient(135deg, rgba(241,241,241,1) 0%, rgba(182,182,182,1) 100%);
+    */
+    background: rgb(203,208,211);
+    background: linear-gradient(135deg, rgba(203,208,211,1) 0%, rgba(194,181,199,1) 100%);
+}
+
+#logo {
+    padding: 0px;
+    width : 32px !important;
+    height: 32px !important;
+}
+
+#searchButton {
+    margin: 0px 7px 0px 7px;
+}
+
+#colorPicker div {
+    padding: 0px;
+}

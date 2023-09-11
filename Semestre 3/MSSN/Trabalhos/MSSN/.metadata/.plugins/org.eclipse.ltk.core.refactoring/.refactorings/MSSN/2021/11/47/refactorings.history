@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;p&apos; in &apos;physics.ParticleSystemApp&apos; to &apos;particle&apos;&#x0D;&#x0A;- Original project: &apos;MSSN&apos;&#x0D;&#x0A;- Original element: &apos;physics.ParticleSystemApp.p&apos;&#x0D;&#x0A;- Renamed element: &apos;physics.ParticleSystemApp.particle&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;p&apos;" flags="589826" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src&lt;physics{ParticleSystemApp.java[ParticleSystemApp^p" name="particle" references="true" setter="false" stamp="1637522372731" textual="false" version="1.0"/>
+</session>

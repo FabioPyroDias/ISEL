@@ -1,0 +1,92 @@
+<!ELEMENT LojaOnline (Utilizadores*, Vendedores*, Produtos*, Compras*, ComentariosEAvaliacoes*)>
+
+<!-- Utilizadores -->
+<!ELEMENT Utilizadores (Utilizador*)>
+
+<!ELEMENT Utilizador (Nome, Email, DataDeNascimento?, NumeroDeTelefone+, Morada, Foto?, ProdutosDesejados*, CarrinhoDeCompras)>
+<!ATTLIST Utilizador id ID #REQUIRED>
+<!ATTLIST Utilizador username ID #REQUIRED>
+<!ATTLIST Utilizador password CDATA #REQUIRED>
+
+<!ELEMENT Nome (#PCDATA)>
+<!ELEMENT Email (#PCDATA)>
+<!ELEMENT DataDeNascimento (#PCDATA)>
+<!ELEMENT NumeroDeTelefone (#PCDATA)>
+<!ELEMENT Morada (#PCDATA)>
+
+<!ELEMENT Foto EMPTY>
+<!ATTLIST Foto fotourl CDATA #REQUIRED>
+
+<!ELEMENT ProdutosDesejados (ProdutoDesejado*)>
+<!ELEMENT ProdutoDesejado EMPTY>
+<!ATTLIST ProdutoDesejado referenciaProduto IDREF #REQUIRED>
+
+<!ELEMENT CarrinhoDeCompras (ProdutoCarrinhoCompras*)>
+<!ELEMENT ProdutoCarrinhoCompras EMPTY>
+<!ATTLIST ProdutoCarrinhoCompras referenciaProduto IDREF #REQUIRED>
+<!-- Utilizadores -->
+
+<!-- Vendedores -->
+<!ELEMENT Vendedores (Vendedor*)>
+
+<!ELEMENT Vendedor (Nome, Email, DataDeNascimento?, NumeroDeTelefone+, Morada, Foto?)>
+<!ATTLIST Vendedor id ID #REQUIRED>
+<!ATTLIST Vendedor username ID #REQUIRED>
+<!ATTLIST Vendedor password CDATA #REQUIRED>
+
+<!-- Vendedores -->
+
+<!-- Produtos -->
+<!ELEMENT Produtos (Produto*)>
+
+<!ELEMENT Produto (Nome, Descricao, CaracteristicasTecnicas, LinksImagensProduto, LinksVideosProduto, ReferenciasProdutosRelacionados*)>
+<!ATTLIST Produto id ID #REQUIRED>
+<!ATTLIST Produto preco CDATA #REQUIRED>
+<!ATTLIST Produto dataDeInsercao CDATA #REQUIRED>
+<!ATTLIST Produto transportadora (CTT | UPS | SEUR | MRW) #REQUIRED>
+<!ATTLIST Produto referenciaVendedor IDREF #REQUIRED>
+
+<!ELEMENT Descricao (#PCDATA)>
+<!ELEMENT CaracteristicasTecnicas (CaracteristicaTecnica)*>
+<!ELEMENT CaracteristicaTecnica EMPTY>
+<!ATTLIST CaracteristicaTecnica caracteristicaTecnicaNome CDATA #REQUIRED>
+<!ATTLIST CaracteristicaTecnica caracteristicaTecnicaValor CDATA #REQUIRED>
+
+<!ELEMENT LinksImagensProduto (LinkImagemProduto*)>
+<!ELEMENT LinkImagemProduto EMPTY>
+<!ATTLIST LinkImagemProduto fotourl CDATA #REQUIRED>
+
+<!ELEMENT LinksVideosProduto (ImagemApresentacaoVideo*)>
+<!ELEMENT ImagemApresentacaoVideo EMPTY>
+<!ATTLIST ImagemApresentacaoVideo videourl CDATA #REQUIRED>
+
+<!ELEMENT ReferenciasProdutosRelacionados (ReferenciaProdutoRelacionado*)>
+<!ELEMENT ReferenciaProdutoRelacionado (#PCDATA)>
+<!ATTLIST ReferenciaProdutoRelacionado referenciaProduto IDREF #REQUIRED>
+<!-- Produtos -->
+
+<!-- Compras -->
+<!ELEMENT Compras (Compra*)>
+
+<!ELEMENT Compra (ProdutosCompras)>
+<!ATTLIST Compra id ID #REQUIRED>
+<!ATTLIST Compra referenciaComprador IDREF #REQUIRED>
+<!ATTLIST Compra dataDeCompra CDATA #REQUIRED>
+<!ATTLIST Compra situacaoDeCompra (emPreparacao | emExpedicao | entregue | devolvida | cancelada) "emPreparacao">
+
+<!ELEMENT ProdutosCompras (ProdutoCompra)>
+<!ELEMENT ProdutoCompra EMPTY>
+<!ATTLIST ProdutoCompra referenciaProduto IDREF #REQUIRED>
+<!ATTLIST ProdutoCompra quantidadeComprada CDATA #REQUIRED>
+<!-- Compras -->
+
+<!-- Comentarios E Avaliacoes-->
+<!ELEMENT ComentariosEAvaliacoes (Comentario*)>
+<!ELEMENT Comentario (Texto, Comentario*)>
+<!ATTLIST Comentario avaliacao (1 | 2 | 3 | 4 | 5) #REQUIRED>
+<!ATTLIST Comentario referenciaUtilizador IDREF #REQUIRED>
+<!ATTLIST Comentario referenciaProduto IDREF #REQUIRED>
+<!ATTLIST Comentario dataDoComentario CDATA #REQUIRED>
+
+<!ELEMENT Texto (#PCDATA)>
+<!-- Comentarios E Avaliacoes-->

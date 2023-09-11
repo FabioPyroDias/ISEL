@@ -1,0 +1,29 @@
+package ca;
+
+import processing.core.PApplet;
+import setup.IProcessingApp;
+
+public class JogoDaVida implements IProcessingApp{
+
+	CellularAutomata ca;
+	
+	@Override
+	public void setup(PApplet parent) {
+		
+	}
+
+	@Override
+	public void draw(PApplet parent, float dt) {
+		
+	}
+
+	@Override
+	public void keyPressed(PApplet parent) {
+		
+	}
+
+	@Override
+	public void mousePressed(PApplet parent) {
+		
+	}
+}

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!DOCTYPE LojaOnline SYSTEM "LojaOnline.dtd">
+<LojaOnline>
+    <Utilizadores>
+        <Utilizador id="Utilizador000000001AAA" username="Pyro" password="46E6AA44AE56B5477FAB451EBFA0914A8522CA53544301329F0EDE0D98A4DAFD">
+            <Nome>Fábio Dias</Nome>
+            <Email>a42921@alunos.isel.pt</Email>
+            <DataDeNascimento>30/12/1996</DataDeNascimento>
+            <NumeroDeTelefone>980931383</NumeroDeTelefone>
+            <Morada>Av. Eng. Arantes e Oliveira 3, Porto Salvo, Oeiras</Morada>
+            <Foto fotourl="http://imgur.com/fotosLojaOnline/092913248jfee/PyroFabioDias.jpg"/>
+            <ProdutosDesejados/>
+            <CarrinhoDeCompras/>
+        </Utilizador>
+        <Utilizador id="Utilizador000000001AAB" username="St4rW4r5" password="933B7C4B02FE50EC19773EA2C57EFE251BC4F897E0EEC30F13B3665384B042A4">
+            <Nome>Sofia Taipa</Nome>
+            <Email>a42921@alunos.isel.pt</Email>
+            <DataDeNascimento>05/06/1999</DataDeNascimento>
+            <NumeroDeTelefone>982372717</NumeroDeTelefone>
+            <Morada>R. Dona Luísa de Gusmão 3, Casal de Cambra, Lisboa</Morada>
+            <Foto fotourl="http://imgur.com/fotosLojaOnline/23hf2yhwj2/ViciadaEmComprasSofiaTaipa.jpg"/>
+            <ProdutosDesejados/>
+            <CarrinhoDeCompras>
+                <ProdutoCarrinhoCompras referenciaProduto="Produto000000215ACV"/>
+            </CarrinhoDeCompras>
+        </Utilizador>
+        <Utilizador id="Utilizador000000261HER" username="OhhParaMimGostoDoJammes" password="D0ABFFD55F77F7EDB3B61248070FAAD031CEFDEDFCDE4FB91E7B64B6B38E9E31">
+            <Nome>Jorge Silva</Nome>
+            <Email>jorge_jammesforever_silva@sapo.pt</Email>
+            <DataDeNascimento>19/02/1890</DataDeNascimento>
+            <NumeroDeTelefone>993762092</NumeroDeTelefone>
+            <Morada>Tv. Castanheira 47, Rio Tinto, Porto</Morada>
+            <ProdutosDesejados></ProdutosDesejados>
+            <CarrinhoDeCompras></CarrinhoDeCompras>
+        </Utilizador>
+        <Utilizador id="Utilizador000000329ZFR" username="OhhhParaMimDouAulasNoISEL" password="BA2E628EF327F76169B8CFBBDAF4851E1DBA8F732DDB3E14C2BE1ECC1381FDB7">
+            <Nome>Diogo Santiago Lopes</Nome>
+            <Email>diogoAulas_ISEL@outlook.com</Email>
+            <NumeroDeTelefone>901887360</NumeroDeTelefone>
+            <NumeroDeTelefone>909582417</NumeroDeTelefone>
+            <Morada>R. Elias Garcia 1803, Q.ta do Conde, Setubal</Morada>
+            <Foto fotourl="http://imgur.com/fotosLojaOnline/po3r2f2yhwj2/OhhhParaMimDouAulasNoISELDiogoSantiagoLopes.jpg"/>
+            <ProdutosDesejados></ProdutosDesejados>
+            <CarrinhoDeCompras></CarrinhoDeCompras>
+        </Utilizador>
+        <Utilizador id="Utilizador000001904SCP" username="TreinadorDoSporting" password="B0E0E71869CBA2299D11C0AE638C04F035BF82A698B0E6A915D123087849AA80">
+            <Nome>Ruben Amorim</Nome>
+            <Email>ruben_scp_amorim@gmail.com</Email>
+            <NumeroDeTelefone>903909434</NumeroDeTelefone>
+            <Morada>MUDAR ESTA MORADA!</Morada>
+            <Foto fotourl="http://imgur.com/fotosLojaOnline/po3r2f2yhwj2/TreinadorDoSportingRubenAmorim.jpg"/>
+            <ProdutosDesejados>
+                <ProdutoDesejado referenciaProduto="Produto000000001AAB"/>
+            </ProdutosDesejados>
+            <CarrinhoDeCompras/>
+        </Utilizador>
+    </Utilizadores>
+    <Vendedores>
+        <Vendedor id="Vendedor000000001AAA" username="FuturaModeladora" password="B5F144C86886BAB054C82EF38CEB1DC1BC733A0023D5F10377F55FFF1725DC81">
+            <Nome>Bruna Lima</Nome>
+            <Email>bruna.loja.online@outlook.com</Email>
+            <DataDeNascimento>27/09/1989</DataDeNascimento>
+            <NumeroDeTelefone>904855120</NumeroDeTelefone>
+            <Morada>Tv. Castanheira 47, Rio Tinto, Porto</Morada>
+            <Foto fotourl="http://imgur.com/fotosLojaOnline/0k22fo3i4fnw2ff/FuturaModeladoraBrunaLima.jpg"/>
+        </Vendedor>
+        <Vendedor id="Vendedor000000026CCT" username="JBenficaSportingJ" password="D8C5AE12C4E5E4F4045C516DEDB59F65C25FDE19D9FF09A4F10DA40967C9C7EE">
+            <Nome>Jorge Jesus</Nome>
+            <Email>j.jbenficaj.jsportingj.j@gmail.com</Email>
+            <NumeroDeTelefone>950020001</NumeroDeTelefone>
+            <NumeroDeTelefone>950020002</NumeroDeTelefone>
+            <NumeroDeTelefone>950020003</NumeroDeTelefone>
+            <Morada>R. Cruzado Osberno 3, Lisboa, Lisboa</Morada>
+            <Foto fotourl="http://imgur.com/fotosLojaOnline/01cnqwmldkk1/JBenficaSportingJJorgeJesus.jpg"/>
+        </Vendedor>
+        <Vendedor id="Vendedor000000000BES" username="FaliTudoETodosMasTenhoAlzheimer" password="EBC4247B64EDB59FA0BDCE8A18B61DC00BF8A75C16DFEB8FA285AF1F5FA54C42">
+            <Nome>Ricardo Salgado</Nome>
+            <Email>bes.a.0@sapo.pt</Email>
+            <NumeroDeTelefone>951930835</NumeroDeTelefone>
+            <Morada>Av. Dom João II 45, Lisboa, Lisboa</Morada>
+        </Vendedor>
+    </Vendedores>
+    <Produtos>
+        <Produto id="Produto000000001AAA" preco="32" dataDeInsercao="12/08/2021" transportadora="UPS" referenciaVendedor="Vendedor000000026CCT">
+            <Nome>Cachecol Benfica</Nome>
+            <Descricao>Caxecole do Benfica em exalente estado</Descricao>
+            <CaracteristicasTecnicas>
+                <CaracteristicaTecnica caracteristicaTecnicaNome="Comprimento" caracteristicaTecnicaValor="3"/>
+                <CaracteristicaTecnica caracteristicaTecnicaNome="Largura" caracteristicaTecnicaValor="0.3"/>
+            </CaracteristicasTecnicas>
+            <LinksImagensProduto>
+                <LinkImagemProduto fotourl="http://imgur.com/fotosLojaOnline/j23fweno2ldppqfqpld/P00000000CachecolBenfica.jpg"/>
+            </LinksImagensProduto>
+            <LinksVideosProduto>
+                <ImagemApresentacaoVideo videourl="http://imgur.com/fotosLojaOnline/j23fweno2ldppqfqpld/P00000000CachecolBenfica.mp4"/>
+            </LinksVideosProduto>
+            <ReferenciasProdutosRelacionados>
+                <ReferenciaProdutoRelacionado referenciaProduto="Produto000000001AAB">Cachecol Sporting</ReferenciaProdutoRelacionado>
+            </ReferenciasProdutosRelacionados>
+        </Produto>
+        <Produto id="Produto000000001AAB" preco="32" dataDeInsercao="12/08/2021" transportadora="CTT" referenciaVendedor="Vendedor000000026CCT">
+            <Nome>Cachecol Sporting</Nome>
+            <Descricao>Caxecole do Sporting em exalente estado</Descricao>
+            <CaracteristicasTecnicas>
+                <CaracteristicaTecnica caracteristicaTecnicaNome="Comprimento" caracteristicaTecnicaValor="3"/>
+                <CaracteristicaTecnica caracteristicaTecnicaNome="Largura" caracteristicaTecnicaValor="0.3"/>
+            </CaracteristicasTecnicas>
+            <LinksImagensProduto>
+                <LinkImagemProduto fotourl="http://imgur.com/fotosLojaOnline/j23fweno2ldppqfqpld/P00000001CachecolSporting.jpg"/>
+            </LinksImagensProduto>
+            <LinksVideosProduto>
+                <ImagemApresentacaoVideo videourl="http://imgur.com/fotosLojaOnline/j23r2ncmwoppqol/P0000001CachecolSporting.mp4"/>
+            </LinksVideosProduto>
+            <ReferenciasProdutosRelacionados>
+                <ReferenciaProdutoRelacionado referenciaProduto="Produto000000001AAA">Cachecol Benfica</ReferenciaProdutoRelacionado>
+            </ReferenciasProdutosRelacionados>
+        </Produto>
+        <Produto id="Produto000000215ACV" preco="8.99" dataDeInsercao="16/08/2021" transportadora="MRW" referenciaVendedor="Vendedor000000001AAA">
+            <Nome>Boneco Chewbacca</Nome>
+            <Descricao>Pequena figura de colecao da Saga Star Wars</Descricao>
+            <CaracteristicasTecnicas/>
+            <LinksImagensProduto/>
+            <LinksVideosProduto/>
+            <ReferenciasProdutosRelacionados/>
+        </Produto>
+    </Produtos>
+    <Compras> <!-- Tem um comentário no primeiro elemento --> 
+        <Compra id="Compra000000001AAA" referenciaComprador="Utilizador000000329ZFR" dataDeCompra="18/09/2021" situacaoDeCompra="devolvida">
+            <ProdutosCompras>
+                <ProdutoCompra referenciaProduto="Produto000000001AAA" quantidadeComprada="1"/>        
+            </ProdutosCompras>
+            <!-- Também posso inserir <ProdutoCompra> apenas com a referenciaProduto e quantidadeComprada. Perguntar ao engenheiro como prefere-->
+        </Compra>
+        <Compra id="Compra000001009SAD" referenciaComprador="Utilizador000001904SCP" dataDeCompra="22/09/2021" situacaoDeCompra="devolvida">
+            <ProdutosCompras>
+                <ProdutoCompra referenciaProduto="Produto000000001AAA" quantidadeComprada="1"/>        
+            </ProdutosCompras>
+        </Compra>
+        <Compra id="Compra000001009SAE" referenciaComprador="Utilizador000001904SCP" dataDeCompra="22/09/2021" situacaoDeCompra="entregue">
+            <ProdutosCompras>
+                <ProdutoCompra referenciaProduto="Produto000000001AAB" quantidadeComprada="1"/>
+            </ProdutosCompras>
+        </Compra>
+        <Compra id="Compra000003080RTX" referenciaComprador="Utilizador000000261HER" dataDeCompra="23/09/2021" situacaoDeCompra="entregue">
+            <ProdutosCompras>
+                <ProdutoCompra referenciaProduto="Produto000000215ACV" quantidadeComprada="1"/>
+            </ProdutosCompras>
+        </Compra>
+        <Compra id="Compra000004207SUK" referenciaComprador="Utilizador000000001AAB" dataDeCompra="18/10/2021" situacaoDeCompra="emExpedicao">
+            <ProdutosCompras>
+                <ProdutoCompra referenciaProduto="Produto000000215ACV" quantidadeComprada="3"/>
+            </ProdutosCompras>
+        </Compra>
+    </Compras>
+    <ComentariosEAvaliacoes>
+        <Comentario avaliacao="5" referenciaUtilizador="Utilizador000000261HER" referenciaProduto="Produto000000215ACV" dataDoComentario="28/09/2021">
+            <Texto>Melhor que isto, só uma RTX3090</Texto>
+        </Comentario>
+        <Comentario avaliacao="1" referenciaUtilizador="Utilizador000000329ZFR" referenciaProduto="Produto000000001AAA" dataDoComentario="26/10/2021">
+            <Texto>Foi-me prometido um "caxecole" do Benfica em "exalente" estado. Recebi um Taarabt. Não quero.</Texto>
+            <Comentario avaliacao="5" referenciaUtilizador="Utilizador000001904SCP" referenciaProduto="Produto000000001AAA" dataDoComentario="01/10/2021">
+                <Texto>E tiveste sorte. Eu recebi um Luisão reformado.</Texto>
+            </Comentario>
+        </Comentario>
+        <Comentario avaliacao="1" referenciaUtilizador="Utilizador000000329ZFR" referenciaProduto="Produto000000001AAA" dataDoComentario="26/10/2021">
+            <Texto>Foi-me prometido um "caxecole" do Benfica em "exalente" estado. Recebi um Taarabt. Não quero.</Texto>
+            <Comentario avaliacao="5" referenciaUtilizador="Utilizador000001904SCP" referenciaProduto="Produto000000001AAA" dataDoComentario="01/10/2021">
+                <Texto>E tiveste sorte. Eu recebi um Luisão reformado.</Texto>
+            </Comentario>
+        </Comentario>
+        <Comentario avaliacao="1" referenciaUtilizador="Utilizador000000329ZFR" referenciaProduto="Produto000000001AAA" dataDoComentario="26/10/2021">
+            <Texto>Foi-me prometido um "caxecole" do Benfica em "exalente" estado. Recebi um Taarabt. Não quero.</Texto>
+            <Comentario avaliacao="5" referenciaUtilizador="Utilizador000001904SCP" referenciaProduto="Produto000000001AAA" dataDoComentario="01/10/2021">
+                <Texto>E tiveste sorte. Eu recebi um Luisão reformado.</Texto>
+            </Comentario>
+        </Comentario>
+        <Comentario avaliacao="1" referenciaUtilizador="Utilizador000000329ZFR" referenciaProduto="Produto000000001AAA" dataDoComentario="26/10/2021">
+            <Texto>Foi-me prometido um "caxecole" do Benfica em "exalente" estado. Recebi um Taarabt. Não quero.</Texto>
+            <Comentario avaliacao="5" referenciaUtilizador="Utilizador000001904SCP" referenciaProduto="Produto000000001AAA" dataDoComentario="01/10/2021">
+                <Texto>E tiveste sorte. Eu recebi um Luisão reformado.</Texto>
+            </Comentario>
+        </Comentario>
+    </ComentariosEAvaliacoes>
+</LojaOnline>
+
+<!-- Notas
+ -> Separar Dados de MetaDados
+    -> O que é informação sobre o produto em si e o que são atributos.
+
+    Exemplo:
+        <Nome>Cachecol Sporting</Nome>
+        <Descricao>Caxecole do Sporting em exalente estado</Descricao>
+        <CaracteristicasTecnicas>
+            <CaracteristicaTecnica>
+                <Nome>Comprimento</Nome>
+                <Valor>3 metros</Valor>
+            </CaracteristicaTecnica>
+            <CaracteristicaTecnica>
+                <Nome>Largura</Nome>
+                <Valor>0.3 metros</Valor>
+            </CaracteristicaTecnica>
+        </CaracteristicasTecnicas>
+        <LinksImagensProduto>
+                <LinkImagemProduto fotourl="http://imgur.com/fotosLojaOnline/j23fweno2ldppqfqpld/P00000001CachecolSporting.jpg"/>
+        </LinksImagensProduto>
+        <LinksVideosProduto>
+            <ImagemApresentacaoVideo videourl="http://imgur.com/fotosLojaOnline/j23r2ncmwoppqol/P0000001CachecolSporting.mp4"/>
+        </LinksVideosProduto>
+                -> Isto são características do produto.
+        
+        <Preco>32</Preco>
+        <DataDeInsercao>12/08/2021</DataDeInsercao>
+        <TransportadoraPossivel transportadora="CTT"/>
+        <IdentificadorDoVendedor referenciaVendedor="Vendedor000000026CCT">Jorge Jesus</IdentificadorDoVendedor>
+                -> Isto são os meta-dados. Características que não são sobre o produto em si
+--> 

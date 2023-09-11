@@ -1,0 +1,15 @@
+package practice;
+
+import processing.core.PApplet;
+
+public class Practice extends PApplet {
+
+	public void setup() {
+		size(500, 400);
+	}
+	
+	public static void main(String[] args) {
+		PApplet.main(Practice.class);
+
+	}
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=divice-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@500&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="js/blackjack_object.js"></script>
+    <script src="js/blackjack_manager.js"></script>
+    <title>BlackJack</title>
+  </head>
+
+  <body>
+    <section id="game">
+
+      <section class="align-elements">
+        <h1 class="text-center display-5" id="title">BLACKJACK</h1>
+      </section>
+
+      <div id="dealer" class="text-center align-elements">
+        <h1>Dealer</h1>
+        <div id="cards-dealer-display" class="flexbox"></div>
+      </div>
+      
+      <section class="text-center align-elements" id="buttons">
+        <button id="card" type="button" class="btn btn-light btn-lg" onclick="player_new_card()">Card</button>
+        <button id="stand" type="button" class="btn btn-light btn-lg" onclick="dealer_finish()">Stand</button>
+        <button id="new_game" type="button" class="btn btn-light btn-lg" onclick="new_game()">New Game</button>
+      </section>
+
+      <div id="player" class="text-center align-elements">
+        <div id="cards-player-display" class="flexbox"></div>
+        <h1>Player</h1>
+      </div>
+    </section>
+
+    <section id="debug-section">
+      <button id="debug-display" type="button" class="me-5 float-end btn btn-light btn-lg" onclick="display_debug()">Show</button>
+      <div id="sec_debug">
+        <h1>Debug</h1>
+        <p id="debug"></p>
+      </div>
+    </section>
+
+    <section>
+      <script> window.onload = new_game();</script>
+    </section>
+    <footer></footer>
+  </body>
+
+</html> 

@@ -1,0 +1,70 @@
+body {
+    background-color: aquamarine;
+    font-size: 9px;
+}
+
+.btn {
+    font-size: 10px;
+}
+
+.container {
+    
+    max-width: 100% !important;
+}
+
+.containerTop {
+    height: 150px;
+}
+
+.containerDrawing {
+    height: 438px;
+}
+
+.row {
+    display: flex;
+    align-items:center;
+}
+
+.rowTop {
+    height: 150px;
+}
+
+.col-2 {
+    background-color: rgb(80, 163, 136);
+
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    align-items: left;
+    justify-content: space-around;
+
+    border-radius: 5%;
+
+    margin-left: 1%;
+    width: 19%;
+}
+
+.col-10 {
+    display: flex;
+    flex-direction: row;
+    align-self: stretch;
+    align-items: center;
+    justify-content: right;
+
+    margin-right: 1%;
+    width: 79%;
+}
+
+#buttons
+{
+    height: 150px;
+    align-self: center;
+}
+
+canvas#canvas {
+    cursor:crosshair;
+}
+
+canvas#pickImage {
+    cursor:crosshair;
+}

@@ -1,0 +1,49 @@
+package setup;
+
+import ca.JogoDaVida;
+import ca.TestCA;
+import codigoAulas.Grelha;
+import dla.DLA;
+import dla.DLAVariation1;
+import processing.core.PApplet;
+import tpc0IntroducaoABibliotecaProcessing.Exercicio1;
+import tpc0IntroducaoABibliotecaProcessing.Exercicio2;
+
+public class ProcessingSetup extends PApplet{
+
+	private static IProcessingApp processingApp;
+	private float lastUpdateTime;
+	
+	@Override
+	public void settings() {
+		size(600, 600);
+	}
+	
+	@Override
+	public void setup() {
+		processingApp.setup(this);
+		lastUpdateTime = 0;
+	}
+
+	@Override
+	public void draw() {
+		float now = millis();
+		float dt = (float) ((now - lastUpdateTime) / 1000.);
+		processingApp.draw(this, dt);
+	}
+
+	@Override
+	public void keyPressed() {
+		processingApp.keyPressed(this);
+	}
+
+	@Override
+	public void mousePressed() {
+		processingApp.mousePressed(this);
+	}
+	
+	public static void main(String[] args) {
+		processingApp = new DLA();
+		PApplet.main(ProcessingSetup.class);
+	}
+}
