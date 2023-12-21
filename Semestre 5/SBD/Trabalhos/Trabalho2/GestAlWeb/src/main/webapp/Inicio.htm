@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta http-equiv="Content-Language" content="pt">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="-1">
+<title>Página Inicial</title>
+<script>
+    	
+    	function getPos(e){
+    		// coordenadas absolutas
+    		const ax=e.clientX,ay=e.clientY;
+    		// coordenadas relativas
+    		const rx = e.offsetX, ry = e.offsetY;
+    		cursor="Mouse Position : " + rx + "/" + ax + " and " + ry+"/"+ay;
+    		document.getElementById("displayArea").innerHTML=cursor
+    	}
+    
+    	function stopTracking(){
+    		document.getElementById("displayArea").innerHTML="";
+    	}
+    
+    	</script>
+    	
+</head>
+
+<body>
+<div style="text-align: center;">
+<img id="logo" src="isel.jpg" width="50px" title="Logotipo do ISEL" alt="Logotipo do Instituto Superior de Engenharia de Lisboa"/>
+<br>
+
+<img onmousemove="getPos(event)" onmouseout="stopTracking()" id="logoEA" src="MySQL.jpg" title="Modelo de Dados" alt="Extended ER MySQL" usemap="#banner">
+
+<MAP id="banner" name="banner">
+	<area shape="rect" title="Acesso a dados dos alunos" alt="Aluno" href="Aluno.jsp" coords="278,35 402,170" TABINDEX="1">
+	<area shape="rect" title="Acesso a dados das disciplinas" alt="Disciplina" href="Disciplina.jsp" coords="108,34 228,127" TABINDEX="2">
+	<area shape="rect" title="Acesso a dados das inscrições" alt="Inscrição" href="Inscricoes.jsp" coords="106,209 230,342" TABINDEX="3">
+	<area shape="rect" title="Acesso a dados das fotos" alt="fot" href="Aluno.jsp" coords="339,238 471,327" TABINDEX="4">
+</MAP>
+ 	
+<p id="displayArea"></p>
+</div>
+</body>
+</html>

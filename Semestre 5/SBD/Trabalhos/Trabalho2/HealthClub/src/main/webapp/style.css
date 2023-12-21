@@ -1,0 +1,21 @@
+@charset "ISO-8859-1";
+
+.myPalette_background_color
+{
+	background-color: rgb(45, 50, 80);
+}
+
+.myPalette_secondary_color
+{
+	background-color: rgb(66, 71, 105);
+}
+
+.button-color
+{
+	background-color: rgb(249, 177, 122);
+}
+
+.font-color-white
+{
+	color: rgb(255, 255, 255);
+}

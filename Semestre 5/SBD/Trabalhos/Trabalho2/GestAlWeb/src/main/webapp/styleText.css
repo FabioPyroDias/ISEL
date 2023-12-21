@@ -1,0 +1,34 @@
+@charset "ISO-8859-1";
+@font-face {
+    font-family: 'Sacramento';
+    src: url('fonts/Sacramento-Regular.ttf') format('truetype'); 
+}
+@font-face {
+    font-family: 'Altura';
+    src: url('fonts/Allura-Regular.otf') format('opentype'); 
+}
+@font-face {
+    font-family: 'Dancing';
+    src: url('fonts/DancingScript-VariableFont_wght.ttf') format('truetype'); 
+}
+@font-face {
+    font-family: 'Grand Hotel';
+    src: url('fonts/GrandHotel-Regular.otf') format('opentype'); 
+}
+@font-face {
+    font-family: 'Pinyon';
+    src: url('fonts/PinyonScript-Regular.ttf') format('truetype'); 
+}
+@font-face {
+    font-family: 'Rochester';
+    src: url('fonts/Rochester-Regular.ttf') format('truetype'); 
+}
+@font-face {
+    font-family: 'Streamster';
+    src: url('fonts/Streamster.ttf') format('truetype'); 
+}
+@font-face {
+    font-family: 'Alex Brush';
+    src: url('fonts/AlexBrush-Regular.ttf') format('truetype'); 
+}
+@import url('https://fonts.googleapis.com/css?family=Style Script');

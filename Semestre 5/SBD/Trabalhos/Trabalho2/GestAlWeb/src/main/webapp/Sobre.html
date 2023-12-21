@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Language" content="pt">
+<meta name="title" content="Acerca de / About">
+<meta name="keywords" content="ISEL, DEETC">
+<meta name="description" content="Descreve informação de contexto do Gestor Académico">
+<meta name="owner" content="ISEL/DEETC - Doutor Porfírio Filipe">
+<meta name="copyright" content="ISEL/DEETC/2012">
+<meta name="createdate" content="06Dec2012">
+<meta name="lastupdate" content="24nov2022">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="-1">
+<link rel="stylesheet" type="text/css" href="styleText.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="styleA.css" media="all"/>
+<title>Acerca do Gestor Académico</title>
+<script>
+/* A page or script is accessing at least one of navigator.userAgent, navigator.appVersion, and navigator.platform. 
+   Starting in Chrome 101, the amount of information available in the User Agent string will be reduced.
+   To fix this issue, replace the usage of navigator.userAgent, navigator.appVersion, and navigator.platform with feature detection, 
+   progressive enhancement, or migrate to navigator.userAgentData.
+*/
+function getBrowser() {
+    var ua=navigator.userAgent,tem,M=ua.match(/(opera|chrome|safari|firefox|msie|trident(?=\/))\/?\s*(\d+)/i) || []; 
+    if(/trident/i.test(M[1])){
+        tem=/\brv[ :]+(\d+)/g.exec(ua) || []; 
+        return {name:'IE',version:(tem[1]||'')};
+        }   
+    if(M[1]==='Chrome'){
+        tem=ua.match(/\bOPR|Edge\/(\d+)/)
+        if(tem!=null)   {return {name:'Opera', version:tem[1]};}
+        }   
+    M=M[2]? [M[1], M[2]]: [navigator.appName, navigator.appVersion, '-?'];
+    if((tem=ua.match(/version\/(\d+)/i))!=null) {M.splice(1,1,tem[1]);}
+    return {
+      name: M[0],
+      version: M[1]
+    };
+ }
+
+function getOS() {
+  var userAgent = window.navigator.userAgent,
+      platform = window.navigator?.userAgentData?.platform || window.navigator.platform,
+      macosPlatforms = ['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K'],
+      windowsPlatforms = ['Win32', 'Win64', 'Windows', 'WinCE'],
+      iosPlatforms = ['iPhone', 'iPad', 'iPod'],
+      os = null;
+
+  if (macosPlatforms.indexOf(platform) !== -1) {
+    os = 'Mac OS';
+  } else if (iosPlatforms.indexOf(platform) !== -1) {
+    os = 'iOS';
+  } else if (windowsPlatforms.indexOf(platform) !== -1) {
+    os = 'Windows';
+  } else if (/Android/.test(userAgent)) {
+    os = 'Android';
+  } else if (/Linux/.test(platform)) {
+    os = 'Linux';
+  }
+
+  return os;
+}
+
+var browser=getBrowser(); 	// browser.name = 'Chrome'
+						  	// browser.version = '108'
+var os=getOS(); 		 	// 'Windows'
+
+</script>
+</head>
+<body>
+<div style="width:50%; font-family: 'Rochester';padding:20px;">
+<h1 style="text-align: center;">Sobre o Gestor Académico</h1>
+<p style="padding:20px;  text-align: justify;  text-justify: inter-word; font-size: 2.0em;">
+Este projeto, promovido pelo Eng.º Porfírio Filipe, 
+ surge no âmbito da unidade curricular de Sistemas de Bases de Dados,
+ enquadrada na Licenciatura em Engenharia Informática e Multimédia,
+ do Instituto Superior de Engenharia de Lisboa, 
+ consiste na implementação parcial, em desenvolvimento, 
+ do protótipo de um gestor académico que,
+ essencialmente, manipula inscrições de alunos em disciplinas de forma minimalista,
+ com o objetivo de demonstrar possíveis abordagens de concretização,
+ harmonizando tecnologias em evolução.<br>
+ Atualizado em 02 de jabeiro de 2023.
+</p>
+</div>
+<p style='padding:40px; font-family: Alex Brush; font-size: 1.5em;'>
+	<script>
+	document.write(os+": "+browser.name+" "+browser.version);
+	</script>
+	<br>
+	<a style="text-align:center;" href="getProperties">Sobre a tecnologia, mostrar mais...</a>
+</p>
+<br>
+<a href="javascript:window.history.back()">Voltar</a>
+
+</body>
+</html>

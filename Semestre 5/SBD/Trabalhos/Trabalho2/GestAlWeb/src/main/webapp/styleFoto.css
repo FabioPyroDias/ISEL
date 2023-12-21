@@ -1,0 +1,32 @@
+#drop-region {
+	background-color: #fff;
+	border-radius: 10px;
+	border: 2px;
+	border-style: dashed;
+	box-shadow:0 0 35px rgba(0,0,0,0.05);
+	width: 25%;
+	padding: 30px 20px;
+	text-align: center;
+	cursor: pointer;
+	transition:.3s;
+	margin: auto;
+}
+#drop-region:hover {
+	box-shadow:0 0 45px rgba(0,0,0,0.1);
+}
+
+#img {
+	/* width: 121px;
+	height: 137px; */
+	/*width:120px;
+	height:150px;*/
+
+	/* tamanho mais comum: 3.5 x 4.5 cm ou 1.377952756in 1.771653543in */
+	/*width: 1.4in;
+	height: 1.8in;*/ 
+	width: 80%;
+	height: 80%; 
+	text-align: center;
+	margin: auto;
+	border-radius: 50%;
+}
